@@ -1,0 +1,149 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Fungus Docs\n\n\nThis website provides the documentation pages to learn how to use Fungus from the\n\nFungusGames.com\n website.\n\n\nFeatures hello matt\n\n\n\n\nFlowchart based dialogues and games for Unity\n\n\nInternationalise your dialogues easily\n\n\nMatch audio to text dialogues\n\n\n\n\nContribute\n\n\n\n\nIssue Tracker: \nGitHub Fungus issue\n\n\nSource Code: \nGitHub Fungus repo\n\n\n\n\nSupport\n\n\nIf you are having issues, please let us know:\nEmail us at: \nchris@fungusgames.com\n\n\nLicense\n\n\nThe project is licensed under the MIT license.\n\n\nAuthors of these docs\n\n\n\n\nChris Gregan\n\n\nMatt Smith", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-fungus-docs", 
+            "text": "This website provides the documentation pages to learn how to use Fungus from the FungusGames.com  website.", 
+            "title": "Welcome to Fungus Docs"
+        }, 
+        {
+            "location": "/#features-hello-matt", 
+            "text": "Flowchart based dialogues and games for Unity  Internationalise your dialogues easily  Match audio to text dialogues", 
+            "title": "Features hello matt"
+        }, 
+        {
+            "location": "/#contribute", 
+            "text": "Issue Tracker:  GitHub Fungus issue  Source Code:  GitHub Fungus repo", 
+            "title": "Contribute"
+        }, 
+        {
+            "location": "/#support", 
+            "text": "If you are having issues, please let us know:\nEmail us at:  chris@fungusgames.com", 
+            "title": "Support"
+        }, 
+        {
+            "location": "/#license", 
+            "text": "The project is licensed under the MIT license.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/#authors-of-these-docs", 
+            "text": "Chris Gregan  Matt Smith", 
+            "title": "Authors of these docs"
+        }, 
+        {
+            "location": "/quickstart/", 
+            "text": "Follow these steps to get up and started with Fungus quickly. Then learn more about what Fungus can do and how to do it from the other documentation pages and videos.\n\n\nInstalling Unity\n\n\nDownload and install the latest version of Unity from the\n\nUnity3D.com\n\nwebsite.\n\n\nNote, the download page is usually located at:\n\nUnity3D.com/get-unity\n\n\nInstalling Fungus\n\n\nFollow these steps to quickly install Fungus for a Unity project:\n\n\n\n\n\n\nDownload the latest version of the Fungus unitypackage from the Unity Asset store or the \nFungusGames.com\n website.\n\n\n\n\n\n\nCreate a new Unity 2D project.\n\n\n\n\n\n\nImport the Fungus unitypackage by choosing menu: \nAssets | Import Package | Custom Package...\n, and then navigating to your downloaded file location.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoose to import all assets from this package.\n\n\n\n\n\n\n\n\n\n\n\nYou should now see a Fungus folder in your Project panel, containing both the Fungus flowcharting features themselves, as well as some sample scenes to get you started:\n\n\n\n\n\nOpening and docking the Flowchart window\n\n\nYou'll need the Fungus Flowchart window when working with Fungus. Open and dock this window somewhere handy by following these steps:\n\n\n\n\n\n\nChoose menu: \nTools | Fungus | Flowchart Window\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrag-and-drop the Flowchart window to the location you wish to dock it:\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Flowchart window is now docked and part of your Unity window layout:\n\n\n\n\n\n\n\n\n\nFinding the example folders and scene files\n\n\nTwo folders are created when you install Fungus, the Fungus features themeslves (in folder 'Fungus') and a set of examples (in folder 'FungusExamples').\n\n\nExamples include Drag and Drop, Sherlock and Fungus Town:\n\n\n\n\n\n\n\nYou can use the left-hand side of the Unity Project window to explore each example folder:\n\n\n\n\n\n\n\nAlternatively, you can 'filter' the Project view to show all scenes (and no other files) by clicking the scene filter icon to the right of the search bar:\n\n\n\n\n\n\n\nYou can cancel the filter by clicking the 'x' in the search bar:\n\n\n\n\n\n\n\nLoading and playing the example scenes\n\n\nTo \nload\n an example scene, double click the desired example's scene object in the Projet window, and the scene should load. For example, this screenshot shows the scene and Flowchart windows when the DragAndDrop example scene has been loaded:\n\n\n\n\n\n\n\nTo \nrun\n the currently loaded scene (i.e. to entery \nPlay-mode\n), click the Unity 'play' triangle button at the center top of the Unity application window, and then do whatever makese sense in that scene (e..g click/type text/drag-and-drop objects etc.!):\n\n\n\n\n\n\n\nNote: you click the 'play' button a second time to end \nPlay-mode\n.\n\n\nChanges made during playmode don't persist\n\n\nAs with all Unity projects, you can \nchange\n the properties of gameObjects while a scene is running, but these changes are 'ephemeral' - they only last while the scene is running. As soon as you end play mode the properties of all objects in the Hierarchy will revert to those saved in the Scene file.\n\n\nThis makes it easy to 'tweak' values of objects in \nPlay-mode\n, and then when the desired behaviour is achieved, those values can be set for the saved scene properties.\n\n\nValues set when Unity is in \nEdit-mode\n will be saved when you saved your scene (\nCTRL-S\n / \nCommand-S\n, or menu: \nFile | Save Scene\n).\n\n\nChange your preferences to highlight Play-mode\n\n\nSometimes we can forget we are in Unity \nPlay-mode\n, and then make changes to Hierarchy gameObject values that are then 'fogotton' when we do stop playing the scene. A good way to avoid this problem is to to set a 'tint' to the Unity editor to make it visually very clear to us when we are in \nPlay-mode\n. To add a tint to \nPlay-mode\n do the following:\n\n\n\n\n\n\nOpen the Unity preferences dialog by choosing menu: \nFile | Preferences ...\n\n\n\n\n\n\nSelect the \nColors\n preferences, and choose a light colored tint (we chose a light green in this case):\n\n\n\n\n\n\n\n\n\n\n\n\n\nClose the dialog (changes are saved automatically).\n\n\n\n\n\n\nWhen you next enter \nPlay-mode\n you'll see most of the Unity Editor windows turn green (apart from the Game and Flowchart windows):\n\n\n\n\n\n\n\n\n\n\n\nCreating, naming and saving a new scene from scratch\n\n\nTo create a new scene in Unity do the following:\n\n\n\n\n\n\nChoose menu: \nFile | New Scene\n\n\n\n\n\n\nNote: if you have any unsaved changes for the current scene you need to either save or abandon them before a new scene can be created.\n\n\n\n\n\n\nYou should now have a shiny new scene, with a Hiearchy containing just one gameObject, a Main Camera. The new scene will have been give the default name \"Untitled\", which you can see in the title of the Application window:\n\n\n\n\n\n\n\n\n\n\n\n\n\nGood practice is to save your scene (in the right place, with the right name), before creating your work in the scene. Let's save this scene in the root of our project \"Assets\" folder, naming it \"demo1\". First choose menu: \nFile | Save Scene As...\n\n\n\n\n\n\nChoose the location and name (we'll choose folders \"Assets\" and scene name \"demo1\"):\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnce you have successfully saved the scene you should now see the new scene file \"demo1\" in your Assets folder in the Project window, and you should also see in the Application window title that you are currently editing the scene named \"demo1\":\n\n\n\n\n\n\n\n\n\n\n\nMenu: Tools | Fungus\n\n\nThe core Fungus operations are available from the Unith \nTools\n menu.\n\n\nChoose menu: \nTools | Fungs\n to see the options availble:\n\n\n\n\n\n\n\nAs can be seen, there are 2 submenus, \nCreate\n and \nUtilities\n, plus the \nFlowchart Window\n action (which reveals the window if already open, or opens a new window if the Flowchart window was not previously opened).\n\n\nMenu: Tools | Fungus | Create\n\n\nThe Fungus Tools \nCreate\n submenu offers the following actions:\n\n\n\n\n\n\n\nMenu: Tools |  Fungus | Utilities\n\n\nThe Fungus Tools \nUtilties\n submenu offers the following actions:\n\n\n\n\n\n\n\nCreate a Flowchart\n\n\nTo create a Fungus Flowchart do the following:\n\n\n\n\n\n\nChoose menu: \nTools | Fungus | Create Flowchart\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA new \nFlowchart\n gameObject should appear in the Hierarchy window.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelect the \nFlowchart\n gameObject in the Hierarchy window, and you'll see the \nFlowchart's\n properties in the Inspector Window:\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you have not already displayed the Flowchart Window, you can do so by clicking the Flowchart Window button in the Inspector.\n\n\n\n\n\n\nAs you can see, when a new Flowchat is created a single command Block named \"New Block\" is automatically created, with the Event handler \"Game Started\" (so it will start executing Fungus commands as soon as the scene goes into \nPlay Mode\n).\n\n\n\n\n\n\nFlowchart Block property viewing and editing\n\n\nLet's change the name of the default command Block of a new Flowchart in the Flowchart window to \"hello\". Do the following:\n\n\n\n\n\n\nCreate a new Fungus Flowchart (if you haven't already done so).\n\n\n\n\n\n\nClick to select the Block in the Flowchart window (when multiple blocks are present, the selected one gets a green highlight border).\n\n\n\n\n\n\nIn the Inspector change the text for the Block Name property to \"hello\". You should see the Block name change in the Flowchart window:\n\n\n\n\n\n\n\n\n\n\n\nAdd a Say command\n\n\nTo add a \"Say\" command to a block do the following:\n\n\n\n\n\n\nEnsure the block is selected, and you can see its properties in the Inspector.\n\n\n\n\n\n\nClick the Plus button in the bottom half of the Inspector window, to add a new Command to the Block's properties:\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoose menu: \nNarrative | Say\n:\n\n\n\n\n\n\n\n\n\n\n\n\n\nSince this Block only has one Command, that command is automatically selected (shown with a green highlght).\n\n\n\n\n\n\nIn the \"Story Text\" textbox in the bottom half of the Inspector window type in \"hello Fugus world\":\n\n\n\n\n\n\n\n\n\n\n\n\n\nRun the scene, and see Fungus create a dialog window, and output the text contents of your Say command:\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd 2 menu commands\n\n\nLet's modify our \"hello\" Say command above to ask a tricky mathematical quesiton, and demonsrate the Menu command by offering the user a choce been \"correct' and \"incorrect\" answers.  Menu commands transfer control to another block - so we'll need to add 2 new blocks to correspond to the 2 answers.\nDo the following:\n\n\n\n\n\n\nEdit your Say command, change the \nStory Text\n to ask the question: \"Is 2 + 2?\".\n\n\n\n\n\n\nUncheck the \"Wait For Click\" checkbox (this is so we see the menu options immediately after the Say command has displayed the question):\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreate a new Block, named \"Correct\" which contains a \nSay\n command with the text \"Well done, you are very mathematical!\". Click the plus-sign button in the Flowchart window to add a new Block to the Flowchart, rename it \"Correct\" and then add that Say command:\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelect the \"hello\" block, and add a Menu command by clicking the plus-sign add Command button in the Inspector and then choosing menu: \nNarrative | Menu\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWith this new Menu command selected (green) in the top half of the Inspector window, set the \nText\n to \"Yes\" and the \nTarget Block\n to your new \"Correct\" block:\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou should now see how the 'flow' of commands can change from Block \"hello\" to Block \"correct\" in the Flowchart window:\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdd a second new Block named \"Wrong\", containing a Say command with text \"Bad luck, perhaps consider a non-mathematical career path...\"\n\n\n\n\n\n\n\n\n\n\n\n\n\nNow we need to add another Menu command to our \"hello\" block, offering the user the \"No\" answer to our maths question, and passing control to Block \"Wrong\" if they disagree that 2 + 2 = 4. Select the \"hello\" block, and add a Menu command. With this new Menu command selected (green) in the top half of the Inspector window, set the \nText\n to \"No\" and the \nTarget Block\n to your new \"Wrong\" block.\n\n\n\n\n\n\nYou should now see in the Flowchart window how block \"hello\" can pass control to either block \"Correct\" or Block \"Wrong\" - depending on which menu answer the user selects.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRun the scene, and you should see the Say question appear at the bottom of the screen, and also the two Menu buttons \"Yes\" and \"No\" in the middle of the screen. Clicking \"Yes\" then runs the \"Correct\" Block's commands, and clicking \"No\" runs the \"Wrong\" block's commands:", 
+            "title": "Quick Start"
+        }, 
+        {
+            "location": "/quickstart/#installing-unity", 
+            "text": "Download and install the latest version of Unity from the Unity3D.com \nwebsite.  Note, the download page is usually located at: Unity3D.com/get-unity", 
+            "title": "Installing Unity"
+        }, 
+        {
+            "location": "/quickstart/#installing-fungus", 
+            "text": "Follow these steps to quickly install Fungus for a Unity project:    Download the latest version of the Fungus unitypackage from the Unity Asset store or the  FungusGames.com  website.    Create a new Unity 2D project.    Import the Fungus unitypackage by choosing menu:  Assets | Import Package | Custom Package... , and then navigating to your downloaded file location.          Choose to import all assets from this package.      You should now see a Fungus folder in your Project panel, containing both the Fungus flowcharting features themselves, as well as some sample scenes to get you started:", 
+            "title": "Installing Fungus"
+        }, 
+        {
+            "location": "/quickstart/#opening-and-docking-the-flowchart-window", 
+            "text": "You'll need the Fungus Flowchart window when working with Fungus. Open and dock this window somewhere handy by following these steps:    Choose menu:  Tools | Fungus | Flowchart Window        Drag-and-drop the Flowchart window to the location you wish to dock it:       The Flowchart window is now docked and part of your Unity window layout:", 
+            "title": "Opening and docking the Flowchart window"
+        }, 
+        {
+            "location": "/quickstart/#finding-the-example-folders-and-scene-files", 
+            "text": "Two folders are created when you install Fungus, the Fungus features themeslves (in folder 'Fungus') and a set of examples (in folder 'FungusExamples').  Examples include Drag and Drop, Sherlock and Fungus Town:    You can use the left-hand side of the Unity Project window to explore each example folder:    Alternatively, you can 'filter' the Project view to show all scenes (and no other files) by clicking the scene filter icon to the right of the search bar:    You can cancel the filter by clicking the 'x' in the search bar:", 
+            "title": "Finding the example folders and scene files"
+        }, 
+        {
+            "location": "/quickstart/#loading-and-playing-the-example-scenes", 
+            "text": "To  load  an example scene, double click the desired example's scene object in the Projet window, and the scene should load. For example, this screenshot shows the scene and Flowchart windows when the DragAndDrop example scene has been loaded:    To  run  the currently loaded scene (i.e. to entery  Play-mode ), click the Unity 'play' triangle button at the center top of the Unity application window, and then do whatever makese sense in that scene (e..g click/type text/drag-and-drop objects etc.!):    Note: you click the 'play' button a second time to end  Play-mode .", 
+            "title": "Loading and playing the example scenes"
+        }, 
+        {
+            "location": "/quickstart/#changes-made-during-playmode-dont-persist", 
+            "text": "As with all Unity projects, you can  change  the properties of gameObjects while a scene is running, but these changes are 'ephemeral' - they only last while the scene is running. As soon as you end play mode the properties of all objects in the Hierarchy will revert to those saved in the Scene file.  This makes it easy to 'tweak' values of objects in  Play-mode , and then when the desired behaviour is achieved, those values can be set for the saved scene properties.  Values set when Unity is in  Edit-mode  will be saved when you saved your scene ( CTRL-S  /  Command-S , or menu:  File | Save Scene ).", 
+            "title": "Changes made during playmode don't persist"
+        }, 
+        {
+            "location": "/quickstart/#change-your-preferences-to-highlight-play-mode", 
+            "text": "Sometimes we can forget we are in Unity  Play-mode , and then make changes to Hierarchy gameObject values that are then 'fogotton' when we do stop playing the scene. A good way to avoid this problem is to to set a 'tint' to the Unity editor to make it visually very clear to us when we are in  Play-mode . To add a tint to  Play-mode  do the following:    Open the Unity preferences dialog by choosing menu:  File | Preferences ...    Select the  Colors  preferences, and choose a light colored tint (we chose a light green in this case):       Close the dialog (changes are saved automatically).    When you next enter  Play-mode  you'll see most of the Unity Editor windows turn green (apart from the Game and Flowchart windows):", 
+            "title": "Change your preferences to highlight Play-mode"
+        }, 
+        {
+            "location": "/quickstart/#creating-naming-and-saving-a-new-scene-from-scratch", 
+            "text": "To create a new scene in Unity do the following:    Choose menu:  File | New Scene    Note: if you have any unsaved changes for the current scene you need to either save or abandon them before a new scene can be created.    You should now have a shiny new scene, with a Hiearchy containing just one gameObject, a Main Camera. The new scene will have been give the default name \"Untitled\", which you can see in the title of the Application window:       Good practice is to save your scene (in the right place, with the right name), before creating your work in the scene. Let's save this scene in the root of our project \"Assets\" folder, naming it \"demo1\". First choose menu:  File | Save Scene As...    Choose the location and name (we'll choose folders \"Assets\" and scene name \"demo1\"):       Once you have successfully saved the scene you should now see the new scene file \"demo1\" in your Assets folder in the Project window, and you should also see in the Application window title that you are currently editing the scene named \"demo1\":", 
+            "title": "Creating, naming and saving a new scene from scratch"
+        }, 
+        {
+            "location": "/quickstart/#menu-tools-fungus", 
+            "text": "The core Fungus operations are available from the Unith  Tools  menu.  Choose menu:  Tools | Fungs  to see the options availble:    As can be seen, there are 2 submenus,  Create  and  Utilities , plus the  Flowchart Window  action (which reveals the window if already open, or opens a new window if the Flowchart window was not previously opened).  Menu: Tools | Fungus | Create  The Fungus Tools  Create  submenu offers the following actions:    Menu: Tools |  Fungus | Utilities  The Fungus Tools  Utilties  submenu offers the following actions:", 
+            "title": "Menu: Tools | Fungus"
+        }, 
+        {
+            "location": "/quickstart/#create-a-flowchart", 
+            "text": "To create a Fungus Flowchart do the following:    Choose menu:  Tools | Fungus | Create Flowchart        A new  Flowchart  gameObject should appear in the Hierarchy window.       Select the  Flowchart  gameObject in the Hierarchy window, and you'll see the  Flowchart's  properties in the Inspector Window:       If you have not already displayed the Flowchart Window, you can do so by clicking the Flowchart Window button in the Inspector.    As you can see, when a new Flowchat is created a single command Block named \"New Block\" is automatically created, with the Event handler \"Game Started\" (so it will start executing Fungus commands as soon as the scene goes into  Play Mode ).", 
+            "title": "Create a Flowchart"
+        }, 
+        {
+            "location": "/quickstart/#flowchart-block-property-viewing-and-editing", 
+            "text": "Let's change the name of the default command Block of a new Flowchart in the Flowchart window to \"hello\". Do the following:    Create a new Fungus Flowchart (if you haven't already done so).    Click to select the Block in the Flowchart window (when multiple blocks are present, the selected one gets a green highlight border).    In the Inspector change the text for the Block Name property to \"hello\". You should see the Block name change in the Flowchart window:", 
+            "title": "Flowchart Block property viewing and editing"
+        }, 
+        {
+            "location": "/quickstart/#add-a-say-command", 
+            "text": "To add a \"Say\" command to a block do the following:    Ensure the block is selected, and you can see its properties in the Inspector.    Click the Plus button in the bottom half of the Inspector window, to add a new Command to the Block's properties:       Choose menu:  Narrative | Say :       Since this Block only has one Command, that command is automatically selected (shown with a green highlght).    In the \"Story Text\" textbox in the bottom half of the Inspector window type in \"hello Fugus world\":       Run the scene, and see Fungus create a dialog window, and output the text contents of your Say command:", 
+            "title": "Add a Say command"
+        }, 
+        {
+            "location": "/quickstart/#add-2-menu-commands", 
+            "text": "Let's modify our \"hello\" Say command above to ask a tricky mathematical quesiton, and demonsrate the Menu command by offering the user a choce been \"correct' and \"incorrect\" answers.  Menu commands transfer control to another block - so we'll need to add 2 new blocks to correspond to the 2 answers.\nDo the following:    Edit your Say command, change the  Story Text  to ask the question: \"Is 2 + 2?\".    Uncheck the \"Wait For Click\" checkbox (this is so we see the menu options immediately after the Say command has displayed the question):       Create a new Block, named \"Correct\" which contains a  Say  command with the text \"Well done, you are very mathematical!\". Click the plus-sign button in the Flowchart window to add a new Block to the Flowchart, rename it \"Correct\" and then add that Say command:       Select the \"hello\" block, and add a Menu command by clicking the plus-sign add Command button in the Inspector and then choosing menu:  Narrative | Menu .       With this new Menu command selected (green) in the top half of the Inspector window, set the  Text  to \"Yes\" and the  Target Block  to your new \"Correct\" block:       You should now see how the 'flow' of commands can change from Block \"hello\" to Block \"correct\" in the Flowchart window:       Add a second new Block named \"Wrong\", containing a Say command with text \"Bad luck, perhaps consider a non-mathematical career path...\"       Now we need to add another Menu command to our \"hello\" block, offering the user the \"No\" answer to our maths question, and passing control to Block \"Wrong\" if they disagree that 2 + 2 = 4. Select the \"hello\" block, and add a Menu command. With this new Menu command selected (green) in the top half of the Inspector window, set the  Text  to \"No\" and the  Target Block  to your new \"Wrong\" block.    You should now see in the Flowchart window how block \"hello\" can pass control to either block \"Correct\" or Block \"Wrong\" - depending on which menu answer the user selects.       Run the scene, and you should see the Say question appear at the bottom of the screen, and also the two Menu buttons \"Yes\" and \"No\" in the middle of the screen. Clicking \"Yes\" then runs the \"Correct\" Block's commands, and clicking \"No\" runs the \"Wrong\" block's commands:", 
+            "title": "Add 2 menu commands"
+        }, 
+        {
+            "location": "/quickstart2/", 
+            "text": "Having got up and running, here are some next steps to get to know what you can do with Fungus.\n\n\nAdd a character, use in the Say command\n\n\nAdd a Stage\n\n\nAdd a Portrait command\n\n\nPlay some music\n\n\nAdd a background sprite\n\n\nAdd a view\n\n\nAdd a Fade To View command", 
+            "title": "Quick Start 2 - next steps"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-character-use-in-the-say-command", 
+            "text": "", 
+            "title": "Add a character, use in the Say command"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-stage", 
+            "text": "", 
+            "title": "Add a Stage"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-portrait-command", 
+            "text": "", 
+            "title": "Add a Portrait command"
+        }, 
+        {
+            "location": "/quickstart2/#play-some-music", 
+            "text": "", 
+            "title": "Play some music"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-background-sprite", 
+            "text": "", 
+            "title": "Add a background sprite"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-view", 
+            "text": "", 
+            "title": "Add a view"
+        }, 
+        {
+            "location": "/quickstart2/#add-a-fade-to-view-command", 
+            "text": "", 
+            "title": "Add a Fade To View command"
+        }
+    ]
+}

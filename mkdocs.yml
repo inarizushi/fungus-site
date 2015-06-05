@@ -1,0 +1,15 @@
+site_name: Fungus Docs
+pages:
+- Home: index.md
+- Recipes:
+    - "Installing Unity & Fungus": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+    - "Installing Unity": recipes/installing_unity.md
+- Quick Start 2 - next steps: quickstart2.md
+- Audio: audio.md
+theme: readthedocs
