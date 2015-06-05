@@ -1,15 +1,10 @@
 site_name: Fungus Docs
+site_url: http://docs.fungusgames.com
+site_description: Documentation and user guide for Fungus Unity dialog system
 pages:
 - Home: index.md
-- Recipes:
-    - "Installing Unity & Fungus": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-    - "Installing Unity": recipes/installing_unity.md
-- Quick Start 2 - next steps: quickstart2.md
-- Audio: audio.md
+- Recipes - quickstart: recipes/index.md
+- Recipes - next steps: recipes2/index.md
+- Recipes - audio: audio/index.md
+
 theme: readthedocs

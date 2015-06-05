@@ -42,5 +42,5 @@ Authors of these docs
 [GitHub Fungus repo]: https://github.com/FungusGames/Fungus
 [chris@fungusgames.com]: chris@fungusgames.com
 [Chris Gregan]: chris@fungusgames.com
-[Matt Smith]: http://www.mattsmithdev.com/
+[Matt Smith]: https://github.com/dr-matt-smith/
 

@@ -21,7 +21,7 @@ The following are some good places online to fine music and sound effects for ga
 
 You'll find a range of audio clips included inside the Fungus Examples folders:
 <br>
-![Fungus Examples audio](/images/audio/001_clips/0_audio_in_examples.png "Fungus Examples audio")
+![Fungus Examples audio](./images/001_clips/0_audio_in_examples.png "Fungus Examples audio")
 <br>
 
 ## Adding audio assets to your project
@@ -34,7 +34,7 @@ You can do this one clip at a time, by choosing menu: ```Assets | Import New Ass
 Alternatively you can **drag** files or entire folders into your Unity Project window, and Unity will make a copy of, and then import the dragged files:
 
 <br>
-![drag audio folder into Unity](/images/audio/002_audio_into_unity/1_drag_folder.png "drag audio folder into Unity")
+![drag audio folder into Unity](./images/002_audio_into_unity/1_drag_folder.png "drag audio folder into Unity")
 <br>
 
 
@@ -42,7 +42,7 @@ Alternatively you can **drag** files or entire folders into your Unity Project w
 ## Three ways to work with audio in Fungus games
 There are 3 main ways to work with audio in Fungus games. These are the Audio commands, the Say command, and gameObjects containing Unity Audio Source components. All three are discussed below:
 <br>
-![audio big picture](/images/audio/000_big_picture/1_big_picture.png "audio big picture")
+![audio big picture](./images/000_big_picture/1_big_picture.png "audio big picture")
 <br>
 
 
@@ -51,23 +51,25 @@ There are 3 main ways to work with audio in Fungus games. These are the Audio co
 ## List of Fungus audio commands
 The range of audio **Commands** you can add to a Block are as follows:
 <br>
-![Fungus audio commands](/images/audio/003_fungus_audio_commands/1_audio_commands.png "Fungus audio commands")
+![Fungus audio commands](./images/003_fungus_audio_commands/1_audio_commands.png "Fungus audio commands")
 <br>
 
 Also you can declare an audio clip that contains the speech voiceover to correspond to text displayed with a **Say** command:
 <br>
-![Fungus audio commands](/images/audio/003_fungus_audio_commands/2_say_voiceover_clip.png "Fungus audio commands")
+![Fungus audio commands](./images/003_fungus_audio_commands/2_say_voiceover_clip.png "Fungus audio commands")
 <br>
 
 <!-- **************************************** -->
 ## Play Music command
-Music sound clips loop, so they are restarted once they have finished playing. Often the first Command in a Block is a **Play Music** Command. Add music to a Block as follws:
+Music sound clips loop, so they are restarted once they have finished playing. Often the first Command in a Block is a **Play Music** Command. Add music to a Block as follows:
 
 1. (if you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart).
 
-1. Add a Play Music Command to the current Block by clicking the Add Command (plus-sign "+" button) in the Inspector, and then choosing menu: ```Audio | Play Music```:
+1. Add a Play Music Command to the current Block by clicking the Add Command (plus-sign "+" button) in the Inspector, and then choosing menu: ```Audio | Play Music```.
+
+1. Ensure the Play Music command is selected (green highlight) in the top of the Inspector, and then drag the desired music clip file into the "Music Clip" propertyin the bottom half of the Inspector:
 <br>
-![Add Play Music command](/images/audio/004_play_music/1_add_playmusic_command.png "Add Play Music command")
+![Add Play Music command](./images/004_play_music/1_add_playmusic_command.png "Add Play Music command")
 <br>
 <br>
 
@@ -82,14 +84,14 @@ NOTE: If you wish to start playing the music clip from a known timepoint (rather
 ## Play Sound command
 The Fungus Play Sound Command will play a stated audio clip once. With your Flowchart Block selected, click the Add Command button in the Inspector and choose menu: ```Audio | Play Sound```. Drag in a sound effect (we chose the BearRoad sound from the Hunter example):
 <br>
-![Play Sound command](/images/audio/005_play_sound/1_play_sound.png "Play Sound command")
+![Play Sound command](./images/005_play_sound/1_play_sound.png "Play Sound command")
 <br>
 
 Play the scene, you should hear your sound effect play once.
 
 Note. The default Fungus setting is for the sound effect to start playing, and while it is playing the next Command in the Block will start executing. However, you if you check the "Wait Until Finished" checkbox, then Fungus will wait until the sound effect has finished playing, before moving on to execute the next Command in the block:
 <br>
-![wait until finished](/images/audio/005_play_sound/2_wait_until_finished.png "wait until finished")
+![wait until finished](./images/005_play_sound/2_wait_until_finished.png "wait until finished")
 <br>
 
 <!-- **************************************** -->
