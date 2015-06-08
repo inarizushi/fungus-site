@@ -322,10 +322,97 @@ Do the following:
 <br>
 
 <!-- **************************************** -->
-## Add a background sprite
+## Change Camera background colour
+
+Unity cameras determine what the user sees when a scene is running. When nothing is present in all or part of the camera's rectangle a solid "Background" colour is displayed. Unity cameras have a default Background of a medium dark blue colour. You can change this as follows:
+
+1. (setup) Create a new 2D scene, unless you already have a scene with which to work.
+
+1. Select the Main Camera in the Hierarchy.
+
+1. In the Inspector for the Camera component, click and choose a different value for the Background property - often black works well.
+<br>
+![camera background colour](./images/06_camera_background/1_background_black.png "camera background colour")
+<br>
+<br>
+
+1. Now when any part of the camera rectangle (frustrum) shows no gameOjects then your custom Background colour will be what the user sees.
 
 <!-- **************************************** -->
-## Add a view
+## Add a background sprite
+
+To add any sprite image file from your Unity Project folder into the current scene, simply drag a reference to the sprite image file from the Project window onto the Scene window, and rotate / resize desired. The sprite will appear as a new gameObject (with same name as Sprite Project image file) in the Hierarchy window:
+<br>
+![sprite into scene](./images/07_background_sprite/1_sprite.png "sprite into scene")
+<br>
+
+NOTE: You may not be able to see the sprite, because what we see depends on the current settings for the camera. What the camera shows, how it moves etc. can be controlled by Fungus Views and Commmands relating to Views.
+
+<!-- **************************************** -->
+## Adding and customising a view
+
+What the main camera of a scene displays to the user, and how it moves etc. can be controlled by Fungus Views and Fungus Commmands relating to Views. A Fungus View is a special gameObject in the Hierarchy, it appears as a green outlined inner rectangle, with two filled green rectangles on the left and the right. The ratio of the outlined inner rectangle is 4:3. The ratio of the outer rectangle (which includes the two filled green left and right rectangles) is 16:9. These two ratios cover almost every common phone, tablet and computer screen width-to-height ratio. So arranging the view so that a background Sprite image looks good for both inner- and outer- rectangles of a view, pretty much ensures your game will look good on any device. Setting the background color of the camera to something like black also means on the rare device that has an odd ratio showing content outside of the view outer rectangle, the game should still look perfectly acceptable.
+
+To add a view to the current scene do the following:
+
+1. (setup) Create / Edit a scene that has a Sprite background image gameObject
+
+1. Choose menu: ```Tools | Fungus | Create | View```:
+<br>
+![menu new view](./images/08_add_view/1_menu_view.png "menu new view")
+<br>
+<br>
+
+1. Rename this View as "View1".
+
+1. Use the two white squares to resize the view (it maintains its proportions). Use the center square outline, or vertical and horizontal arrows to move the View around the Scene window.
+<br>
+![move and resize handles](./images/08_add_view/4_move_resize_handles.png "move and resize handles")
+<br>
+<br>
+![new view](./images/08_add_view/2_gameobjects.png "new view")
+<br>
+<br>
+
+1. Ensure the View is selected in the Hierarchy, then position the view so that it is approximately centered on your background sprite image
+
+1. Resize (and if necessary reposition) the View to be as big as possible, but ensuring that its outer rectangle stays within the bounds of the background sprite. (Note we've tinted the Sprite red so the green View rectangles can be more easily seen in this screenshot):
+<br>
+![resize view](./images/08_add_view/3_resize_view.png "resize view")
+<br>
+<br>
+
+1. Note: You can also rotate the view with the Unity Rotate tool
+
+NOTE: Utnil you add a "Fade To View" Fungus command, you still may not see the Sprite in the Game window when the scene plays, since the Main Camera has not been oriented to resize and align with the view.
 
 <!-- **************************************** -->
 ## Add a Fade To View command
+
+Once you have a Scene that contains some background Sprites and Fungus Views, you are ready to use the Fungus camera related Commands to control what the user sees. The simpest camera control is to make the Game window fade from a solid colour to the Main Camera being sized, positioned (and if necessary rotated) to show a specified Fungus View. Do the following:
+
+1. (setup) Create / being editing a Scene containing a backgrond Sprite image, and a Fungus View that has been positioned to show all / some of the Sprite.
+
+1. In the Fungus Flowchart rename the Block "Camera Control".
+
+1. Add a new "Fade to View" Command to the Block. First click the Plus button in the bottom half of the Inspector window, to add a new Command, then choose menu: ```Camera | Fade To View```:
+<br>
+![menu Fade to View](./images/08_add_view/5_menu_fade_to_view.png "menu Fade to View")
+<br>
+<br>
+
+1. Now Drag "View1" from the Hierarchy window into the "Target View" property of the Fade to View Command  in the Inspector:
+<br>
+![assign Target View](./images/08_add_view/6_drag_view.png "assign Target View")
+<br>
+<br>
+
+1. (We'll keep the defaults of 1 second and fade From Color of black).
+
+1. When you run the Scene the Game window should start off solid black, and then slowly the background Sprite image within the View rectangle should fade into view.
+1. Now Drag "View1" from the Hierarchy window into the
+<br>
+![menu Fade to View](./images/08_add_view/7_scene_running.png "menu Fade to View")
+<br>
+<br>
+
