@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recipes - audio - Fungus Docs</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Fungus Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../recipes/">Recipes - quickstart</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../recipes2/">Recipes - next steps</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Recipes - audio</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#audio-in-fungus-games">Audio in Fungus games</a></li>
+                
+                    <li><a class="toctree-l4" href="#sources-of-free-to-use-audio-clips-and-music">Sources of free to use audio clips and music</a></li>
+                
+                    <li><a class="toctree-l4" href="#adding-audio-assets-to-your-project">Adding audio assets to your project</a></li>
+                
+                    <li><a class="toctree-l4" href="#three-ways-to-work-with-audio-in-fungus-games">Three ways to work with audio in Fungus games</a></li>
+                
+                    <li><a class="toctree-l4" href="#list-of-fungus-audio-commands">List of Fungus audio commands</a></li>
+                
+                    <li><a class="toctree-l4" href="#play-music-command">Play Music command</a></li>
+                
+                    <li><a class="toctree-l4" href="#play-sound-command">Play Sound command</a></li>
+                
+                    <li><a class="toctree-l4" href="#set-audio-volume-command">Set Audio Volume command</a></li>
+                
+                    <li><a class="toctree-l4" href="#the-3-unity-audio-concepts">The 3 Unity audio concepts</a></li>
+                
+                    <li><a class="toctree-l4" href="#control-audio-command">Control Audio command</a></li>
+                
+                    <li><a class="toctree-l4" href="#audio-tags-link-to-say-command-docs">Audio Tags (link to Say command docs)</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Fungus Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Recipes - audio</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="audio-in-fungus-games">Audio in Fungus games</h1>
+<p>Almost every game benefits from some sound! Often we categories audio clips into three kinds:</p>
+<ol>
+<li>Music</li>
+<li>Sound effects</li>
+<li>Speech</li>
+</ol>
+<p>Fungus provides straightforward ways to include all 3 kinds of audio clip in your game, using the techniques presented here.</p>
+<!-- **************************************** -->
+
+<h2 id="sources-of-free-to-use-audio-clips-and-music">Sources of free to use audio clips and music</h2>
+<p>Before you can <strong>add</strong> audio clips to a game you need to get some audio clips. Here are some sources of audio clips to use when learning about audio in Fungus, in case you don't have some of your own to hand.</p>
+<p>The following are some good places online to fine music and sound effects for games. Some are free for any use (including commerical), some are just free for personal use. As always, check the licence of media assets before using them for any commerical products ...</p>
+<ul>
+<li><a href="http://www.freesound.org/">Freesound.org</a></li>
+<li>lots of creative commons and royalty free sounds at <a href="http://soundbible.com/royalty-free-sounds-1.html">SoundBible.com</a></li>
+<li>a great list of audio sources in peoples answers to questions at <a href="http://answers.unity3d.com/questions/7743/where-can-i-find-music-or-sound-effects-for-my-gam.html">Answers.unity3d</a> and <a href="http://stackoverflow.com/questions/1210286/where-can-i-find-free-sound-effects-for-a-game">StackOverflow.com</a></li>
+<li>mixture of free and paid music sources at <a href="http://www.pixelprospector.com/the-big-list-of-royalty-free-music-and-sounds-free-edition/">PixelProspector.com</a></li>
+</ul>
+<p>You'll find a range of audio clips included inside the Fungus Examples folders:
+<br>
+<img alt="Fungus Examples audio" src="./images/001_clips/0_audio_in_examples.png" title="Fungus Examples audio" />
+<br></p>
+<h2 id="adding-audio-assets-to-your-project">Adding audio assets to your project</h2>
+<p>Once you have some audio clips on your computer, you need to import them into your Unity project.</p>
+<h3 id="method-1-menu">Method 1 (menu)</h3>
+<p>You can do this one clip at a time, by choosing menu: <code>Assets | Import New Asset...</code> and navigating to and selecting each clip.</p>
+<h3 id="method-2-drag-drop">Method 2 (drag-drop)</h3>
+<p>Alternatively you can <strong>drag</strong> files or entire folders into your Unity Project window, and Unity will make a copy of, and then import the dragged files:</p>
+<p><br>
+<img alt="drag audio folder into Unity" src="./images/002_audio_into_unity/1_drag_folder.png" title="drag audio folder into Unity" />
+<br></p>
+<!-- **************************************** -->
+
+<h2 id="three-ways-to-work-with-audio-in-fungus-games">Three ways to work with audio in Fungus games</h2>
+<p>There are 3 main ways to work with audio in Fungus games. These are the Audio commands, the Say command, and gameObjects containing Unity Audio Source components. All three are discussed below:
+<br>
+<img alt="audio big picture" src="./images/000_big_picture/1_big_picture.png" title="audio big picture" />
+<br></p>
+<!-- **************************************** -->
+
+<h2 id="list-of-fungus-audio-commands">List of Fungus audio commands</h2>
+<p>The range of audio <strong>Commands</strong> you can add to a Block are as follows:
+<br>
+<img alt="Fungus audio commands" src="./images/003_fungus_audio_commands/1_audio_commands.png" title="Fungus audio commands" />
+<br></p>
+<p>Also you can declare an audio clip that contains the speech voiceover to correspond to text displayed with a <strong>Say</strong> command:
+<br>
+<img alt="Fungus audio commands" src="./images/003_fungus_audio_commands/2_say_voiceover_clip.png" title="Fungus audio commands" />
+<br></p>
+<!-- **************************************** -->
+
+<h2 id="play-music-command">Play Music command</h2>
+<p>Music sound clips loop, so they are restarted once they have finished playing. Often the first Command in a Block is a <strong>Play Music</strong> Command. Add music to a Block as follows:</p>
+<ol>
+<li>
+<p>(if you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart).</p>
+</li>
+<li>
+<p>Add a Play Music Command to the current Block by clicking the Add Command (plus-sign "+" button) in the Inspector, and then choosing menu: <code>Audio | Play Music</code>.</p>
+</li>
+<li>
+<p>Ensure the Play Music command is selected (green highlight) in the top of the Inspector, and then drag the desired music clip file into the "Music Clip" property in the bottom half of the Inspector:
+<br>
+<img alt="Add Play Music command" src="./images/004_play_music/1_add_playmusic_command.png" title="Add Play Music command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Change the volume as desired
+<br>(the default is 1, values are between 0.0 and 1.0, representing percentages of volume from 0% - 100%).</p>
+</li>
+<li>
+<p>Play your scene - the music clip should play, and keep looping.</p>
+</li>
+</ol>
+<p>NOTE: If you wish to start playing the music clip from a known time-point (rather than from the beginning), then enter the desired timepoint in the Inspector property "At Time" for your Play Music command.</p>
+<!-- **************************************** -->
+
+<h2 id="play-sound-command">Play Sound command</h2>
+<p>The Fungus Play Sound Command will play a stated audio clip once. With your Flowchart Block selected, click the Add Command button in the Inspector and choose menu: <code>Audio | Play Sound</code>. Drag in a sound effect (we chose the BearRoad sound from the Hunter example):
+<br>
+<img alt="Play Sound command" src="./images/005_play_sound/1_play_sound.png" title="Play Sound command" />
+<br></p>
+<p>Play the scene, you should hear your sound effect play once.</p>
+<p>Note. The default Fungus setting is for the sound effect to start playing, and while it is playing the next Command in the Block will start executing. However, you if you check the "Wait Until Finished" checkbox, then Fungus will wait until the sound effect has finished playing, before moving on to execute the next Command in the block:
+<br>
+<img alt="wait until finished" src="./images/005_play_sound/2_wait_until_finished.png" title="wait until finished" />
+<br></p>
+<!-- **************************************** -->
+
+<h2 id="set-audio-volume-command">Set Audio Volume command</h2>
+<p>The default volume for music being played is 1 (100%). However, we can change this easily with the Set Audio Volume command. Do the following:</p>
+<ol>
+<li>
+<p>(if you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart).</p>
+</li>
+<li>
+<p>Rename this Block "Play Music".</p>
+</li>
+<li>
+<p>Add a Play Music Command to the current Block, then drag the desired music clip file into the "Music Clip" property in the bottom half of the Inspector:
+<br>
+<img alt="sherlock music" src="./images/006_set_audio_volume/1_drag_music_clip.png" title="sherlock music" />
+<br>
+<br></p>
+</li>
+<li>
+<p>If you play the scene now, the music will play at full volume (1 = 100%).</p>
+</li>
+<li>
+<p>Now create a second Block in the Flowchart window named "quieter".
+<br>
+<img alt="new block quieter" src="./images/006_set_audio_volume/2_second_block.png" title="new block quieter" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Add to this new Block a Set Audio Volume Command.
+<br>
+<img alt="Add audio volume command" src="./images/006_set_audio_volume/4_audio_volume_command.png" title="Add audio volume command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>In the properties of the Set Audio Volume Command set the volume to 0.25 (25%).
+<br>
+<img alt="set audio volume quieter" src="./images/006_set_audio_volume/3_quieter.png" title="set audio volume quieter" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Select the "Play Music" block, and add a Menu command by clicking the plus-sign add Command button in the Inspector and then choosing menu: <code>Narrative | Menu</code>.
+<br>
+<img alt="add menu command" src="./images/006_set_audio_volume/5_add_menu.png" title="add menu command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Set the Text Property to "Make Quieter" and the Target Block to Block "Quieter":
+<br>
+<img alt=" menu properties" src="./images/006_set_audio_volume/6_link_to_quieter.png" title=" menu properties" />
+<br>
+<br></p>
+</li>
+<li>
+<p>In the Flowchart window you should now see a green arrow, showing that a Command in Block "Play Music" passes control to Block "quieter":
+<br>
+<img alt="green arrow" src="./images/006_set_audio_volume/7_green_arrow.png" title="green arrow" />
+<br>
+<br></p>
+</li>
+<li>
+<p>When you run the scene, the music will start playing at full volumne, then when y ou click the "Make Quieter" button, controll will pass to the "quieter" block, and you'll hear the music become much quieter after the Set Audio Volume Command has been executed with a value of 25% (0.25):
+<br>
+<img alt="set audio running" src="./images/006_set_audio_volume/8_output.png" title="set audio running" />
+<br>
+<br></p>
+</li>
+</ol>
+<h2 id="the-3-unity-audio-concepts">The 3 Unity audio concepts</h2>
+<p>Unity has 3 different kinds of Audio 'object', that it is worth understanding when working with audio in Fungus (or any other) Unity project:</p>
+<ol>
+<li>Audio Clip</li>
+<li>Audio Listener</li>
+<li>Audio Source</li>
+</ol>
+<h3 id="unity-audio-clip">Unity Audio Clip</h3>
+<p>Unity uses the term Audio "Clip" to refer to the physical sound files (.mp3, .wav, .ogg etc.) that are stored in your Project folder. It is these Audio Clip files that you drag and drop into the "Music Clip" and "Sound Clip" properties in the Inspector Window, when creating Play Music and Play Sound Commands in a Fungus Block.</p>
+<h3 id="unity-audio-listener">Unity Audio "Listener"</h3>
+<p>Basically, if you want sound to be played there must be an Audio Listener component inside one of the gameObjects in your scene. The Main Camera of a scene has one by default, so in most cases you just leave this alone and can rest assured that you have an Audio Listener.</p>
+<p>If a scene has no Audio Listener in any gameObject, then no audio will be heard by the user of the game, regardless of how many music and sound clips might be playing.</p>
+<p>Sometimes you may add gameObjects to your scene that contain another Audio Listener component. In this case, Unity will present a warnig message stating that more than 1 Audio Listener is present in the scene. If you see such a message, then its best to resolve this problem by disabling all but one Audio Listener...</p>
+<p>If you are working with a 3D game, and/or you wish to present a sophisticated stereo sound experience for your user, then you may need to learn about 3D audio. In such games the 3D "position" of the gameObject containing the Audio Listener becomes important - but don't worry about this if you are just getting started with audio in Fungus. For 3D effects the Audio Listener is like an "electronic ear", so its location determines things like how loud a sound is played (distance from "ear") and left-right stereo balance (which "side" audio is to the "ear") etc.</p>
+<h3 id="unity-audio-source">Unity Audio Source</h3>
+<p>In Unity the link between an Audio Clip (music/sound) file that we wish to be played, and the Audio Listener in the scene is a Unity Audio Source component of a gameObject. However, in most cases Fungus creates one of these if neeeded, so we don't need to worry about them!</p>
+<p>However, for sophisticated control of music and sound and speech in your game there is the facility to make Fungus have detailed control of Unity Audio Sources. It is an Audio Source component that controls how and when and which part of an audio clip is playing (and whether it should loop or not), and whether it is playing or paused, and when resuming should continue from where paused or restart. The volume of a playing clip can also be controlled by properties of an Audio Source.</p>
+<p>Learn more about audio in Unity at the <a href="http://docs.unity3d.com/Manual/AudioOverview.html">Unity Manual Audio Page</a>.
+<!-- **************************************** --></p>
+<h2 id="control-audio-command">Control Audio command</h2>
+<p>The Fungus Audio Commands cover all common music and sound effect actions, for specialist audio work you may need to access the raw (and complicated) power of Unity audio. The Fungus Command "Control Audio" lets Fungus Blocks communicate directly with Unity Audio Source components in any gameObject in the current scene, so your wizard audio team member can do what they need to do with the Unity toolkit, and you can still control playing / looping / volume etc. of the audio in those complex gameObjects.</p>
+<p>The Control Audio Command offers five actions that can be communicated to Unity Audio Source components:
+<br>
+<img alt="control audio options" src="./images/007_control_audio/6_control_audio_actions.png" title="control audio options" />
+<br>
+<br></p>
+<p>We'll learn about this with a simple Unity gameObject that plays a bear sound two times, first at full volume and then reduces the volume before playing a second time, using three "Control Audio" Fungus Commands. Do the following:</p>
+<ol>
+<li>
+<p>(setup) If you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart.</p>
+</li>
+<li>
+<p>Rename this Block "Control Audio".</p>
+</li>
+<li>
+<p>In the Hierarchy Window create a new Empty gameObject, choose menu: <code>Create | Create Empty</code>:
+<br>
+<img alt="create empty" src="./images/007_control_audio/1_create_empty.png" title="create empty" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Rename this new empty gameObject "GameObject - bear sound" (or whatever sound name makes sense in your project).</p>
+</li>
+<li>
+<p>Locate your desired audio clip file in the Project window, and (with "GameObject - bear sound" selected), drag a reference to the audio clip from the Project window into the Inspector:
+<br>
+<img alt="rename empty" src="./images/007_control_audio/2_rename.png" title="rename empty" />
+<br>
+<br></p>
+</li>
+<li>
+<p>An Audio Source component should now be added in the Inspector to "GameObject - bear sound". Un-check the Play On Awake property in the Inspector (to stop this sound from playing as soon as the scene begins - <strong>we</strong> want to be in control of this Audio Source object...):
+<br>
+<img alt="audio source added" src="./images/007_control_audio/3_drag_clip.png" title="audio source added" />
+<br>
+<br></p>
+</li>
+<li>
+<p>With your Flowchart Block selected, click the Add Command button in the Inspector and choose menu: <code>Audio | Control Audio</code>.
+<br>
+<img alt="Control Audio command" src="./images/007_control_audio/4_add_command.png" title="Control Audio command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Drag the  "GameObject - bear sound" gameObject from the Hierarchy into the Audio Source property in the Inspector, and select the Wait Until Finished checkbox (so Fungus will wait for the sound to finish playing before moving on):
+<br>
+<img alt="drag gameobject" src="./images/007_control_audio/5_drag_gameobject.png" title="drag gameobject" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Note that the default Control action for a Control Audio Command is "Play Once" - we'll leave this property unchanged, since we want our bear sound inside our gameObject to be played once.</p>
+</li>
+<li>
+<p>If you run the scene now, you'll hear the bear sound play once at full volume.</p>
+</li>
+<li>
+<p>Since all three of the Control Audio commands we need use a link to "GameObject - bear sound" the fastest workflow is to <strong>duplicate</strong> each Command, and just change the bits we need. So duplicate your Control Audio command by clicking the Duplicate Command button:
+<br>
+<img alt="duplciate command" src="./images/007_control_audio/7_duplicate.png" title="duplicate command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>In the newly copied command, change the Command action to Change Volume, and choose a volume of 0.25 (25%):
+<br>
+<img alt="set volume" src="./images/007_control_audio/8_set_volume.png" title="set volume" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Once again, make a duplicate of the first Control Audio Command (that Plays the sound). Drag this new Command to be last in the sequence of commands.
+<br>
+<img alt="another play again command" src="./images/007_control_audio/9_final_commands.png" title="another play again command" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Now when you play the scene, first the bear sound linked to in the Audio Source component of gameObject "GameObject - bear sound"  should play at full volume, then (after having its volume reduced to 25%) it should play a second time at a much reduced volume.</p>
+</li>
+</ol>
+<!-- **************************************** -->
+
+<h2 id="audio-tags-link-to-say-command-docs">Audio Tags (link to Say command docs)</h2>
+<p>Since often dialog authors will know just what sound effects or music they wish to associate with their characters utterances, Fungus allows audio-related 'tags' to be embedded in the text of Say Commands. There are four audio related tags:</p>
+<pre><code>{audio=AudioObjectName} Play Audio Once
+{audioloop=AudioObjectName} Play Audio Loop
+{audiopause=AudioObjectName} Pause Audio
+{audiostop=AudioObjectName} Stop Audio
+</code></pre>
+<p>Using tags like this make it important to carefully <strong>name</strong> the gameObjects in the Hierarchy window. To explore how to control sounds in gammeObjects do the following:</p>
+<ol>
+<li>
+<p>(setup) If you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart.</p>
+</li>
+<li>
+<p>Rename this Block "Say audio tags".</p>
+</li>
+<li>
+<p>In the Hierarchy Window create a new Empty gameObject, choose menu: <code>Create | Create Empty</code>:
+<br>
+<img alt="create empty" src="./images/007_control_audio/1_create_empty.png" title="create empty" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Rename this new empty gameObject "audioBearRoar", or whatever sound name makes sense in your project, but avoid spaces in the name of this game object.</p>
+</li>
+<li>
+<p>Locate your desired audio clip file in the Project window, and (with "audioBearRoar" selected), drag a reference to the audio clip from the Project window into the Inspector.</p>
+</li>
+<li>
+<p>Un-check the Play On Awake property in the Inspector for the Audio Source component (to stop this sound from playing as soon as the scene begins - <strong>we</strong> want to be in control of this Audio Source object...):</p>
+</li>
+<li>
+<p>With your Flowchart Block selected, click the Add Command button in the Inspector and choose menu: <code>Narrative | Say</code>. Enter the following for the Story Text property of this Say Command "... and then the bear roared loudly {audio=audioBearRoar}":
+<br>
+<img alt="Say audio tag" src="./images/008_say_audio_tags/1_say_tags.png" title="Say audio tag" />
+<br>
+<br></p>
+</li>
+<li>
+<p>Run your scene - the bear sound will play after the text has been displayed:
+<br>
+<img alt="Say audio tag - output" src="./images/008_say_audio_tags/2_output.png" title="Say audio tag - output" />
+<br>
+<br></p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../recipes2/" class="btn btn-neutral" title="Recipes - next steps"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    <!-- Copyright etc -->
+    </p>
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../recipes2/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+
+</body>
+</html>
