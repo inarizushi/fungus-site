@@ -4,3 +4,5 @@
 
 This website provides the documentation pages to learn how to use Fungus from the
 [FungusGames.com] website.
+
+[FungusGames.com]: http://www.fungusgames.com
