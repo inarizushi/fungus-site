@@ -1,5 +1,6 @@
 Follow these steps to get up and started with Fungus quickly. Then learn more about what Fungus can do and how to do it from the other documentation pages and videos.
 
+<!-- **************************************************** -->
 ## Installing Unity
 Download and install the latest version of Unity from the
 [Unity3D.com]
@@ -8,6 +9,7 @@ website.
 Note, the download page is usually located at:
 [Unity3D.com/get-unity]
 
+<!-- **************************************************** -->
 ## Installing Fungus - from Unity Asset store
 Follow these steps to quickly install Fungus for a Unity project via the Unity Asset Store:
 
@@ -28,7 +30,6 @@ Follow these steps to quickly install Fungus for a Unity project via the Unity A
 <br>
 <br>
 
-
 1. Choose to import all contents from this package.
 <br>
 ![Fungus package contents](./images/001_install/5_assetstore_package.png "Fungus package contents")
@@ -39,6 +40,7 @@ You should now see a Fungus folder in your Project panel, containing both the Fu
 <br>
 ![Fungus resources in Unity Project window](./images/001_install/3_fungusproject.png "Fungus resources in Unity Project window")
 
+<!-- **************************************************** -->
 ## Installing Fungus - from Fungus package
 Follow these steps to quickly install Fungus for a Unity project:
 
@@ -68,6 +70,7 @@ You should now see a Fungus folder in your Project panel, containing both the Fu
 [Unity3D.com/get-unity]: http://unity3d.com/get-unity
 [FungusGames.com]: http://www.fungusgames.com
 
+<!-- **************************************************** -->
 ## Opening and docking the Flowchart window
 You'll need the Fungus Flowchart window when working with Fungus. Open and dock this window somewhere handy by following these steps:
 
@@ -87,6 +90,7 @@ You'll need the Fungus Flowchart window when working with Fungus. Open and dock 
 <br>
 ![Docked Fungus window](./images/002_docking/3_docked.png "Docked Fungus window")
 
+<!-- **************************************************** -->
 ## Finding the example folders and scene files
 Two folders are created when you install Fungus, the Fungus features themeslves (in folder 'Fungus') and a set of examples (in folder 'FungusExamples').
 
@@ -110,6 +114,7 @@ You can cancel the filter by clicking the 'x' in the search bar:
 ![Fungus Examples Project window filter scenes cancel](./images/004_examples/4_filter_scenes_cancel.png "Fungus Examples Project window filter scenes cancel")
 <br>
 
+<!-- **************************************************** -->
 ## Loading and playing the example scenes
 To **load** an example scene, double click the desired example's scene object in the Projet window, and the scene should load. For example, this screenshot shows the scene and Flowchart windows when the DragAndDrop example scene has been loaded:
 <br>
@@ -123,6 +128,7 @@ To **run** the currently loaded scene (i.e. to entery **Play-mode**), click the 
 
 Note: you click the 'play' button a second time to end **Play-mode**.
 
+<!-- **************************************************** -->
 ## Changes made during playmode don't persist
 As with all Unity projects, you can **change** the properties of gameObjects while a scene is running, but these changes are 'ephemeral' - they only last while the scene is running. As soon as you end play mode the properties of all objects in the Hierarchy will revert to those saved in the Scene file.
 
@@ -130,6 +136,7 @@ This makes it easy to 'tweak' values of objects in **Play-mode**, and then when 
 
 Values set when Unity is in **Edit-mode** will be saved when you saved your scene (``CTRL-S`` / ``Command-S``, or menu: ``File | Save Scene``).
 
+<!-- **************************************************** -->
 ## Change your preferences to highlight Play-mode
 Sometimes we can forget we are in Unity **Play-mode**, and then make changes to Hierarchy gameObject values that are then 'fogotton' when we do stop playing the scene. A good way to avoid this problem is to to set a 'tint' to the Unity editor to make it visually very clear to us when we are in **Play-mode**. To add a tint to **Play-mode** do the following:
 
@@ -148,6 +155,7 @@ Sometimes we can forget we are in Unity **Play-mode**, and then make changes to 
 ![Unity Play Mode tinted](./images/005_highlight_play_mode/2_green_play_mode.png "Unity Play Mode tinted")
 <br>
 
+<!-- **************************************************** -->
 ## Creating, naming and saving a new scene from scratch
 To create a new scene in Unity do the following:
 
@@ -174,6 +182,7 @@ To create a new scene in Unity do the following:
 ![Editing newly saved scene](./images/006_new_scene/3_saved_scene.png "Editing newly saved scene")
 <br>
 
+<!-- **************************************************** -->
 ## Menu: Tools | Fungus
 The core Fungus operations are available from the Unith ```Tools``` menu.
 
@@ -184,19 +193,21 @@ Choose menu: ```Tools | Fungus``` to see the options availble:
 
 As can be seen, there are 2 submenus, ```Create``` and ```Utilities```, plus the ```Flowchart Window``` action (which reveals the window if already open, or opens a new window if the Flowchart window was not previously opened).
 
+<!-- *********** -->
 ### Menu: Tools | Fungus | Create
 The Fungus Tools ```Create``` submenu offers the following actions:
 <br>
 ![Fungus Tools Create menu](./images/007_tools_menu/1_tools_create.png "Fungus Tools Create menu")
 <br>
 
-
+<!-- *********** -->
 ### Menu: Tools |  Fungus | Utilities
 The Fungus Tools ```Utilties``` submenu offers the following actions:
 <br>
 ![Fungus Tools Utilties menu](./images/007_tools_menu/2_tools_utilities.png "Fungus Tools Utilities menu")
 <br>
 
+<!-- **************************************************** -->
 ## Create a Flowchart
 To create a Fungus Flowchart do the following:
 
@@ -222,6 +233,7 @@ To create a Fungus Flowchart do the following:
 
 5. As you can see, when a new Flowchat is created a single command Block named "New Block" is automatically created, with the Event handler "Game Started" (so it will start executing Fungus commands as soon as the scene goes into **Play Mode**).
 
+<!-- **************************************************** -->
 ## Flowchart Block property viewing and editing
 Let's change the name of the default command Block of a new Flowchart in the Flowchart window to "hello". Do the following:
 
@@ -234,6 +246,7 @@ Let's change the name of the default command Block of a new Flowchart in the Flo
 ![rename Block](./images/009_rename_block/1_rename.png "rename Block")
 <br>
 
+<!-- **************************************************** -->
 ## Add a Say command
 To add a "Say" command to a Block do the following:
 
