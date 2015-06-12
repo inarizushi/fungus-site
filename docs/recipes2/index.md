@@ -247,16 +247,16 @@ Music sound clips loop, so they are restarted once they have finished playing. O
 
 1. Play your scene - the music clip should play, and keep looping.
 
-NOTE: If you wish to start playing the music clip from a known timepoint (rather than from the beginning), then enter the desired timepoint in the Inspector property "At Time" for your Play Music command.
+NOTE: If you wish to start playing the music clip from a known time-point (rather than from the beginning), then enter the desired time-point in the Inspector property "At Time" for your Play Music command.
 
 <!-- **************************************** -->
 ## Add menu commands to branch to other blocks
-Let's modify our "hello" Say command above to ask a tricky mathematical quesiton, and demonsrate the Menu command by offering the user a choce been "correct' and "incorrect" answers.  Menu commands transfer control to another block - so we'll need to add 2 new blocks to correspond to the 2 answers.
+Let's use a Say command above to ask a tricky mathematical question, and demonstrate the Menu command by offering the user a choice been "correct' and "incorrect" answers.  Menu commands transfer control to another block - so we'll need to add 2 new blocks to correspond to the 2 answers.
 Do the following:
 
 1. (setup) Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart.
 
-1. Rename the Block in the Flowchart to "hello".
+1. Rename the Block in the Flowchart to "Question".
 
 1. Create a Say command, with **Story Text** to ask the question: "Is 2 + 2?".
 
@@ -272,7 +272,7 @@ Do the following:
 <br>
 <br>
 
-4. Select the "hello" block, and add a Menu command by clicking the plus-sign add Command button in the Inspector and then choosing menu: ```Narrative | Menu```.
+4. Select the "Question" block, and add a Menu command by clicking the plus-sign add Command button in the Inspector and then choosing menu: ```Narrative | Menu```.
 <br>
 ![add menu command](./images/011_menu_maths/6_add_menu.png "add menu command")
 <br>
@@ -284,7 +284,7 @@ Do the following:
 <br>
 <br>
 
-6. You should now see how the 'flow' of commands can change from Block "hello" to Block "correct" in the Flowchart window:
+6. You should now see how the 'flow' of commands can change from Block "hello" to Block "Correct" in the Flowchart window:
 <br>
 ![flow between blocks in Flowchart](./images/011_menu_maths/5_connected_blocks.png "flow between blocks in Flowchart")
 <br>

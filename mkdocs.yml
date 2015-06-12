@@ -5,7 +5,9 @@ pages:
 - Home: index.md
 - Recipes - quickstart: recipes/index.md
 - Recipes - next steps: recipes2/index.md
-- Fundamentals - Flowcharts & Blocks: flowcharts/index.md
+- Fundamentals - Flowcharts: flowcharts/index.md
+- Fundamentals - Blocks: blocks/index.md
+- Fundamentals - Commands: commands/index.md
 - Recipes - audio: audio/index.md
 - Advanced - Flowcharts & Blocks: advanced_flowcharts/index.md
 
