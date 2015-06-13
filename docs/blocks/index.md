@@ -133,15 +133,6 @@ Fungus Flowcharts visually differentiate three differents kinds of Block behavio
 
 1. Standard Block - yellow rectangle (no event, passes control to 0 or 1 other blocks)
 
-### Event Block - blue rounded rectangle
-One way Fungus decides when to start executing the Commands inside a Block is if a Block has defined an Execute On Event. If a Block has any of the possible Execute On Events chosen (such as Game Started, Message Received, Sprite Drag Completed, Key Pressed etc.) then this Block will be displayed as a **blue rounded rectangle**:
-
-![event block](./images/001_3_block_types/1_event_block.png "event block")
-
-As we can see, the default Block created with every new Flowchart automatically defines the Game Started Execute On Event, so this default Block always is displayed as an Event Block.
-
-NOTE: A Block with an Execute On Event will always appear as an Event Block in the Flowchart, regardless of whether its Commands contain menus or calls to 2 or more Blocks). In other words, in terms of Flowchart appearance, display of an Event Block overrides display of a Branching Block.
-
 ### 1: Event Block - blue rounded rectangle
 One way Fungus decides when to start executing the Commands inside a Block is if a Block has defined an Execute On Event. If a Block has any of the possible Execute On Events chosen (such as Game Started, Message Received, Sprite Drag Completed, Key Pressed etc.) then this Block will be displayed as a **blue rounded rectangle**:
 

@@ -1,14 +1,32 @@
 site_name: Fungus Docs
 site_url: http://docs.fungusgames.com
 site_description: Documentation and user guide for Fungus Unity dialog system
+site_favicon: images/favicon.ico
 pages:
 - Home: index.md
 - Recipes - quickstart: recipes/index.md
 - Recipes - next steps: recipes2/index.md
 - Fundamentals - Flowcharts: flowcharts/index.md
 - Fundamentals - Blocks: blocks/index.md
-- Fundamentals - Commands: commands/index.md
+#- Fundamentals - Commands: guide_commands/index.md
 - Recipes - audio: audio/index.md
-- Advanced - Flowcharts & Blocks: advanced_flowcharts/index.md
+#- Advanced - Flowcharts & Blocks: advanced_flowcharts/index.md
+- Glossary: glossary/glossary.md
+
+- Commands - Detailed Reference:
+    - Animation Commands: commands/animation_commands.md
+    - Audio Commands: commands/audio_commands.md
+    - Camera Commands: commands/camera_commands.md
+    - Flow Commands: commands/flow_commands.md
+    - iTween Commands: commands/itween_commands.md
+    - Narrative Commands: commands/narrative_commands.md
+    - Scripting Commands: commands/scripting_commands.md
+    - Sprite Commands: commands/sprite_commands.md
+    - Variable Commands: commands/variable_commands.md
+    - Events (Core) Commands: commands/event_handlers/core_events.md
+    - Events (Input) Commands: commands/event_handlers/input_events.md
+    - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
 
 theme: readthedocs
+
+

@@ -9,7 +9,7 @@ Almost every game benefits from some sound! Often we categories audio clips into
 Fungus provides straightforward ways to include all 3 kinds of audio clip in your game, using the techniques presented here.
 
 <!-- **************************************** -->
-## Sources of free to use audio clips and music
+# Sources of free to use audio clips and music
 Before you can **add** audio clips to a game you need to get some audio clips. Here are some sources of audio clips to use when learning about audio in Fungus, in case you don't have some of your own to hand.
 
 The following are some good places online to fine music and sound effects for games. Some are free for any use (including commerical), some are just free for personal use. As always, check the licence of media assets before using them for any commerical products ...
@@ -24,13 +24,13 @@ You'll find a range of audio clips included inside the Fungus Examples folders:
 ![Fungus Examples audio](./images/001_clips/0_audio_in_examples.png "Fungus Examples audio")
 <br>
 
-## Adding audio assets to your project
+# Adding audio assets to your project
 Once you have some audio clips on your computer, you need to import them into your Unity project.
 
-###Method 1 (menu)
+##Method 1 (menu)
 You can do this one clip at a time, by choosing menu: ```Assets | Import New Asset...``` and navigating to and selecting each clip.
 
-###Method 2 (drag-drop)
+##Method 2 (drag-drop)
 Alternatively you can **drag** files or entire folders into your Unity Project window, and Unity will make a copy of, and then import the dragged files:
 
 <br>
@@ -39,7 +39,7 @@ Alternatively you can **drag** files or entire folders into your Unity Project w
 
 
 <!-- **************************************** -->
-## Three ways to work with audio in Fungus games
+# Three ways to work with audio in Fungus games
 There are 3 main ways to work with audio in Fungus games. These are the Audio commands, the Say command, and gameObjects containing Unity Audio Source components. All three are discussed below:
 <br>
 ![audio big picture](./images/000_big_picture/1_big_picture.png "audio big picture")
@@ -253,7 +253,7 @@ We'll learn about this with a simple Unity gameObject that plays a bear sound tw
 1. Now when you play the scene, first the bear sound linked to in the Audio Source component of gameObject "GameObject - bear sound"  should play at full volume, then (after having its volume reduced to 25%) it should play a second time at a much reduced volume.
 
 <!-- **************************************** -->
-## Audio Tags (link to Say command docs)
+## Audio Tags (in Say Commands)
 
 Since often dialog authors will know just what sound effects or music they wish to associate with their characters utterances, Fungus allows audio-related 'tags' to be embedded in the text of Say Commands. There are four audio related tags:
 
