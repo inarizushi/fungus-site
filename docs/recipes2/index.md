@@ -3,7 +3,7 @@ Having got up and running, here are some next steps to get to know what you can 
 <!-- **************************************** -->
 ## Adding Characters, for use in Say commands
 
-We can assocaited words spoken by the Say Command with a particular Character. Consider the following Tom and Jerry scene:
+We can associated words spoken by the Say Command with a particular Character. Consider the following Tom and Jerry scene:
 
 ```
 [Tom] Where is that mouse?
@@ -183,7 +183,7 @@ Once you have a Fungus Stage, and a character then you can instruct Fungus to di
 <br>
 <br>
 
-1. You will now see your new Portrait command in the top half of the Inspector, and its command properties in the bottom half of the Inspector. Note the red exclamation mark at the right of the highlighed (green) commant row - this indicated when a command has one or more required properties that have not been set. We see the error message *"No character selected"*:
+1. You will now see your new Portrait command in the top half of the Inspector, and its Command properties in the bottom half of the Inspector. Note the red exclamation mark at the right of the highlighted (green) Command row - this indicated when a command has one or more required properties that have not been set. We see the error message *"No character selected"*:
 <br>
 ![new command portrait](./images/005_portrait_command/4_new_command_portrait.png "new command portrait")
 <br>
@@ -236,7 +236,7 @@ Music sound clips loop, so they are restarted once they have finished playing. O
 
 1. Add a Play Music Command to the current Block by clicking the Add Command (plus-sign "+" button) in the Inspector, and then choosing menu: ```Audio | Play Music```.
 
-1. Ensure the Play Music command is selected (green highlight) in the top of the Inspector, and then drag the desired music clip file into the "Music Clip" propertyin the bottom half of the Inspector:
+1. Ensure the Play Music command is selected (green highlight) in the top of the Inspector, and then drag the desired music clip file into the "Music Clip" property in the bottom half of the Inspector:
 <br>
 ![Add Play Music command](./images/004_play_music/1_add_playmusic_command.png "Add Play Music command")
 <br>
@@ -389,9 +389,9 @@ NOTE: Utnil you add a "Fade To View" Fungus command, you still may not see the S
 <!-- **************************************** -->
 ## Add a Fade To View command
 
-Once you have a Scene that contains some background Sprites and Fungus Views, you are ready to use the Fungus camera related Commands to control what the user sees. The simpest camera control is to make the Game window fade from a solid colour to the Main Camera being sized, positioned (and if necessary rotated) to show a specified Fungus View. Do the following:
+Once you have a Scene that contains some background Sprites and Fungus Views, you are ready to use the Fungus camera related Commands to control what the user sees. The simplest camera control is to make the Game window fade from a solid colour to the Main Camera being sized, positioned (and if necessary rotated) to show a specified Fungus View. Do the following:
 
-1. (setup) Create / being editing a Scene containing a backgrond Sprite image, and a Fungus View that has been positioned to show all / some of the Sprite.
+1. (setup) Create / being editing a Scene containing a background Sprite image, and a Fungus View that has been positioned to show all / some of the Sprite.
 
 1. In the Fungus Flowchart rename the Block "Camera Control".
 
