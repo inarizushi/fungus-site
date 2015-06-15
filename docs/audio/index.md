@@ -147,7 +147,7 @@ The default volume for music being played is 1 (100%). However, we can change th
 <br>
 <br>
 
-1. When you run the scene, the music will start playing at full volumne, then when y ou click the "Make Quieter" button, controll will pass to the "quieter" block, and you'll hear the music become much quieter after the Set Audio Volume Command has been executed with a value of 25% (0.25):
+1. When you run the scene, the music will start playing at full volume, then when y ou click the "Make Quieter" button, control will pass to the "quieter" block, and you'll hear the music become much quieter after the Set Audio Volume Command has been executed with a value of 25% (0.25):
 <br>
 ![set audio running](./images/006_set_audio_volume/8_output.png "set audio running")
 <br>
@@ -169,12 +169,12 @@ Basically, if you want sound to be played there must be an Audio Listener compon
 
 If a scene has no Audio Listener in any gameObject, then no audio will be heard by the user of the game, regardless of how many music and sound clips might be playing.
 
-Sometimes you may add gameObjects to your scene that contain another Audio Listener component. In this case, Unity will present a warnig message stating that more than 1 Audio Listener is present in the scene. If you see such a message, then its best to resolve this problem by disabling all but one Audio Listener...
+Sometimes you may add gameObjects to your scene that contain another Audio Listener component. In this case, Unity will present a warning message stating that more than 1 Audio Listener is present in the scene. If you see such a message, then its best to resolve this problem by disabling all but one Audio Listener...
 
 If you are working with a 3D game, and/or you wish to present a sophisticated stereo sound experience for your user, then you may need to learn about 3D audio. In such games the 3D "position" of the gameObject containing the Audio Listener becomes important - but don't worry about this if you are just getting started with audio in Fungus. For 3D effects the Audio Listener is like an "electronic ear", so its location determines things like how loud a sound is played (distance from "ear") and left-right stereo balance (which "side" audio is to the "ear") etc.
 
 ### Unity Audio Source
-In Unity the link between an Audio Clip (music/sound) file that we wish to be played, and the Audio Listener in the scene is a Unity Audio Source component of a gameObject. However, in most cases Fungus creates one of these if neeeded, so we don't need to worry about them!
+In Unity the link between an Audio Clip (music/sound) file that we wish to be played, and the Audio Listener in the scene is a Unity Audio Source component of a gameObject. However, in most cases Fungus creates one of these if needed, so we don't need to worry about them!
 
 However, for sophisticated control of music and sound and speech in your game there is the facility to make Fungus have detailed control of Unity Audio Sources. It is an Audio Source component that controls how and when and which part of an audio clip is playing (and whether it should loop or not), and whether it is playing or paused, and when resuming should continue from where paused or restart. The volume of a playing clip can also be controlled by properties of an Audio Source.
 
