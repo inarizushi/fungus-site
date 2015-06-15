@@ -92,7 +92,7 @@ You'll need the Fungus Flowchart window when working with Fungus. Open and dock 
 
 <!-- **************************************************** -->
 ## Finding the example folders and scene files
-Two folders are created when you install Fungus, the Fungus features themeslves (in folder 'Fungus') and a set of examples (in folder 'FungusExamples').
+Two folders are created when you install Fungus, the Fungus features themslves (in folder 'Fungus') and a set of examples (in folder 'FungusExamples').
 
 Examples include Drag and Drop, Sherlock and Fungus Town:
 <br>
@@ -121,7 +121,7 @@ To **load** an example scene, double click the desired example's scene object in
 ![Fungus Examples Drag Drop](./images/004_examples/5_drag_drop.png "Fungus Examples Drag Drop")
 <br>
 
-To **run** the currently loaded scene (i.e. to entery **Play-mode**), click the Unity 'play' triangle button at the center top of the Unity application window, and then do whatever makese sense in that scene (e..g click/type text/drag-and-drop objects etc.!):
+To **run** the currently loaded scene (i.e. to enter **Play-mode**), click the Unity 'play' triangle button at the center top of the Unity application window, and then do whatever makes sense in that scene (e..g click/type text/drag-and-drop objects etc.!):
 <br>
 ![Unity play scene](./images/004_examples/6_drag_running.png "Unity play scene")
 <br>
@@ -186,7 +186,7 @@ To create a new scene in Unity do the following:
 ## Menu: Tools | Fungus
 The core Fungus operations are available from the Unity ```Tools``` menu.
 
-Choose menu: ```Tools | Fungus``` to see the options availble:
+Choose menu: ```Tools | Fungus``` to see the options available:
 <br>
 ![Fungus Tools menu](./images/007_tools_menu/3_fungus_tools.png "Fungus Tools menu")
 <br>
@@ -266,7 +266,7 @@ To add a "Say" command to a Block do the following:
 <br>
 <br>
 
-4. Since this Block only has one Command, that command is automatically selected (shown with a green highlght).
+4. Since this Block only has one Command, that command is automatically selected (shown with a green highlight).
 
 5. In the "Story Text" textbox in the bottom half of the Inspector window type in "hello Fugus world":
 <br>
