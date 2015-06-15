@@ -116,7 +116,7 @@ You can cancel the filter by clicking the 'x' in the search bar:
 
 <!-- **************************************************** -->
 ## Loading and playing the example scenes
-To **load** an example scene, double click the desired example's scene object in the Projet window, and the scene should load. For example, this screenshot shows the scene and Flowchart windows when the DragAndDrop example scene has been loaded:
+To **load** an example scene, double click the desired example's scene object in the Project window, and the scene should load. For example, this screenshot shows the scene and Flowchart windows when the DragAndDrop example scene has been loaded:
 <br>
 ![Fungus Examples Drag Drop](./images/004_examples/5_drag_drop.png "Fungus Examples Drag Drop")
 <br>
@@ -163,7 +163,7 @@ To create a new scene in Unity do the following:
 
 2. Note: if you have any unsaved changes for the current scene you need to either save or abandon them before a new scene can be created.
 
-3. You should now have a shiny new scene, with a Hiearchy containing just one gameObject, a Main Camera. The new scene will have been give the default name "Untitled", which you can see in the title of the Application window:
+3. You should now have a shiny new scene, with a Hierarchy containing just one gameObject, a Main Camera. The new scene will have been give the default name "Untitled", which you can see in the title of the Application window:
 <br>
 ![New Scene](./images/006_new_scene/1_default.png "New Scene")
 <br>
@@ -184,7 +184,7 @@ To create a new scene in Unity do the following:
 
 <!-- **************************************************** -->
 ## Menu: Tools | Fungus
-The core Fungus operations are available from the Unith ```Tools``` menu.
+The core Fungus operations are available from the Unity ```Tools``` menu.
 
 Choose menu: ```Tools | Fungus``` to see the options availble:
 <br>

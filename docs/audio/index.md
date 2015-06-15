@@ -262,7 +262,7 @@ Since often dialog authors will know just what sound effects or music they wish 
 	{audiopause=AudioObjectName} Pause Audio
 	{audiostop=AudioObjectName} Stop Audio
 
-Using tags like this make it important to carefully **name** the gameObjects in the Hierarchy window. To explore how to control sounds in gammeObjects do the following:
+Using tags like this make it important to carefully **name** the gameObjects in the Hierarchy window. To explore how to control sounds in gameObjects do the following:
 
 1. (setup) If you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart.
 

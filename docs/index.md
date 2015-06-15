@@ -1,48 +1,47 @@
 ![Fungus Logo](/images/logo_100.png "Fungus")
 
-# Welcome to Fungus Docs
+# Welcome
 
-This website provides the documentation pages to learn how to use Fungus from the
-[FungusGames.com] website.
+[Fungus](http://fungusgames.com) is a free open source tool for making storytelling games in Unity 3D. This documentation will help you learn how to use the storytelling features in Fungus & Unity 3D.
 
-## Fungus: Features
-Fungus allowed you to easily add the following features to your Unity games with no coding, via visual Flowcharts and Command Blocks:
+## Features
+Fungus allows you to easily add storytelling features to your Unity games with no coding, via an intuitive visual scripting system. Join a global community of artists & writers making amazing games.
 
-- Flowchart-based dialogues and games for Unity
-- Internationalization of your dialogs
-- Match audio to text dialogues
-- Works with 2D and 3D Unity games
-- Free and Open Source
+- Flowchart-based character dialogue
+- Suitable for visual novels, RPGs, hidden object and puzzle Games and interactive fiction.
+- Internationalization of your character dialogue.
+- Easy control of sprites, camera and audio to help tell your story
+- Works for both 2D and 3D Unity games
+- Integrates easily with other Unity code and simple to extend.
+- 100% free and open source
 
-Fungus is a free open source tool for interactive storytelling games in Unity 3D. We are a global community of artists & writers making amazing games.
-
-# Fungus Docs author: Matt Smith
-[Dr. Matt Smith] is a computing academic, specialising in interactive multimedia systems, including computer games, web applications and mobile apps. He is the main contributor to this Fungus Documentation project. Matt is Senior Lecturer in Computing at the Institute of Technology ([ITB]), Blanchardstown, Dublin, Ireland.
-
-(shameless plug...) If you want to learn more about Unity, then a great source of information, ideas and sample projects is the [Unity 5.x Cookbook], which Matt and co-author [Chico Queiroz] have re-written from scratch for Unity 5 (published by Packt Publishing):
-<br>
+# Credits
+[Dr. Matt Smith] has kindly contributed this documentation to the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is the [Unity 5.x Cookbook], which Matt and co-author [Chico Queiroz] have re-written from scratch for Unity 5 (published by Packt Publishing):
+<br><br>
 [![matt book cover][matt book cover image]][Unity 5.x Cookbook]
 
-# Fungus Docs author: Chris Gregan
-[Chris Gregan] is one of the founders and developers of Fungus.
+Matt is a computing academic, specialising in interactive multimedia systems, including computer games, web applications and mobile apps. He is the main maintainer of the Fungus documentation and is Senior Lecturer in Computing at the Institute of Technology ([ITB]), Blanchardstown, Dublin, Ireland.
 
-## Contribute to Fungus
+## Get Support
 
-- Issue Tracker: [GitHub Fungus issue]
-- Source Code: [GitHub Fungus repo]
+If you are having an issue with Fungus, please let us know on [the forum](http://fungusgames.com/forum) and we'll do our best to help.
 
-## Fungus Support
+## Contribute
 
-If you are having issues, please let us know:
-Email us at: [chris@fungusgames.com]
+We welcome all sorts of contributions to the project. You can report bugs, suggest new features or even contribute source code changes.
 
-## License - Fungus & Fungus Docs
+- Report bugs: [GitHub issue tracker]
+- Feature roadmap: [Trello roadmap]
+- Source Code: [GitHub code repository]
+
+## License
 
 The Fungus software is licensed under the [Open Source MIT License].
 <br>
-This Fungus documentation is licensed under the [Creative Commons Attribution-NonCommercial License].
+The Fungus documentation is licensed under the [Creative Commons Attribution-NonCommercial License].
 
 [FungusGames.com]: http://www.fungusgames.com
+[Trello Roadmap]: https://trello.com/b/d2BRk7ov/fungus-development
 [GitHub Fungus issue]: https://github.com/FungusGames/Fungus/issues
 [GitHub Fungus repo]: https://github.com/FungusGames/Fungus
 [chris@fungusgames.com]: chris@fungusgames.com

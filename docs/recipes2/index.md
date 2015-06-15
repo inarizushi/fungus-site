@@ -98,7 +98,7 @@ To add portrait images to a character do the following:
 
 1. Now select your Block in the Fungus Flowchart, so you can add some Commands to be executed...
 
-1. Create a Say command, for your Sherlock Character, saying "Waston, have you seen my violin?" and choosing portrait 'confident' (since this is the only we added to the Character):
+1. Create a Say command, for your Sherlock Character, saying "Watson, have you seen my violin?" and choosing portrait 'confident' (since this is the only we added to the Character):
 <br>
 ![sherlock Say command](./images/002_portrait/6_say_sherlock.png "sherlock Say command")
 <br>

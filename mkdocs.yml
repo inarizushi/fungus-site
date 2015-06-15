@@ -4,16 +4,16 @@ site_description: Documentation and user guide for Fungus Unity dialog system
 site_favicon: images/favicon.ico
 pages:
 - Home: index.md
-- Recipes - quickstart: recipes/index.md
-- Recipes - next steps: recipes2/index.md
-- Fundamentals - Flowcharts: flowcharts/index.md
-- Fundamentals - Blocks: blocks/index.md
-#- Fundamentals - Commands: guide_commands/index.md
-- Recipes - audio: audio/index.md
-#- Advanced - Flowcharts & Blocks: advanced_flowcharts/index.md
+- Recipes: 
+    - Quickstart: recipes/index.md
+    - Next steps: recipes2/index.md
+    - Audio: audio/index.md
+- Fundamentals:
+    - Flowcharts: flowcharts/index.md
+    - Blocks: blocks/index.md
 - Glossary: glossary/glossary.md
 
-- Commands - Detailed Reference:
+- Command Reference:
     - Animation Commands: commands/animation_commands.md
     - Audio Commands: commands/audio_commands.md
     - Camera Commands: commands/camera_commands.md
