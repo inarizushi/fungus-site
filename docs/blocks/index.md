@@ -6,7 +6,6 @@ A fundamental concept of Fungus is the **Block**. Blocks contain your Fungus Com
 
 Blocks are found inside Flowcharts. Blocks are where your Fungus Commands are stored. Each Block can contain 1 or more Fungus Commands:
 ![block](./images/005_blocks/1_block.png "block")
-
 To inspect the properties of a Block do the following:
 
 1. (setup) Create a Fungus Flowchart.
@@ -148,7 +147,7 @@ If a Block is *not* an Event Block, and its Commands include Calls and/or Menu c
 ![branching block](./images/001_3_block_types/2_branching_block.png "branching block")
 
 ### 3: Standard Block - yellow rectangle
-If a Block is *neither* an Event Block *nor* a Command Block, then it is a Standard Block, and will be displayed as an **oyellow rectangle**.
+If a Block is *neither* an Event Block *nor* a Command Block, then it is a Standard Block, and will be displayed as an **yellow rectangle**.
 
 ![standard block](./images/001_3_block_types/3_standard_block.png "standard block")
 
@@ -165,7 +164,7 @@ A whole scene's logic can rarely fit all into a single Block, therefore we need 
 ## Executing Commands in another Block with the Call Command
 The Call Command tells Fungus to go and start executing the Commands in named Block. There are several ways to do this, we can tell Fungus to Stop execution completely in the current Block, and just pass control to named Block. We can also tell Fungus to go and completed all Commands in the named Block, and when they are finished, to then continue executing any remaining commands in the current Block. Finally, and perhaps the most complicated/sophisticated technique, we can tell Fungus to both started executing Commands in a named Block WHILE simultaneously continuing to execute remaining Commands in the current Block.
 
-To pass control to another Block, and stop excuting Commands in the current Block, do the following:
+To pass control to another Block, and stop executing Commands in the current Block, do the following:
 
 1. (setup) If you have not already done so: Create a new scene, add a Fungus Flowchart to the scene, and select the Block in the Flowchart.
 
@@ -283,7 +282,7 @@ Do the following:
 <!-- **************************************************** -->
 ## Highlighting connection between blocks by selecting command
 
-In the Inspector window, if you select a Call or Menu Command (executing Commands in another Block in **the same Flowchart**), then you'll see the arrow between the 2 Blocks highlighed in GREEN:
+In the Inspector window, if you select a Call or Menu Command (executing Commands in another Block in **the same Flowchart**), then you'll see the arrow between the 2 Blocks highlighted in GREEN:
 
 ![green arrow highlight](./images/003_highlight_green_arrow/5_arrow.png "green arrow highlight")
 
