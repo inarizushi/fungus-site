@@ -4,7 +4,6 @@
 
 # A
 
-<!-- ******************************* -->
 ## Animator parameter
 Special variables that can be used to change what happens in an animation chart, such as when to trigger a chance from one animation state to another.
 
@@ -106,7 +105,7 @@ A 2D image on screen that has been code to do something when clicked with the mo
 
 <!-- ******************************* -->
 ## Coding / Scripting
-Writing lines of computer code to control execution of a computer program, such as a Unity game (as opposed to usign a visual language such as Fungus Flowcharts).
+Writing lines of computer code to control execution of a computer program, such as a Unity game (as opposed to using a visual language such as Fungus Flowcharts).
 
 <!-- ******************************* -->
 ## Command
@@ -315,7 +314,7 @@ If multiple objects have been assigned to the same Unity Sorting Layer, then the
 
 <!-- ******************************* -->
 ## Parallax Sprite
-The use of 2D sprites, moving at different speeds, to give the impression of 3D movement (where sprites for objects meant to be furterh away from the user move more slowly than objects closer to the game object.
+The use of 2D sprites, moving at different speeds, to give the impression of 3D movement (where sprites for objects meant to be further away from the user move more slowly than objects closer to the game object.
 
 <!-- ******************************* -->
 ## Platform build
