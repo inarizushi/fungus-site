@@ -1,4 +1,4 @@
-![Fungus Logo](/images/logo_100.png "Fungus")
+[<img src="/images/logo_100.png">](http://fungusgames.com)
 
 # Welcome
 
@@ -16,9 +16,8 @@ Fungus allows you to easily add storytelling features to your Unity games with n
 - 100% free and open source
 
 # Credits
+<a target="_blank" href="https://www.packtpub.com/game-development/unity-5x-cookbook"><img hspace="20" style="float: right" src="./images/B03899_MockupCover_Cookbook.jpg"></a>
 [Dr. Matt Smith] has kindly contributed this documentation to the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is the [Unity 5.x Cookbook], which Matt and co-author [Chico Queiroz] have re-written from scratch for Unity 5 (published by Packt Publishing):
-<br><br>
-[![matt book cover][matt book cover image]][Unity 5.x Cookbook]
 
 Matt is a computing academic, specialising in interactive multimedia systems, including computer games, web applications and mobile apps. He is the main maintainer of the Fungus documentation and is Senior Lecturer in Computing at the Institute of Technology ([ITB]), Blanchardstown, Dublin, Ireland.
 
@@ -42,8 +41,8 @@ The Fungus documentation is licensed under the [Creative Commons Attribution-Non
 
 [FungusGames.com]: http://www.fungusgames.com
 [Trello Roadmap]: https://trello.com/b/d2BRk7ov/fungus-development
-[GitHub Fungus issue]: https://github.com/FungusGames/Fungus/issues
-[GitHub Fungus repo]: https://github.com/FungusGames/Fungus
+[GitHub issue tracker]: https://github.com/FungusGames/Fungus/issues
+[GitHub code repository]: https://github.com/FungusGames/Fungus
 [chris@fungusgames.com]: chris@fungusgames.com
 [Chris Gregan]: http://johnokane.github.io/PressKit/
 [Dr. Matt Smith]: https://github.com/dr-matt-smith/
