@@ -1,4 +1,4 @@
-[<img src="/images/logo_100.png">](http://fungusgames.com)
+[<img src="./images/logo_100.png">](http://fungusgames.com)
 
 # Welcome
 
