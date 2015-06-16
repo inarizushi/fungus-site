@@ -24,7 +24,7 @@ There are four audio related tags:
 	{audiopause=AudioObjectName} Pause Audio
 	{audiostop=AudioObjectName} Stop Audio
 
-For more information see: [Audio Tags recipe](../../audio/#audio-tags-in-say-commands)
+For more information see: [Audio Tags recipe](../../audio/#audio-tags-in-say-commands/index.html)
 
 <!-- ******************************* -->
 ## Audiosource
