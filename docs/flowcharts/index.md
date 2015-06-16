@@ -39,19 +39,19 @@ To create a Fungus Flowchart do the following:
 
 1. Choose menu: ```Tools | Fungus | Create Flowchart```
 <br>
-![menu create Flowchart](./images/008_create_flowchart/1_tools_create.png "menu create Flowchart")
+![menu create Flowchart](./images/005_create_flowchart/1_tools_create.png "menu create Flowchart")
 <br>
 <br>
 
 2. A new **Flowchart** gameObject should appear in the Hierarchy window.
 <br>
-![new Flowchart gameobject](./images/008_create_flowchart/2_flowchart_gameobject.png "new Flowchart gameobject")
+![new Flowchart gameobject](./images/005_create_flowchart/2_flowchart_gameobject.png "new Flowchart gameobject")
 <br>
 <br>
 
 3. Select the **Flowchart** gameObject in the Hierarchy window, and you'll see the **Flowchart's** properties in the Inspector Window:
 <br>
-![Flowchart properties](./images/008_create_flowchart/3_flowchart_properties.png "Flowchart properties")
+![Flowchart properties](./images/005_create_flowchart/3_flowchart_properties.png "Flowchart properties")
 <br>
 <br>
 
