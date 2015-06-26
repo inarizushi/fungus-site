@@ -5,7 +5,7 @@ site_description: Documentation and user guide for Fungus Unity dialog system
 site_favicon: images/favicon.ico
 pages:
 - Home: index.md
-- Recipes: 
+- Recipes:
     - Quickstart: recipes/index.md
     - Next steps: recipes2/index.md
     - Audio: audio/index.md
@@ -27,6 +27,8 @@ pages:
     - Events (Core) Commands: commands/event_handlers/core_events.md
     - Events (Input) Commands: commands/event_handlers/input_events.md
     - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
+- Advanced Reference:
+    - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
 
 theme: readthedocs
 
