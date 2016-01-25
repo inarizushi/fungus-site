@@ -1,5 +1,5 @@
 ## Control Audio
-Plays, loops, or stops an audiosource.
+Plays, loops, or stops an audiosource. Any AudioSources with the same tag as the target Audio Source will automatically be stoped.
 
 Property | Type | Description
  --- | --- | ---
@@ -17,6 +17,8 @@ Property | Type | Description
  --- | --- | ---
 Music Clip | UnityEngine.AudioClip | Music sound clip to play
 At Time | System.Single | Time to begin playing in seconds. If the audio file is compressed, the time index may be inaccurate.
+Loop | System.Boolean | The music will start playing again at end.
+Fade Duration | System.Single | Length of time to fade out previous playing music.
 
 ## Play Sound
 Plays a once-off sound effect. Multiple sound effects can be played at the same time.
@@ -35,6 +37,15 @@ Property | Type | Description
 Parent Transform | UnityEngine.Transform | Transform to use for positional audio
 Settings String | System.String | Settings string which describes the audio
 Wait Duration | System.Single | Time to wait before executing the next command
+
+## Set Audio Pitch
+Sets the global pitch level for audio played with Play Music and Play Sound commands.
+
+Property | Type | Description
+ --- | --- | ---
+Pitch | System.Single | Global pitch level for audio played using the Play Music and Play Sound commands
+Fade Duration | System.Single | Time to fade between current pitch level and target pitch level.
+Wait Until Finished | System.Boolean | Wait until the pitch change has finished before executing next command
 
 ## Set Audio Volume
 Sets the global volume level for audio played with Play Music and Play Sound commands.

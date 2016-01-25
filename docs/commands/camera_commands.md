@@ -20,7 +20,10 @@ Target View | Fungus.View | View to transition to when Fade is complete
 Wait Until Finished | System.Boolean | Wait until the fade has finished before executing next command
 Fade Color | UnityEngine.Color | Color to render fullscreen fade texture with when screen is obscured.
 Fade Texture | UnityEngine.Texture2D | Optional texture to use when rendering the fullscreen fade effect.
+Target Camera | UnityEngine.Camera | Camera to use for the fade. Will use main camera if set to none.
 
+## Fullscreen
+Sets the application to fullscreen, windowed or toggles the current state.
 ## Move To View
 Moves the camera to a location specified by a View object.
 
@@ -29,6 +32,7 @@ Property | Type | Description
 Duration | System.Single | Time for move effect to complete
 Target View | Fungus.View | View to transition to when move is complete
 Wait Until Finished | System.Boolean | Wait until the fade has finished before executing next command
+Target Camera | UnityEngine.Camera | Camera to use for the pan. Will use main camera if set to none.
 
 ## Shake Camera
 Applies a camera shake effect to the main camera.
@@ -48,6 +52,7 @@ View A | Fungus.View | Defines one extreme of the scrollable area that the playe
 View B | Fungus.View | Defines one extreme of the scrollable area that the player can pan around
 Duration | System.Single | Time to move the camera to a valid starting position between the two views
 Speed Multiplier | System.Single | Multiplier factor for speed of swipe pan
+Target Camera | UnityEngine.Camera | Camera to use for the pan. Will use main camera if set to none.
 
 ## Stop Swipe
 Deactivates swipe panning mode.

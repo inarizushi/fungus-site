@@ -30,13 +30,39 @@ Property | Type | Description
  --- | --- | ---
 Target Game Object | UnityEngine.GameObject | Reference to game object to destroy
 
-## Get Text
-Gets the text property from a UI Text object and stores it in a string variable.
+## Invoke Event
+Calls a list of component methods via the Unity Event System (as used in the Unity UI). This command is more efficient than the Invoke Method command but can only pass a single parameter and doesn't support return values.
 
 Property | Type | Description
  --- | --- | ---
-Text Object | UnityEngine.UI.Text | Text object to get text value from
-Variable | Fungus.Variable | String variable to store the text value in
+Delay | System.Single | Delay (in seconds) before the methods will be called
+Static Event | UnityEngine.Events.UnityEvent | List of methods to call. Supports methods with no parameters or exactly one string, int, float or object parameter.
+Boolean Parameter | Fungus.BooleanData | Boolean parameter to pass to the invoked methods.
+Boolean Event | Fungus.InvokeEvent+BooleanEvent | List of methods to call. Supports methods with one boolean parameter.
+Integer Parameter | Fungus.IntegerData | Integer parameter to pass to the invoked methods.
+Integer Event | Fungus.InvokeEvent+IntegerEvent | List of methods to call. Supports methods with one integer parameter.
+Float Parameter | Fungus.FloatData | Float parameter to pass to the invoked methods.
+Float Event | Fungus.InvokeEvent+FloatEvent | List of methods to call. Supports methods with one float parameter.
+String Parameter | Fungus.StringData | String parameter to pass to the invoked methods.
+String Event | Fungus.InvokeEvent+StringEvent | List of methods to call. Supports methods with one string parameter.
+
+## Invoke Method
+Invokes a method of a component via reflection. Supports passing multiple parameters and storing returned values in a Fungus variable.
+
+Property | Type | Description
+ --- | --- | ---
+Target Object | UnityEngine.GameObject | GameObject containing the component method to be invoked
+Target Component Assembly Name | System.String | Name of assembly containing the target component
+Target Component Fullname | System.String | Full name of the target component
+Target Component Text | System.String | Display name of the target component
+Target Method | System.String | Name of target method to invoke on the target component
+Target Method Text | System.String | Display name of target method to invoke on the target component
+Method Parameters | Fungus.InvokeMethodParameter[] | List of parameters to pass to the invoked method
+Save Return Value | System.Boolean | If true, store the return value in a flowchart variable of the same type.
+Return Value Variable Key | System.String | Name of Fungus variable to store the return value in
+Return Value Type | System.String | The type of the return value
+Show Inherited | System.Boolean | If true, list all inherited methods for the component
+Call Mode | Fungus.Call+CallMode | The coroutine call behavior for methods that return IEnumerator
 
 ## Set Active
 Sets a game object in the scene to be active / inactive.
@@ -45,14 +71,6 @@ Property | Type | Description
  --- | --- | ---
 Target Game Object | UnityEngine.GameObject | Reference to game object to enable / disable
 Active State | Fungus.BooleanData | Set to true to enable the game object
-
-## Set Text
-Sets the text property on a UI Text object.
-
-Property | Type | Description
- --- | --- | ---
-Text Object | UnityEngine.UI.Text | Text object to set text on
-String Data | Fungus.StringData | String value to assign to the text object
 
 ## Spawn Object
 Spawns a new object based on a reference to a scene or prefab game object.

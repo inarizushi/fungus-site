@@ -11,6 +11,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Look To
@@ -26,6 +27,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Move Add
@@ -40,6 +42,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Move From
@@ -55,6 +58,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Move To
@@ -70,6 +74,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Punch Position
@@ -84,6 +89,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Punch Rotation
@@ -98,6 +104,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Punch Scale
@@ -111,6 +118,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Rotate Add
@@ -125,6 +133,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Rotate From
@@ -140,6 +149,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Rotate To
@@ -155,6 +165,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Scale Add
@@ -168,6 +179,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Scale From
@@ -182,6 +194,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Scale To
@@ -196,6 +209,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Shake Position
@@ -211,6 +225,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Shake Rotation
@@ -225,6 +240,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Shake Scale
@@ -238,6 +254,7 @@ Tween Name | System.String | An individual name useful for stopping iTweens by n
 Duration | System.Single | The time in seconds the animation will take to complete
 Ease Type | Fungus.iTween+EaseType | The shape of the easing curve applied to the animation
 Loop Type | Fungus.iTween+LoopType | The type of loop to apply once the animation has completed
+Stop Previous Tweens | System.Boolean | Stop any previously added iTweens on this object before adding this iTween
 Wait Until Finished | System.Boolean | Wait until the tween has finished before executing the next command
 
 ## Stop Tween

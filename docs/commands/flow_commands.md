@@ -59,6 +59,8 @@ Property | Type | Description
 Scene Name | System.String | Name of the scene to load. The scene must also be added to the build settings.
 Loading Image | UnityEngine.Texture2D | Image to display while loading the scene
 
+## Quit
+Quits the application. Does not work in Editor or Webplayer builds. Shouldn't generally be used on iOS.
 ## Send Message
 Sends a message to either the owner Flowchart or all Flowcharts in the scene. Blocks can listen for this message using a Message Received event handler.
 
@@ -68,13 +70,28 @@ Message Target | Fungus.SendMessage+MessageTarget | Target flowchart(s) to send 
 Message | System.String | Name of the message to send
 
 ## Stop
-Stop executing the current Flowchart.
+Stop executing the Block that contains this command.
+## Stop Flowchart
+Stops execution of all Blocks in a Flowchart
+
+Property | Type | Description
+ --- | --- | ---
+Stop Parent Flowchart | System.Boolean | Stop all executing Blocks in the Flowchart that contains this command
+Target Flowcharts | System.Collections.Generic.List`1[Fungus.Flowchart] | Stop all executing Blocks in a list of target Flowcharts
+
 ## Wait
 Waits for period of time before executing the next command in the block.
 
 Property | Type | Description
  --- | --- | ---
 Duration | System.Single | Duration to wait for
+
+## WaitInput
+Waits for a period of time or for player input before executing the next command in the block.
+
+Property | Type | Description
+ --- | --- | ---
+Duration | System.Single | Duration to wait for. If negative will wait until player input occurs.
 
 ## While
 Continuously loop through a block of commands while the condition is true. Use the Break command to force the loop to terminate immediately.

@@ -31,6 +31,14 @@ Variable | Fungus.IntegerVariable | The variable whos value will be set
 Min Value | Fungus.IntegerData | Minimum value for random range
 Max Value | Fungus.IntegerData | Maximum value for random range
 
+## Read Text File
+Reads in a text file and stores the contents in a string variable
+
+Property | Type | Description
+ --- | --- | ---
+Text File | UnityEngine.TextAsset | Text file to read into the string variable
+String Variable | Fungus.StringVariable | String variable to store the tex file contents in
+
 ## Reset
 Resets the state of all commands and variables in the Flowchart.
 

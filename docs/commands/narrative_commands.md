@@ -1,3 +1,10 @@
+## Clear Menu
+Clears the options from a menu dialogue
+
+Property | Type | Description
+ --- | --- | ---
+Menu Dialog | Fungus.MenuDialog | Menu Dialog to clear the options on
+
 ## Control Stage
 Controls the stage on which character portraits are displayed.
 
@@ -19,6 +26,7 @@ Text | System.String | Text to display on the menu button
 Description | System.String | Notes about the option text for other authors, localization, etc.
 Target Block | Fungus.Block | Block to execute when this option is selected
 Hide If Visited | System.Boolean | Hide this option if the target block has been executed previously
+Interactable | Fungus.BooleanData | If false, the menu option will be displayed but will not be selectable
 Set Menu Dialog | Fungus.MenuDialog | A custom Menu Dialog to use to display this menu. All subsequent Menu commands will use this dialog.
 
 ## Menu Timer
@@ -45,7 +53,7 @@ To Position | UnityEngine.RectTransform | Move the portrait to this positoin
 Facing | Fungus.FacingDirection | Direction character is facing
 Use Default Settings | System.Boolean | Use Default Settings
 Fade Duration | System.Single | Fade Duration
-Move Speed | System.Single | Movement Speed
+Move Duration | System.Single | Movement Duration
 Shift Offset | UnityEngine.Vector2 | Shift Offset
 Move | System.Boolean | Move
 Shift Into Place | System.Boolean | Start from offset
@@ -63,9 +71,8 @@ Voice Over Clip | UnityEngine.AudioClip | Voiceover audio to play when writing t
 Show Always | System.Boolean | Always show this Say text when the command is executed multiple times
 Show Count | System.Int32 | Number of times to show this Say text when the command is executed multiple times
 Extend Previous | System.Boolean | Type this text in the previous dialog box.
-Fade In | System.Boolean | Fade in this dialog box.
-Fade Out | System.Boolean | Fade out this dialog box.
-Wait For Click | System.Boolean | Wait for player to click before hiding the dialog and continuing. If false then the dialog will display and execution will continue immediately.
+Fade When Done | System.Boolean | Fade out the dialog box when writing has finished and not waiting for input.
+Wait For Click | System.Boolean | Wait for player to click before continuing.
 Set Say Dialog | Fungus.SayDialog | Sets the active Say dialog with a reference to a Say Dialog object in the scene. All story text will now display using this Say Dialog.
 
 ## Set Language
