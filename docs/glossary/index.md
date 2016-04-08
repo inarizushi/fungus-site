@@ -1,8 +1,10 @@
+# Glossary of terms
+
 <!-- ------------------------ -->
 <!-- ---------- A ----------- -->
 <!-- ------------------------ -->
 
-# A
+## A
 
 **Animator parameter**: 
 Special variables that can be used to change what happens in an animation chart, such as when to trigger a chance from one animation state to another.
@@ -34,7 +36,7 @@ A special component of Unity objects that can refer to a particular audio clip f
 <!-- ---------- B ----------- -->
 <!-- ------------------------ -->
 
-# B
+## B
 
 <!-- ******************************* -->
 **Block**:
@@ -88,7 +90,7 @@ Build settings include the target platform, screen resolution, input devices, sc
 <!-- ---------- C ----------- -->
 <!-- ------------------------ -->
 
-# C
+## C
 
 
 <!-- ******************************* -->
@@ -140,7 +142,7 @@ For example, say you have a custom string called "PlayerName", you can put {$Pla
 <!-- ---------- D ----------- -->
 <!-- ------------------------ -->
 
-# D
+## D
 
 <!-- ******************************* -->
 **Draggable Sprite**:
@@ -154,7 +156,7 @@ A 2D image that has been defined to execute some action(s) if a Draggable Sprite
 <!-- ---------- E ----------- -->
 <!-- ------------------------ -->
 
-# E
+## E
 
 <!-- ****************************** -->
 **Editor**:
@@ -187,7 +189,7 @@ The running of Commands or statements in a computer script / program. Making the
 <!-- ---------- F ----------- -->
 <!-- ------------------------ -->
 
-# F
+## F
 
 <!-- ******************************* -->
 **Float variable**:
@@ -224,7 +226,7 @@ A special window available in the Unity Editor for editing and working with Fung
 <!-- ---------- I ----------- -->
 <!-- ------------------------ -->
 
-# I
+## I
 
 <!-- ******************************* -->
 **Integer variable**:
@@ -234,7 +236,7 @@ A variable that stores whole numbers, such as 100, 2, 0, -2 etc.
 <!-- ---------- L ----------- -->
 <!-- ------------------------ -->
 
-# L
+## L
 
 <!-- ******************************* -->
 **Landscape orientation**:
@@ -265,7 +267,7 @@ The  ```Scripting | Debug Log``` Command allows the writing ('logging') of messa
 <!-- ---------- M ----------- -->
 <!-- ------------------------ -->
 
-# M
+## M
 
 <!-- ******************************* -->
 **Mecanim Animation**:
@@ -287,7 +289,7 @@ Fungus provides a default Menu Dialog, but custom variations can be defined, for
 <!-- ---------- O ----------- -->
 <!-- ------------------------ -->
 
-# O
+## O
 
 <!-- ******************************* -->
 **Order in layer**:
@@ -299,7 +301,7 @@ If multiple objects have been assigned to the same Unity Sorting Layer, then the
 <!-- ---------- P ----------- -->
 <!-- ------------------------ -->
 
-# P
+##P
 
 <!-- ******************************* -->
 **Parallax Sprite**:
@@ -329,7 +331,7 @@ A Private variable as one that can only be accessed by Cmmands in Blocks in that
 <!-- ---------- S ----------- -->
 <!-- ------------------------ -->
 
-# S
+## S
 
 
 
@@ -428,7 +430,7 @@ A variable that stores text characters, such as the player's name, or colour of 
 <!-- ---------- T ----------- -->
 <!-- ------------------------ -->
 
-# T
+## T
 
 <!-- ******************************* -->
 **Tag**:
@@ -439,7 +441,7 @@ Special characters that can be inserted into Fungus Say Commands, to control oth
 <!-- ---------- U ----------- -->
 <!-- ------------------------ -->
 
-# U
+## U
 
 <!-- ****************************** -->
 **Unity**:
@@ -460,7 +462,7 @@ Built into Fungus and based on the open source project at: [Usfxr at GitHub]
 <!-- ---------- V ----------- -->
 <!-- ------------------------ -->
 
-# V
+## V
 
 <!-- ******************************* -->
 **Variable**:
@@ -503,7 +505,7 @@ A sound clip file containing recorded audio that corresponds to text being displ
 <!-- ---------- W ----------- -->
 <!-- ------------------------ -->
 
-# W
+## W
 
 <!-- ******************************* -->
 **Webplayer**:

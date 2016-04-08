@@ -1,5 +1,5 @@
 # TL;DR  
-Be nice to each other.
+Be nice to each other :)
 
 # Code of conduct
 We want an open and respectful community at Fungus. So we would ask you when communicating (for example, posting on our Forums, Comments or github repository ) to be friendly and helpful. We find, for most people, this is not a problem. Our list of guidelines below is not exhaustive but should give a strong indication of what we consider acceptable community behaviour.

@@ -16,6 +16,7 @@ pages:
     - Playing Audio: playing_audio/index.md
     - Glossary: glossary/index.md
     - FAQ: faq/index.md
+    - Code of Conduct: conduct/index.md
 #    - Community Articles
 - Reference:
     - Animation Commands: commands/animation_commands.md
@@ -31,9 +32,7 @@ pages:
     - Events (Input) Commands: commands/event_handlers/input_events.md
     - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
     - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
-- Forum: 
-    - Fungus Forum: forum/index.md
-    - Code of Conduct: conduct/index.md
+- Forum: forum/index.md
 
 theme: spacelab
 

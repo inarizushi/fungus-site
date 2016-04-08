@@ -1,6 +1,6 @@
-# Audio in Fungus games
+# Playing Audio
 
-Almost every game benefits from some sound! Often we categories audio clips into three kinds:
+Almost every game benefits from some sound! Often we categorise audio clips into three kinds:
 
 1. Music
 1. Sound effects

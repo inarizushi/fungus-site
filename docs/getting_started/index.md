@@ -1,4 +1,6 @@
-Follow these steps to get up and started with Fungus quickly. Then learn more about what Fungus can do and how to do it from the other documentation pages and videos.
+# Getting Started
+
+Follow these steps to get up and running with Fungus quickly, then learn more about what Fungus can do and how to do it from the other documentation pages and videos.
 
 <!-- **************************************************** -->
 ## Opening and docking the Flowchart window

@@ -1,4 +1,6 @@
-Having got up and running, here are some next steps to get to know what you can do with Fungus.
+# Telling a story
+
+Having got up and running, here are some next steps to get you familiar with the storytelling features in Fungus.
 
 <!-- **************************************** -->
 ## Adding Characters, for use in Say commands

@@ -1,4 +1,4 @@
-# Fungus Fundamentals - Blocks
+# Blocks
 A fundamental concept of Fungus is the **Block**. Blocks contain your Fungus Commands, and reside inside Flowcharts.
 
 <!-- **************************************************** -->

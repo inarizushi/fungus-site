@@ -1,57 +1,38 @@
 This page desribes how to download and install Unity and Fungus.
 
-## Download links
+# Download links
 
 - Fungus on the [Unity Asset Store](http://u3d.as/f0T)
 - Latest Fungus release on [Github](https://github.com/FungusGames/Fungus/releases/latest)
-- Unity installer [Unity3D.com/get-unity]
+- Unity installer on [Unity3D.com](http://unity3D.com/get-unity)
 
-<!-- **************************************************** -->
-## Installing Unity
-- Download and install the latest version of Unity from the [Unity3D.com/get-unity] website.
+# Installation tutorial
 
-<!-- **************************************************** -->
-## Installing from Unity Asset store
-Follow these steps to quickly install Fungus for a Unity project via the Unity Asset Store:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BQRdRz9Q5VY" frameborder="0" allowfullscreen></iframe>
 
-- Create a new Unity 2D project.
-- Open the Asset Store window.
-- Navigate to: ```Editor Extensions | Game Toolkis | Visual Novels``` (or search for Fungus!).
+# How do I install Fungus?
 
-![Fungus asset store](./images/001_install/0_asset_store.png "Fungus asset store")
+1. Install the latest version of [Unity](http://unity3D.com/get-unity).
+2. Download the latest Fungus .unitypackage using one of the links above.
+3. Launch Unity and create a new Project by selecting File > New Project.
+4. Select 'Use Defaults for 2D' when creating the new project.
+5. Note: Fungus can easily be used for 3D games, but our examples are primarily in 2D.
+6. Import Fungus into the new project by selecting Assets > Import Package > Custom Package.
+7. Display the Flowchart editor window by selecting Window > Tools > Fungus > Flowchart Window.
+8. For convenience, you should dock the Flowchart window somewhere in the editor window.
 
-- On the Fungus details page click the Import button, (the first time you download Fungus you'll be asked to agree to the MIT open source licence):
+You are now ready to use Fungus. To start with, try playing the example scenes and watch how the gameplay is controlled by the flowchart in the Fungus Script window.
 
-![Fungus package contents](./images/001_install/6_asset_store_details.png "Fungus package contents")
+- In the project window, open The Hunter example scene (FungusExamples > TheHunter > TheHunter.unity). 
+- Press play and click through the example game.
 
-- Choose to import all contents from this package.
+# How do I upgrade an existing Fungus project ?
 
-![Fungus package contents](./images/001_install/5_assetstore_package.png "Fungus package contents")
+To upgrade an existing project to the latest version of Fungus.
 
-- You should now see a Fungus folder in your Project panel, containing both the Fungus flowcharting features themselves, as well as some sample scenes to get you started:
+1. Take a backup of your project. No really, do it!
+2. Update to the latest version of [Unity](http://unity3D.com/get-unity).
+3. Delete the Fungus and FungusExamples folders from your project.
+4. Download and import the latest version of Fungus.
 
-![Fungus resources in Unity Project window](./images/001_install/3_fungusproject.png "Fungus resources in Unity Project window")
-
-<!-- **************************************************** -->
-## Installing from Fungus package
-Follow these steps to quickly install Fungus for a Unity project:
-
-- Download the latest release of the Fungus unitypackage from [Github](https://github.com/FungusGames/Fungus/releases/latest).
-- Create a new Unity 2D project.
-- Import the Fungus unitypackage by choosing menu: ``Assets | Import Package | Custom Package...``, and then navigating to your downloaded file location.
-
-![Import unity custom package](./images/001_install/1_unityimport.png "Import unity custom package")
-![Downloads folder](./images/001_install/4_downloads.png "Downloads folder")
-
-- Choose to import all contents from this package.
-
-![Fungus package contents](./images/001_install/2_packagecontents.png "Fungus package contents")
-
-- You should now see a Fungus folder in your Project panel, containing both the Fungus flowcharting features themselves, as well as some sample scenes to get you started:
-
-![Fungus resources in Unity Project window](./images/001_install/3_fungusproject.png "Fungus resources in Unity Project window")
-
-[Unity3D.com]: http://www.unity3d.com
-[Unity3D.com/get-unity]: http://unity3d.com/get-unity
-[FungusGames.com]: http://www.fungusgames.com
-
+We try to maintain backwards compatibility between releases but sometimes breaking changes are necessary. If you're having trouble upgrading your project just ask for assistance on the forum.

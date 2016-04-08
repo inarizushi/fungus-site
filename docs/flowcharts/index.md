@@ -1,5 +1,5 @@
-# Fungus Fundamentals - Flowcharts
-A fundamental concept of Fungus is the **Flowchart**. Scenes can contain a single Flowchart, or multiple Flowcharts.
+# Flowcharts
+A fundamental concept of Fungus is the **Flowchart**. Scenes can contain a single Flowchart or multiple Flowcharts.
 
 <!-- **************************************************** -->
 ## What is a Flowchart?
