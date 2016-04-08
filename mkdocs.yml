@@ -14,7 +14,7 @@ pages:
     - Blocks: blocks/index.md
     - Telling a Story: telling_a_story/index.md
     - Playing Audio: playing_audio/index.md
-    - Glossary: glossary/glossary.md
+    - Glossary: glossary/index.md
     - FAQ: faq/index.md
 #    - Community Articles
 - Reference:
