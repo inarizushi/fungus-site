@@ -5,7 +5,9 @@ site_description: Documentation and user guide for Fungus Unity dialog system
 site_favicon: images/favicon.ico
 pages:
 - Home: index.md
-- Documentation:
+- Docs:
+    - Tutorial Videos: videos/tutorial_videos.md
+    - Fungus Training Course: training/index.md
     - Download and Install: download/index.md
     - Quickstart: recipes/index.md
     - Flowcharts: flowcharts/index.md
@@ -13,26 +15,23 @@ pages:
     - Telling a Story: recipes2/index.md
     - Playing Audio: audio/index.md
     - Glossary: glossary/glossary.md
-    - Command Reference:
-        - Animation Commands: commands/animation_commands.md
-        - Audio Commands: commands/audio_commands.md
-        - Camera Commands: commands/camera_commands.md
-        - Flow Commands: commands/flow_commands.md
-        - iTween Commands: commands/itween_commands.md
-        - Narrative Commands: commands/narrative_commands.md
-        - Scripting Commands: commands/scripting_commands.md
-        - Sprite Commands: commands/sprite_commands.md
-        - Variable Commands: commands/variable_commands.md
-        - Events (Core) Commands: commands/event_handlers/core_events.md
-        - Events (Input) Commands: commands/event_handlers/input_events.md
-        - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
-        - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
     - FAQ: faq/index.md
-- Tutorial Videos: videos/tutorial_videos.md
-- More Resources:
-    - Fungus Training Course: training/index.md
 #    - Community Articles
+- Reference:
+    - Animation Commands: commands/animation_commands.md
+    - Audio Commands: commands/audio_commands.md
+    - Camera Commands: commands/camera_commands.md
+    - Flow Commands: commands/flow_commands.md
+    - iTween Commands: commands/itween_commands.md
+    - Narrative Commands: commands/narrative_commands.md
+    - Scripting Commands: commands/scripting_commands.md
+    - Sprite Commands: commands/sprite_commands.md
+    - Variable Commands: commands/variable_commands.md
+    - Events (Core) Commands: commands/event_handlers/core_events.md
+    - Events (Input) Commands: commands/event_handlers/input_events.md
+    - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
+    - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
 
-theme: mkdocs
+theme: spacelab
 
 
