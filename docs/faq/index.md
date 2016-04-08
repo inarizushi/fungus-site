@@ -27,7 +27,7 @@ Yes. Fungus provides an easy way to add visual novel features to any Unity game.
 ## Where can I learn more about Fungus ?
 We provide extensive tutorials and documentation on our website here. There is also a comprehensive online training course suitable for beginners at Udemy.
 
-## I've made something cool with Fungus. Are you interested ?
+## I've made something cool with Fungus. Wanna see?
 Most definitely! Please tweet @gofungus and/or post an item in the announcements section of our forum.
 
 ## How can I upload my Fungus game for others to see?

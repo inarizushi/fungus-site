@@ -4,11 +4,11 @@ site_url: http://fungusgames.com
 site_description: Documentation and user guide for Fungus Unity dialog system
 site_favicon: images/favicon.ico
 pages:
-- Home: index.md
+- About: index.md
+- Download: download/index.md
 - Docs:
-    - Tutorial Videos: videos/tutorial_videos.md
+    - Tutorial Videos: videos/index.md
     - Fungus Training Course: training/index.md
-    - Download and Install: download/index.md
     - Quickstart: recipes/index.md
     - Flowcharts: flowcharts/index.md
     - Blocks: blocks/index.md
@@ -31,6 +31,9 @@ pages:
     - Events (Input) Commands: commands/event_handlers/input_events.md
     - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
     - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
+- Forum: 
+    - Fungus Forum: forum/index.md
+    - Code of Conduct: conduct/index.md
 
 theme: spacelab
 
