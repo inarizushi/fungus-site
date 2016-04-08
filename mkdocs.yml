@@ -8,8 +8,8 @@ pages:
 - Documentation:
     - Download and Install: download/index.md
     - Quickstart: recipes/index.md
-    - All about Flowcharts: flowcharts/index.md
-    - Understanding Blocks: blocks/index.md
+    - Flowcharts: flowcharts/index.md
+    - Blocks: blocks/index.md
     - Telling a Story: recipes2/index.md
     - Playing Audio: audio/index.md
     - Glossary: glossary/glossary.md
