@@ -7,13 +7,13 @@ pages:
 - About: index.md
 - Download: download/index.md
 - Docs:
-    - Tutorial Videos: videos/index.md
-    - Fungus Training Course: training/index.md
-    - Quickstart: recipes/index.md
+    - Tutorial Videos: tutorial_videos/index.md
+    - Training Course: training_course/index.md
+    - Getting Started: getting_started/index.md
     - Flowcharts: flowcharts/index.md
     - Blocks: blocks/index.md
-    - Telling a Story: recipes2/index.md
-    - Playing Audio: audio/index.md
+    - Telling a Story: telling_a_story/index.md
+    - Playing Audio: playing_audio/index.md
     - Glossary: glossary/glossary.md
     - FAQ: faq/index.md
 #    - Community Articles
