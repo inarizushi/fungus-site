@@ -1,6 +1,11 @@
 # Community Articles
 
-If you've created an article or video about Fungus let us know on the forum and we'll add it here.
+If you've created an article, podcast, video, wooly jumper etc. about Fungus let us know on the forum and we'll add it here.
+
+## Podcasts
+
+- [Two and a Half D: the Unity Game Dev Podcast](https://itunes.apple.com/us/podcast/two-half-d-unity-game-dev/id985838545)
+- [Controller Unplugged](http://controllerunplugged.podomatic.com/entry/2015-07-20T11_01_06-07_00)
 
 ## David Sherlock
 
