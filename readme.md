@@ -3,7 +3,7 @@
 # Fungus Site
 
 Fungus is an easy to use Unity 3D library for creating illustrated Interactive Fiction games. This repository contains the source code for the Fungus website and documentation.
-The Fungus source code is available from this [github repository](http://github.com/FungusGames/Fungus).
+The Fungus source code is available from this [github repository](http://github.com/snozbot/fungus).
 
 - Author: Chris Gregan
 - Website: [fungusgames.com](fungusgames.com)
@@ -16,7 +16,7 @@ The Fungus source code is available from this [github repository](http://github.
 The Fungus website and documentation use the [MkDocs](http://www.mkdocs.org) system to generate the static website files. To build this website locally.
 
 1. Install [MkDocs](http://www.mkdocs.org)
-2. Check out or download the [fungus-site repository](https://github.com/FungusGames/fungus-site) to your computer.
+2. Check out or download the [fungus-site repository](https://github.com/snozbot/fungus-site) to your computer.
 3. From a terminal, cd to the docs directory.
 4. Use 'MkDocs build -- clean' to build the website files.
 5. Open site/index.html in any browser to view the website.
