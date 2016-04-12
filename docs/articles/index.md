@@ -22,6 +22,14 @@ If you've created an article, podcast, video, wooly jumper etc. about Fungus let
 
 - [Fungus Research Week 1](http://leahlee.studio/fungus-research-week-1)
 
+## Ryan Hill
+
+[http://horriblepain.com](http://horriblepain.com/)
+
+- [Fungus Animation In Unity](http://horriblepain.com/2016/02/fungus-animation-in-unity)
+- [Arbitrary Buttons In Fungus](http://horriblepain.com/2016/02/arbitrary-buttons-in-fungus)
+- [Yet Another Thing For Fungus](http://horriblepain.com/2016/02/yet-another-thing-for-fungus)
+
 ## Konrad Gadzina
 
 - [Visual scripting w Unity (Polish)](https://www.youtube.com/watch?v=sXRt7pKT4ls&feature=youtu.be)
