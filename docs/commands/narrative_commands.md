@@ -34,7 +34,7 @@ Displays a timer bar and executes a target block if the player fails to select a
 
 Property | Type | Description
  --- | --- | ---
-Duration | System.Single | Length of time to display the timer for
+_duration | Fungus.FloatData | Length of time to display the timer for
 Target Block | Fungus.Block | Block to execute when the timer expires
 
 ## Portrait
@@ -73,6 +73,7 @@ Show Count | System.Int32 | Number of times to show this Say text when the comma
 Extend Previous | System.Boolean | Type this text in the previous dialog box.
 Fade When Done | System.Boolean | Fade out the dialog box when writing has finished and not waiting for input.
 Wait For Click | System.Boolean | Wait for player to click before continuing.
+Stop Voiceover | System.Boolean | Stop playing voiceover when text finishes writing.
 Set Say Dialog | Fungus.SayDialog | Sets the active Say dialog with a reference to a Say Dialog object in the scene. All story text will now display using this Say Dialog.
 
 ## Set Language
@@ -80,7 +81,7 @@ Set the active language for the scene. A Localization object with a localization
 
 Property | Type | Description
  --- | --- | ---
-Language Code | System.String | Code of the language to set. e.g. ES, DE, JA
+_language Code | Fungus.StringData | Code of the language to set. e.g. ES, DE, JA
 
 ## Set Menu Dialog
 Sets a custom menu dialog to use when displaying multiple choice menus

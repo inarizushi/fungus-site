@@ -56,7 +56,7 @@ Loads a new Unity scene and displays an optional loading image. This is useful f
 
 Property | Type | Description
  --- | --- | ---
-Scene Name | System.String | Name of the scene to load. The scene must also be added to the build settings.
+_scene Name | Fungus.StringData | Name of the scene to load. The scene must also be added to the build settings.
 Loading Image | UnityEngine.Texture2D | Image to display while loading the scene
 
 ## Quit
@@ -67,7 +67,7 @@ Sends a message to either the owner Flowchart or all Flowcharts in the scene. Bl
 Property | Type | Description
  --- | --- | ---
 Message Target | Fungus.SendMessage+MessageTarget | Target flowchart(s) to send the message to
-Message | System.String | Name of the message to send
+_message | Fungus.StringData | Name of the message to send
 
 ## Stop
 Stop executing the Block that contains this command.
@@ -84,7 +84,7 @@ Waits for period of time before executing the next command in the block.
 
 Property | Type | Description
  --- | --- | ---
-Duration | System.Single | Duration to wait for
+_duration | Fungus.FloatData | Duration to wait for
 
 ## WaitInput
 Waits for a period of time or for player input before executing the next command in the block.

@@ -4,7 +4,7 @@ Plays, loops, or stops an audiosource. Any AudioSources with the same tag as the
 Property | Type | Description
  --- | --- | ---
 Control | Fungus.ControlAudio+controlType | What to do to audio
-Audio Source | UnityEngine.AudioSource | Audio clip to play
+_audio Source | Fungus.AudioSourceData | Audio clip to play
 Start Volume | System.Single | Start audio at this volume
 End Volume | System.Single | End audio at this volume
 Fade Duration | System.Single | Time to fade between current volume level and target volume level.
@@ -35,7 +35,7 @@ Plays a usfxr synth sound. Use the usfxr editor [Tools > Fungus > Utilities > Ge
 Property | Type | Description
  --- | --- | ---
 Parent Transform | UnityEngine.Transform | Transform to use for positional audio
-Settings String | System.String | Settings string which describes the audio
+_ Settings String | Fungus.StringData | Settings string which describes the audio
 Wait Duration | System.Single | Time to wait before executing the next command
 
 ## Set Audio Pitch

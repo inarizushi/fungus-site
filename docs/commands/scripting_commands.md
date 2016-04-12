@@ -28,7 +28,18 @@ Destroys a specified game object in the scene.
 
 Property | Type | Description
  --- | --- | ---
-Target Game Object | UnityEngine.GameObject | Reference to game object to destroy
+_target Game Object | Fungus.GameObjectData | Reference to game object to destroy
+
+## Execute Lua
+Executes a Lua code chunk using a Lua Environment.
+
+Property | Type | Description
+ --- | --- | ---
+Lua Environment | Fungus.LuaEnvironment | Lua Environment to use to execute this Lua script
+Lua Script | System.String | Lua script to execute. Use {$VarName} to insert a Flowchart variable in the Lua script.
+Run As Coroutine | System.Boolean | Execute this Lua script as a Lua coroutine
+Wait Until Finished | System.Boolean | Pause command execution until the Lua script has finished execution
+Return Variable | Fungus.Variable | A Flowchart variable to store the returned value in.
 
 ## Invoke Event
 Calls a list of component methods via the Unity Event System (as used in the Unity UI). This command is more efficient than the Invoke Method command but can only pass a single parameter and doesn't support return values.
@@ -64,12 +75,19 @@ Return Value Type | System.String | The type of the return value
 Show Inherited | System.Boolean | If true, list all inherited methods for the component
 Call Mode | Fungus.Call+CallMode | The coroutine call behavior for methods that return IEnumerator
 
+## Open URL
+Opens the specified URL in the browser.
+
+Property | Type | Description
+ --- | --- | ---
+Url | Fungus.StringData | URL to open in the browser
+
 ## Set Active
 Sets a game object in the scene to be active / inactive.
 
 Property | Type | Description
  --- | --- | ---
-Target Game Object | UnityEngine.GameObject | Reference to game object to enable / disable
+_target Game Object | Fungus.GameObjectData | Reference to game object to enable / disable
 Active State | Fungus.BooleanData | Set to true to enable the game object
 
 ## Spawn Object
@@ -77,8 +95,8 @@ Spawns a new object based on a reference to a scene or prefab game object.
 
 Property | Type | Description
  --- | --- | ---
-Source Object | UnityEngine.GameObject | Game object to copy when spawning. Can be a scene object or a prefab.
-Parent Transform | UnityEngine.Transform | Transform to use for position of newly spawned object.
-Spawn Position | UnityEngine.Vector3 | Local position of newly spawned object.
-Spawn Rotation | UnityEngine.Vector3 | Local rotation of newly spawned object.
+_source Object | Fungus.GameObjectData | Game object to copy when spawning. Can be a scene object or a prefab.
+_parent Transform | Fungus.TransformData | Transform to use for position of newly spawned object.
+_spawn Position | Fungus.Vector3Data | Local position of newly spawned object.
+_spawn Rotation | Fungus.Vector3Data | Local rotation of newly spawned object.
 
