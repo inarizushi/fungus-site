@@ -7,7 +7,7 @@ google_analytics: ['UA-70024522-1', 'auto']
 pages:
 - About: index.md
 - Download: download/index.md
-- Docs:
+- Learn:
     - Tutorial Videos: tutorial_videos/index.md
     - Training Course: training_course/index.md
     - Getting Started: getting_started/index.md
@@ -15,27 +15,28 @@ pages:
     - Blocks: blocks/index.md
     - Telling a Story: telling_a_story/index.md
     - Playing Audio: playing_audio/index.md
+    - Community Articles: articles/index.md
     - Glossary: glossary/index.md
     - FAQ: faq/index.md
-    - Community Articles: articles/index.md
+    - Reference:
+        - Animation Commands: commands/animation_commands.md
+        - Audio Commands: commands/audio_commands.md
+        - Camera Commands: commands/camera_commands.md
+        - Flow Commands: commands/flow_commands.md
+        - iTween Commands: commands/itween_commands.md
+        - Narrative Commands: commands/narrative_commands.md
+        - Scripting Commands: commands/scripting_commands.md
+        - Sprite Commands: commands/sprite_commands.md
+        - Variable Commands: commands/variable_commands.md
+        - Events (Core) Commands: commands/event_handlers/core_events.md
+        - Events (Input) Commands: commands/event_handlers/input_events.md
+        - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
+        - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
     - Code of Conduct: conduct/index.md
-#    - Community Articles
-- Reference:
-    - Animation Commands: commands/animation_commands.md
-    - Audio Commands: commands/audio_commands.md
-    - Camera Commands: commands/camera_commands.md
-    - Flow Commands: commands/flow_commands.md
-    - iTween Commands: commands/itween_commands.md
-    - Narrative Commands: commands/narrative_commands.md
-    - Scripting Commands: commands/scripting_commands.md
-    - Sprite Commands: commands/sprite_commands.md
-    - Variable Commands: commands/variable_commands.md
-    - Events (Core) Commands: commands/event_handlers/core_events.md
-    - Events (Input) Commands: commands/event_handlers/input_events.md
-    - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
-    - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
+    #    - Community Articles
 - Forum: forum/index.md
 
+theme_dir: 'custom_theme'
 theme: spacelab
 
 
