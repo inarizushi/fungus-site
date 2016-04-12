@@ -8,10 +8,10 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<a target="_blank" href="http://u3d.as/f0T"><img style="margin: 0px auto;display:block" hspace="20" src="./images/logo_mid.png"></a>
+<!--<a target="_blank" href="http://u3d.as/f0T"><img style="margin: 0px auto;display:block" hspace="20" src="./images/logo_mid.png"></a>-->
 
 <div class="alert alert-info" role="alert">
-Fungus make it easy to add colourful characters and craft gripping storylines in your game, even if you have never used <a href="http://unity3d.com" targer="_blank">Unity</a> before. Our intuitive interface lets everyone create beautiful story games easily - <b>for free and with no coding</b>!
+Fungus makes it easy to add colourful characters and craft gripping storylines in your game, even if you have never used <a href="http://unity3d.com" targer="_blank">Unity</a> before. Our intuitive interface lets everyone create beautiful story games easily - <b>for free and with no coding</b>!
 </div>
 
 <a href="https://twitter.com/gofungus" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @gofungus</a>
@@ -40,6 +40,10 @@ The Fungus community is very welcoming and helpful to newcomers. Many people usi
 
 ## Features
 
+<div align="center" style="float:right;">
+<iframe width="400" height="225" src="https://youtube.com/embed/kP767dFQaCU?t=5m20s" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Fungus allows you to easily add storytelling features to your Unity games with no coding, via an intuitive visual scripting system.
 
 - Suitable for making visual novels, RPGs, hidden object, puzzle and interactive fiction games.
@@ -50,10 +54,6 @@ Fungus allows you to easily add storytelling features to your Unity games with n
 - Integrates easily with other Unity code and simple to extend.
 - Powerful Lua scripting support for more experienced users
 - 100% free and open source
-
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kP767dFQaCU" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ## Contribute
 
