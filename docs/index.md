@@ -67,9 +67,7 @@ We welcome all sorts of contributions to Fungus. You can report bugs, suggest ne
 [Chris Gregan] is the main author and maintainer of Fungus. He's co-founder of [Snozbot], along with [John O' Kane] and [Ronan Pearce].
 
 <a target="_blank" href="https://www.packtpub.com/game-development/unity-5x-cookbook"><img hspace="20" style="float: right" src="./images/B03899_MockupCover_Cookbook.jpg"></a>
-[Dr. Matt Smith] has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is the [Unity 5.x Cookbook], which Matt and co-author [Chico Queiroz] have re-written from scratch for Unity 5 (published by Packt Publishing):
-
-Matt is a computing academic, specialising in interactive multimedia systems, including computer games, web applications and mobile apps. He is the main maintainer of the Fungus documentation and is Senior Lecturer in Computing at the Institute of Technology ([ITB]), Blanchardstown, Dublin, Ireland.
+[Dr. Matt Smith] has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is his [Unity 5.x Cookbook], by Matt and [Chico Queiroz].
 
 [Paul Mc Grath] is Animator / Designer / Film-maker at Whackala. He contributed the [tutorial videos] for this site as well as creating the [Fungus Training Course].
 
