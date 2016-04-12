@@ -43,13 +43,13 @@ Please use the forum to report bugs.
 If a bug is critical and we can't offer a sensible workaround, we will try to fix it as soon as possible. Otherwise, we will aim to fix the issue in the next release.
 
 ## Can I get my hands on beta versions of Fungus ?
-The very latest version is always available at our [github repository](https://github.com/FungusGames/Fungus)
+The very latest version is always available at our [github repository](https://github.com/snozbot/fungus)
 
 ## How can I contribute to Fungus?
 There are lots of ways to help the Fungus community to grow
 1. Answer questions and post tips on the forum
 2. Contribute code either via a Github pull request or post code snippets in the forums.
-3. Improve the documentation by editing the [fungus-site repo](https://github.com/FungusGames/fungus-site) and send in a pull request.
+3. Improve the documentation by editing the [fungus-site repo](https://github.com/snozbot/fungus-site) and send in a pull request.
 4. Let us know on the forum if you've made a game with Fungus so we can add it to the site.
 5. If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the site.
 
