@@ -1,8 +1,9 @@
 use_directory_urls: false
 site_name: Fungus
 site_url: http://fungusgames.com
-site_description: Documentation and user guide for Fungus Unity dialog system
+site_description: Documentation and user guide for the open source Fungus storytelling tool
 site_favicon: images/favicon.ico
+google_analytics: ['UA-70024522-1', 'auto']
 pages:
 - About: index.md
 - Download: download/index.md
