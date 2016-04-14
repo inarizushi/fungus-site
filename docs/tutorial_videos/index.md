@@ -1,5 +1,6 @@
 These free tutorial videos cover most of the functionality available in Fungus.
-The Fungus tutorials are also available as a [YouTube playlist](https://www.youtube.com/watch?v=F1vmEtQ7k6M&list=PLiMlyObJfJmUohJ_M2pJhtrNKuNECo2Uk&index=1).
+
+The videos are also available as a [YouTube playlist](https://www.youtube.com/watch?v=F1vmEtQ7k6M&list=PLiMlyObJfJmUohJ_M2pJhtrNKuNECo2Uk&index=1). Many thanks to [Paul Mc Grath](http://whackala.com) for contributing the videos, and [Eric Chen](https://twitter.com/Eric_hjk) for Chinese subtitles.
 
 ## Fungus Overview
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F1vmEtQ7k6M" frameborder="0" allowfullscreen></iframe>

@@ -36,3 +36,11 @@ To upgrade an existing project to the latest version of Fungus.
 4. Download and import the latest version of Fungus.
 
 We try to maintain backwards compatibility between releases but sometimes breaking changes are necessary. If you're having trouble upgrading your project just ask for assistance on the forum.
+
+# Fungus System Requirements
+
+- We recommend installing the latest version of Unity 3D.
+- Fungus requires at least Unity 5.0 and is not compatible with Unity 4.x or earlier.
+- Fungus works with both the PC & Mac versions of Unity
+- Fungus works with both the free Personal and Professional editions of Unity
+- Official Unity list of system requirements [available here](http://unity3d.com/unity/system-requirements).

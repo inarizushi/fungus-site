@@ -47,11 +47,12 @@ The very latest version is always available at our [github repository](https://g
 
 ## How can I contribute to Fungus?
 There are lots of ways to help the Fungus community to grow
+
 1. Answer questions and post tips on the forum
 2. Contribute code either via a Github pull request or post code snippets in the forums.
 3. Improve the documentation by editing the [fungus-site repo](https://github.com/snozbot/fungus-site) and send in a pull request.
 4. Let us know on the forum if you've made a game with Fungus so we can add it to the site.
-5. If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the site.
+5. If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the [community articles](../articles/index.md) section.
 
 ## Are you planning to integrate Fungus into other game engines ?
 Not currently. We're sticking with Unity for the foreseeable future.

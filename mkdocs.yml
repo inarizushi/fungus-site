@@ -3,13 +3,13 @@ site_name: Fungus
 site_url: http://fungusgames.com
 site_description: Documentation and user guide for the open source Fungus storytelling tool
 site_favicon: images/favicon.ico
+site_dir: ../snozbot.github.io
 google_analytics: ['UA-70024522-1', 'auto']
 pages:
-- About: index.md
-- Download: download/index.md
-- Learn:
-    - Tutorial Videos: tutorial_videos/index.md
-    - Training Course: training_course/index.md
+- Documentation:
+    - Overview: index.md
+    - What is Fungus?: about/index.md
+    - Installation: download/index.md
     - Getting Started: getting_started/index.md
     - Flowcharts: flowcharts/index.md
     - Blocks: blocks/index.md
@@ -32,9 +32,11 @@ pages:
         - Events (Input) Commands: commands/event_handlers/input_events.md
         - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
         - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
-    - Code of Conduct: conduct/index.md
-    #    - Community Articles
-- Forum: forum/index.md
+- Tutorial Videos: tutorial_videos/index.md
+- Training Course: training_course/index.md
+
+#    - Code of Conduct: conduct/index.md
+#- Forum: forum/index.md
 
 theme_dir: 'custom_theme'
 theme: spacelab
