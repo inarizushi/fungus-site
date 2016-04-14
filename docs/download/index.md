@@ -1,37 +1,41 @@
 This page desribes how to download and install Unity and Fungus.
 
-# Download links
-
-- Fungus on the [Unity Asset Store](http://u3d.as/f0T)
-- Latest Fungus release on [Github](https://github.com/FungusGames/Fungus/releases/latest)
-- Unity installer on [Unity3D.com](http://unity3D.com/get-unity)
-
-# Installation tutorial
+# Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BQRdRz9Q5VY" frameborder="0" allowfullscreen></iframe>
 
 # How do I install Fungus?
 
 1. Install the latest version of [Unity](http://unity3D.com/get-unity).
-2. Download the latest Fungus .unitypackage using one of the links above.
 3. Launch Unity and create a new Project by selecting File > New Project.
 4. Select 'Use Defaults for 2D' when creating the new project.
-5. Note: Fungus can easily be used for 3D games, but our examples are primarily in 2D.
-6. Import Fungus into the new project by selecting Assets > Import Package > Custom Package.
-7. Display the Flowchart editor window by selecting Window > Tools > Fungus > Flowchart Window.
-8. For convenience, you should dock the Flowchart window somewhere in the editor window.
 
-You are now ready to use Fungus. To start with, try playing the example scenes and watch how the gameplay is controlled by the flowchart in the Fungus Script window.
+To install Fungus from the Asset Store (recommended):
 
-- In the project window, open The Hunter example scene (FungusExamples > TheHunter > TheHunter.unity). 
-- Press play and click through the example game.
+1. Open the Asset Store window in Unity
+2. Search for Fungus, or use [this link](http://u3d.as/f0T)
+3. Download and import Fungus to your project using the Asset Store window.
+
+To install Fungus from the latest release on Github:
+
+1. Download the latest Fungus .unitypackage from [Github](https://github.com/FungusGames/Fungus/releases/latest)
+2. Import Fungus into the new project by selecting Assets > Import Package > Custom Package.
+
+First steps:
+
+1. Display the Flowchart editor window by selecting Window > Tools > Fungus > Flowchart Window.
+2. For convenience, you should dock the Flowchart window somewhere in the editor window.
+3. In the project window, open The Hunter example scene (FungusExamples > TheHunter > TheHunter.unity). 
+4. Press play and click through the example game.
+
+Try playing the other example scenes and watch how the gameplay is controlled by the flowchart in the Fungus Script window.
 
 # How do I upgrade an existing Fungus project ?
 
 To upgrade an existing project to the latest version of Fungus.
 
 1. Take a backup of your project. No really, do it!
-2. Update to the latest version of [Unity](http://unity3D.com/get-unity).
+2. We recommend updating to the latest version of [Unity](http://unity3D.com/get-unity).
 3. Delete the Fungus and FungusExamples folders from your project.
 4. Download and import the latest version of Fungus.
 
