@@ -11,6 +11,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "docs/index.md",
+			"settings":
+			{
+				"buffer_size": 701,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/articles/index.md",
+			"settings":
+			{
+				"buffer_size": 1102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mkdocs.yml",
+			"settings":
+			{
+				"buffer_size": 1770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "custom_theme/nav.html",
+			"settings":
+			{
+				"buffer_size": 3354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "site/nav.html",
+			"file_size": 3354,
+			"file_write_time": 131051139360000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "site/sitemap.xml",
+			"file_size": 2360,
+			"file_write_time": 131051139360000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 100 files for \"training/index.md\"\n\n/Users/Gregan/github/fungus-site/docs/index.md:\n   92  [Coding Grace]: https://www.codinggrace.com\n   93  [tutorial videos]: tutorial_videos/index.md\n   94: [Fungus Training Course](training/index.md)\n   95  [FungusGames.com]: http://www.fungusgames.com\n   96  [community forum]: forum/index.md\n\n/Users/Gregan/github/fungus-site/site/index.html:\n  386  <a href=\"https://github.com/dr-matt-smith/\">Dr. Matt Smith</a> has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is the <a href=\"https://www.packtpub.com/game-development/unity-5x-cookbook\">Unity 5.x Cookbook</a>, which Matt and co-author <a href=\"https://www.linkedin.com/in/chicoqueiroz\">Chico Queiroz</a> have re-written from scratch for Unity 5 (published by Packt Publishing):</p>\n  387  <p>Matt is a computing academic, specialising in interactive multimedia systems, including computer games, web applications and mobile apps. He is the main maintainer of the Fungus documentation and is Senior Lecturer in Computing at the Institute of Technology (<a href=\"http://www.itb.ie/\">ITB</a>), Blanchardstown, Dublin, Ireland.</p>\n  388: <p><a href=\"http://whackala.com\">Paul Mc Grath</a> is Animator / Designer / Film-maker at Whackala. He contributed the <a href=\"videos/index.md\">tutorial videos</a> for this site as well as creating the <a href=\"training/index.md\">Fungus Training Course</a>.</p>\n  389  <p>Many thanks also to <a href=\"https://twitter.com/whykay\">Vicky Lee</a> and <a href=\"https://www.codinggrace.com\">Coding Grace</a> who have helped us to organise loads of Fungus workshops,</p>\n  390  <p>Fungus wouldn't be possible without all the awesome people in our community who have contributed to the project and supported us in myriad ways. Thank you all!</p>\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 1922,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -44,11 +108,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Gregan/github/fungus-docs",
-		"/Users/Gregan/github/fungus-docs/docs"
+		"/Users/Gregan/github/fungus-site",
+		"/Users/Gregan/github/fungus-site/docs",
+		"/Users/Gregan/github/fungus-site/docs/articles"
 	],
 	"file_history":
 	[
+		"/Users/Gregan/github/fungus-site/docs/articles/index.md",
+		"/Users/Gregan/github/fungus-site/docs/faq/index.md",
+		"/Users/Gregan/github/fungus-site/header/header.html",
+		"/Users/Gregan/github/fungus-site/header/add_header.py",
+		"/Users/Gregan/github/fungus-site/site/index.html",
+		"/Users/Gregan/github/fungus-site/site/base.html",
+		"/Users/Gregan/github/fungus-site/readme.md",
+		"/Users/Gregan/github/fungus-site/docs/index.md",
 		"/Users/Gregan/Desktop/List of Fungus globals",
 		"/Users/Gregan/github/Fungus/runtest.sh",
 		"/Users/Gregan/Desktop/GamesCatalogue/Games.txt",
@@ -142,13 +215,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -156,6 +230,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"training/index.md",
+			"Tutorial videos",
+			"videos/index.md",
+			"<!",
+			"replace",
+			"github",
 			"sherlock",
 			"\">\n",
 			"+ ",
@@ -194,8 +274,235 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "docs/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								701,
+								701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 786.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "docs/articles/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1102,
+								1102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mkdocs.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "custom_theme/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2055,
+								2055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "site/sitemap.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1922,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										227,
+										244
+									],
+									[
+										1469,
+										1486
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
