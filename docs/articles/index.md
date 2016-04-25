@@ -19,7 +19,8 @@ If you've created an article or video about Fungus let us know on the forum and 
 
 [http://leahlee.studio](http://leahlee.studio)
 
-- [Fungus Research Week 1](http://leahlee.studio/fungus-research-week-1)
+- [Fungus Research](http://leahlee.studio/fungus-research-week-1)
+- [Contributing to Fungus](http://leahlee.studio/contributing-to-fungus-for-unity-week-2/)
 
 ## Konrad Gadzina
 
