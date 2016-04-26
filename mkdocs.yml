@@ -20,6 +20,7 @@ pages:
         - Lua and Moonsharp: lua/lua_and_moonsharp.md
         - Quick Start: lua/quick_start.md
         - Lua Environment: lua/lua_environment.md
+        - Lua Bindings: lua/lua_bindings.md
         - Lua Utils: lua/lua_utils.md
         - Fungus Module: lua/fungus_module.md
         - Controlling Fungus: lua/controlling_fungus.md

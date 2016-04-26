@@ -1,6 +1,5 @@
 + Tutorial video for main bits
 
-+ PODFactory
 
 + Using FungusLua as a standalone package
 + Lua video should answer 'how to' questions first
@@ -15,11 +14,7 @@
     + Setting the LuaEnvironment
     + RunAsCoroutine option
 
-+ LuaBindings
-    + Binding variables to scene objects
-    + Using a global table
-    + Automatic registration of types
-    + Looking up properties and methods
++ PODFactory
 
 + FungusPrefs
     + Persistant storage and slots system
