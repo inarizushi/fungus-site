@@ -1,6 +1,6 @@
 # Lua Utils
 
-LuaUtils is a component that extends the Lua environment with some commonly used functionality. It can be accessed from Lua scripts via the 'luautils' global variable. This component mostly does a lot of setup work in the background, but it also exposes some handy functions for managing gameobjects in the scene.
+LuaUtils is a component that extends the Lua environment with some commonly used functionality. It can be accessed from Lua scripts via the 'luautils' global variable. This component mostly does a lot of setup work in the background, but it also provides some handy functions for instantiating, finding and destroying gameobjects in the scene.
 
 # Example
 
@@ -75,4 +75,34 @@ luautils 		-- A reference to the LuaUtils component itself
 test 			-- Unity Test Tools (if installed)
 stringtable 	-- The localisation string table (documented elsewhere)
 ```
+
+# PODFactory
+
+Due to limitations in C# / Mono, MoonSharp has limited support for working with Plain-Old-Data (struct) types like Vector3, Color, etc. The best approach is to treat POD properties as immutable objects, and never try to modify a POD variable that has been acquired from a C# object. Instead, you should construct a new POD object and populate it with the required values. The LuaUtils PODFactory class helps do this for common types.
+
+```python
+-- Returns a new Color object
+local c = luautils.factory.color(1,1,1,1)
+
+-- Returns a new Vector2 object
+local v2 = luautils.factory.vector2(1, 2)
+
+-- Returns a new Vector3 object
+local v3 = luautils.factory.vector3(1, 2, 3)
+
+-- Returns a new Vector4 object
+local v4 = luautils.factory.vector4(1, 2, 3, 4)
+
+-- Returns a new Quaternion object
+local q = luautils.factory.quaternion(float x, float y, float z) -- Rotation in euler angles
+			
+-- Returns a new Rect object
+local r = luautils.factory.rect(float x, float y, float width, float height)
+```
+
+
+
+
+
+
 

@@ -17,14 +17,15 @@ pages:
     - Playing Audio: playing_audio/index.md
     - Lua Scripting: 
         - Overview: lua/index.md
-        - Lua and Moonsharp: lua/lua_and_moonsharp.md
         - Quick Start: lua/quick_start.md
         - Lua Environment: lua/lua_environment.md
         - Lua Bindings: lua/lua_bindings.md
+        - Lua Script: lua/lua_script.md
         - Lua Utils: lua/lua_utils.md
         - Fungus Module: lua/fungus_module.md
         - Controlling Fungus: lua/controlling_fungus.md
         - Execute Lua: lua/execute_lua.md
+        - Fungus Prefs: lua/fungus_prefs.md
         - Lua Store: lua/lua_store.md
         - String Table: lua/string_table.md
         - Unity Test Tools: lua/unity_test_tools.md

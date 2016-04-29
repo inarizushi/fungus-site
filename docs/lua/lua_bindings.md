@@ -11,23 +11,22 @@ To setup LuaBindings in your scene:
 3. The binding key field is automatically populated based on the object name. This will be the variable name you use to access the bound object from Lua script. You can change this key to whatever string you prefer.
 4. If the bound object is a GameObject, you can optionally select a component within it to bind to.
 
-Note that you can bind to any Unity object, not just scene GameObjects. This includes things like Prefabs, Materials, TextAssets, etc.
-
+Note that as well as scene GameObjects and components, you can bind to any Unity object in your project. This includes things like Prefabs, Materials, TextAssets, Textures, etc.
 
 # Using a global table
 
 The bindings specified in a LuaBindings component are automatically registered as global variables in all LuaEnvironments in the scene at startup. 
 
-This feature is very convenient when writing simple scripts, but for more complex scripts it can cause problems when you accidentally define another variable with the same name as a binding. If this is a problem for you, you can use the Table Name property to register bindings in a global table to add a degree of namespace safety.
+Registering as global variables is convenient when writing simple scripts, but for more complex scripts it can cause problems if you accidentally define another variable with the same name as a binding. To avoid this, you can use the Table Name property to register bindings in a global table to add a degree of namespace safety.
 
 For example, if your binding is called 'camera' and you've set Table Name to "myobjects", you would access the camera object like this:
 ```python
 myobjects.camera
 ```
 
-# Looking up members
+# Finding member info
 
-The Member Info dropdown box allows you to quickly lookup properties and methods for any bound object. When you select a member, the Lua script needed to access it is displayed.
+The Member Info dropdown box allows you to quickly lookup properties and methods for any bound object. When you select a member, a description of the member is displayed together with the Lua script needed to access it. When binding to standard Unity objects, you can also check the API docs to find out more about the supported methods and properties.
 
 # Register Types option
 
