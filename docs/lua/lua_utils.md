@@ -68,7 +68,8 @@ LuaUtils also binds several useful C# classes and components so that you can acc
 
 ```python
 time 			-- The Unity Time class. e.g. 'time.deltaTime' returns the delta time for this frame.
-prefs 			-- The FungusPrefs class (documented elsewhere)
+playerprefs		-- The Unity Player Prefs class. Used for saving data to disk.
+prefs 			-- The FungusPrefs class (documented elsewhere). Basically a wrapper around PlayerPrefs that adds a slots systems.
 factory 		-- The PODTypeFactor class (documented elsewhere)
 luaenvironment 	-- The LuaEnvironment component used to execute Lua scripts
 luautils 		-- A reference to the LuaUtils component itself

@@ -1,9 +1,6 @@
 + Tutorial video for main bits
 
-
 + Lua video should answer 'how to' questions first
-+ Tracking down syntax errors
-+ Using Require and Resource/Lua
 
 + Add Examples
 + Add screenshots
@@ -19,6 +16,14 @@ FungusLua can be used on its own if you don't need the rest of the functionality
 2. Delete the Fungus folder.
 
 The Tools > Fungus menu will now only show options for creating FungusLua objects. Obviously you won't be able to use Fungus functions like say, menu, etc. anymore, but you can still use LuaEnvironment, LuaBindings, LuaScript to add Lua scripting to your game.
+
+# Quickstart
+
+This [tutorial video]() covers the basics of using FungusLua. This documentation provides more in-depth information about the features avaialable.
+
+- Hello World (print & say)
+- Say & Menu example
+- LuaBindings example (Set position of a cube)
 
 # About Lua
 

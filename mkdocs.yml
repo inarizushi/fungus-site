@@ -17,7 +17,6 @@ pages:
     - Playing Audio: playing_audio/index.md
     - Lua Scripting: 
         - Overview: lua/index.md
-        - Quick Start: lua/quick_start.md
         - Lua Environment: lua/lua_environment.md
         - Lua Bindings: lua/lua_bindings.md
         - Lua Script: lua/lua_script.md
