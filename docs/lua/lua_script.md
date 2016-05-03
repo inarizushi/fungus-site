@@ -28,7 +28,7 @@ To use a module in FungusLua:
 2. Create a mymodule.txt file inside the Resources/Lua folder and add your Lua script to it. (Obviously rename mymodule.txt to whatever you want).
 3. You can now use the Lua require function to load the module for use in any Lua script, for example
 
-```python
+```lua
 local mymodule = require("mymodule")
 
 -- Call a function in the module
@@ -44,12 +44,12 @@ FungusLua compiles Lua code at scene startup so that it can be quickly executed 
 All Lua script errors generate an error message in the Unity log, displayed in red.
 
 For example, if you try to run this invalid code in a LuaScript object:
-```python
+```lua
 not valid lua
 ```
 
 It will generate an error message in the log like this
-```python
+```lua
 LuaScript.LuaScript:(1,0-3): unexpected symbol near 'not'
 1: not valid lua
 ```
@@ -59,9 +59,9 @@ LuaScript.LuaScript:(1,0-3): unexpected symbol near 'not'
 - The last part gives you a description of the type of error.
 - The next line on contains a listing of the Lua source code used. Use the linenumber info above to locate the line causing the problem.
 
-One of the most common errors is attempting to access a variable that doesn't exist. In this example, we've tried to access the field 'name' on a variable v that hasn't been defined yet.
+One of the most common errors is attempting to access a variable that doesn't exist. In this example error message, we've tried to access the field 'name' on a variable v that hasn't been defined yet.
 
-```python
+```lua
 LuaScript.LuaScript:(1,7-9): attempt to index a nil value
 1: print(v.name)
 ```

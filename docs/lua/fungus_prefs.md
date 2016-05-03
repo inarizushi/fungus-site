@@ -4,7 +4,7 @@ The [Unity PlayerPrefs](http://docs.unity3d.com/ScriptReference/PlayerPrefs.html
 
 Here's an example of using PlayerPrefs from Lua.
 
-```python
+```lua
 -- Saving a value to preferences
 playerprefs.SetInt("SaveName", 1)
 playerprefs.Save()
@@ -18,9 +18,9 @@ print(v) -- Will print out 1
 
 The FungusPrefs class is a wrapper around PlayerPrefs that adds support for save slots. 
 
-Basically, if you want to store simple values use PlayerPrefs. If you want to store values using multiple player profiles, use FungusPrefs.
+Basically, if you want to store simple values use PlayerPrefs. If you want to store values using multiple player profiles, you should use FungusPrefs.
 
-```python
+```lua
 -- Deletes all saved values for all slots.
 prefs.DeleteAll()
 

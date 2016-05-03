@@ -6,7 +6,7 @@ LuaUtils provides support for simple text localisation. Define your language str
 
 This is an example of the JSON format for the string table. To use this localised string, you would use the {$hello} tag.
 
-```python
+```json
 {
     "hello" : {
         "en" : "Hi there",
@@ -20,7 +20,7 @@ This is an example of the JSON format for the string table. To use this localise
 
 These Lua functions are available for working with the string table.
 
-```python
+```lua
 -- Set active language for string table
 setlanguage(languagecode)
 

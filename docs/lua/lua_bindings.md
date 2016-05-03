@@ -24,7 +24,7 @@ The bindings specified in a LuaBindings component are automatically registered a
 Registering as global variables is convenient when writing short scripts, but for more complex scripts it can cause problems if you accidentally define another variable with the same name as a binding. To avoid this problem, you can use the Table Name property to register bindings in a global table to add a degree of namespace safety.
 
 For example, if your binding is called 'camera' and you've set Table Name to "myobjects", you would access the camera object like this:
-```python
+```lua
 myobjects.camera
 ```
 

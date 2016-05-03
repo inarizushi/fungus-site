@@ -8,7 +8,7 @@ You can control Say and Menu dialogs in much the same way you use Say and Menu c
 
 This example Lua script demonstrates some of the Say and Menu dialog functions. To try it out, add a LuaScript object to the scene (Tools > Fungus > Create > LuaScript) and copy this script into the Run Script text box. You may also need to add an EventSystem object in the scene (GameObject > UI > Event System) so that the menu buttons will respond to user input.
 
-```python
+```lua
 say("Hi there")
 say "This syntax also works for say commands"
 
@@ -37,13 +37,13 @@ To use a custom SayDialog:
 4. In Lua script, you can now activate this SayDialog using the setsaydialog() function, by passing the key of the SayDialog binding.
 
 To change the behaviour of the say() function, e.g. to not wait for input when done, do:
-```python
+```lua
 sayoptions.waitforinput = false
 ```
 
 This is the list of available functions for controlling SayDialogs.
 
-```python
+```lua
 -- Options for configuring Say Dialog behaviour
 sayoptions.clearprevious = true | false
 sayoptions.waitforinput = true | false
@@ -72,7 +72,7 @@ say(text, voiceclip)
 
 You setup custom MenuDialogs in the same manner as SayDialogs. This is the list of available MenuDialog functions.
 
-```python
+```lua
 -- Set the active menudialog to use with the menu function
 setmenudialog(menudialog)
 
@@ -99,7 +99,7 @@ clearmenu()
 We've added special functions for say() and menu() because these are so common in Fungus games. To execute any other commands in Fungus from Lua, you do it in conjunction with a Flowchart & Block, like this:
 
 1. Add a Flowchart and a Block (e.g. "MyBlock") in the scene.
-2. Add the Fungus commands you want to execute from Lua in the Block. (e.g Play Sounc)
+2. Add the Fungus commands you want to execute from Lua in the Block. (e.g Play Sound)
 3. Add a LuaBindings object (Tools > Fungus > Create > LuaBindings).
 4. Add a binding to the Flowchart gameobject, and select the Flowchart component.
 5. Add a LuaScript object to the scene (Tools > Fungus > Create > LuaScript)
@@ -107,7 +107,7 @@ We've added special functions for say() and menu() because these are so common i
 
 You can also access any Flowchart variable from Lua via the getvar() function. For example:
 
-```python
+```lua
 -- Assume the 'flowchart' variable is bound to a Flowchart component in LuaBindings
 -- MyVar is a string variable defined on the Flowchart
 
@@ -120,7 +120,7 @@ myvar.value = "New value for string"
 
 This is the list of available functions for controlling Flowcharts.
 
-```python
+```lua
 -- Returns the specified Variable in a Flowchart.
 -- To access the value of the variable, use its .value property. e.g.
 --  v = getvar(flowchart, "FloatVar") 

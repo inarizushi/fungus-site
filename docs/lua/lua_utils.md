@@ -5,7 +5,7 @@ LuaUtils is a component that extends the Lua environment with some commonly used
 # Example
 
 Here's an example of the kind of thing you can do:
-```python
+```lua
 local go = luautils.Find("MyObject") -- Find a game object by name
 luautils.Destroy(go) -- Destroy it
 ```
@@ -14,7 +14,7 @@ luautils.Destroy(go) -- Destroy it
 
 This is the list of GameObject functions provided in luautils.
 
-```python
+```lua
 -- Find a game object by name and returns it.
 GameObject Find(string name)
 
@@ -47,7 +47,7 @@ In some cases however, you will need to register a type explicitly. The easiest 
 # Example JSON Type File
 
 Example of a types JSON file:
-```python
+```json
 {
     "registerTypes" : [
         "Fungus.Block"
@@ -75,7 +75,7 @@ LuaUtils creates bindings for several useful C# classes and components so that y
 | luaenvironment 	| The LuaEnvironment component used to execute Lua scripts |
 | luautils 			| A reference to the LuaUtils component itself |
 | test 				| Support for [Unity Test Tools](http://u3d.as/65h) (if installed) |
-| stringtable 		| The localisation string table (documented elsewhere) |
+| stringtable 		| The FungusLua localisation [string table](string_table.md) |
 
 # PODFactory
 
@@ -83,7 +83,7 @@ Due to limitations in C# / Mono, MoonSharp has limited support for working with 
 
 The best approach here is to treat POD properties as immutable objects, and never try to modify a POD variable that has been acquired from a C# object. Instead, you should construct a new POD object, populate it with the required values and then pass that object in calls to C# code. The LuaUtils PODFactory class helps do this for common Unity types.
 
-```python
+```lua
 -- Returns a new Color object
 local c = luautils.factory.color(1,1,1,1)
 
