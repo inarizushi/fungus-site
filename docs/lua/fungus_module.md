@@ -1,14 +1,17 @@
 # Fungus Module
 
-The Fungus module provides lots of handy Lua functions for working with Lua and Unity. 
+This Lua module provides handy functions for working with Lua, Unity and Fungus. 
 
-On this page we'll just cover some of the more generic functionality in the module, other features are described elsewhere in the documentation.
+In this page we cover some of the more generic functionality in the module, other major features are described elsewhere in the documentation.
 
-## Inspecting Lua objects
+# Inspecting Lua objects
 
 You can use Lua's built in print() function to get a basic description of any object printed to the console. When you want to get a more detailed description of an object, use inspect().
 
 ```python
+-- Prints a short description of object v
+print(v)
+
 -- Prints a summary of object v in a human readable format.
 inspect(v)
 ```
@@ -39,9 +42,10 @@ runwait(<C# coroutine method IEnumerator object>)
 
 ## Globals vs Table mode
 
-The Fungus module can be used in two modes.  In globals mode (the default), all the module functions are mapped to global functions. This allows for convenient access to the module methods, but it runs the risk that you might accidentally declare a global variable with the same name.
+The Fungus module can be used in two modes.  In globals mode (the default), all the module functions are mapped to global functions. This allows for convenient access to the module methods, but it runs the risk that you might accidentally declare a variable with the same name.
 
 ```python
+-- sub is a function in the Fungus module, mapped to a global variable
 sub("a string")
 ```
 

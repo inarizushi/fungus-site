@@ -1,4 +1,4 @@
-# Lua Utils
+# LuaUtils
 
 LuaUtils is a component that extends the Lua environment with some commonly used functionality. It can be accessed from Lua scripts via the 'luautils' global variable. This component mostly does a lot of setup work in the background, but it also provides some handy functions for instantiating, finding and destroying gameobjects in the scene.
 
@@ -42,11 +42,11 @@ The most important function of the LuaUtils component is registering C# types so
 
 In order to access the members of a C# type from Lua, the type first has to be registered with MoonSharp. Note that for objects added using the LuaBindings component, the relevant types are registered automatically.
 
-In some cases however, you will need to register a type explicitly. The easiest way to do this is by adding the type's name to the FungusTypes.txt or UnityTypes.txt JSON files referenced by the LuaUtils component. You can also create your own JSON files to register additional types. Note that types that are not contained in the main application DLL will need to use the namespace qualified type name in the JSON file.
+In some cases however, you will need to register a type explicitly. The easiest way to do this is by adding the type's name to the FungusTypes.txt or UnityTypes.txt JSON files referenced by the LuaUtils component. You can also create your own JSON files to register additional types. Note that types that are not contained in the main application DLL will need to use the [namespace qualified type name](https://msdn.microsoft.com/en-us/library/system.type.assemblyqualifiedname(v=vs.110).aspx) in the JSON file.
 
 # Example JSON Type File
 
-Example of types JSON file:
+Example of a types JSON file:
 ```python
 {
     "registerTypes" : [
@@ -64,22 +64,24 @@ If you need to register types directly from C#, or do a more complex type of reg
 
 # Other Utilities
 
-LuaUtils also binds several useful C# classes and components so that you can access them easily from Lua script.
+LuaUtils creates bindings for several useful C# classes and components so that you can access them from Lua script.
 
-```python
-time 			-- The Unity Time class. e.g. 'time.deltaTime' returns the delta time for this frame.
-playerprefs		-- The Unity Player Prefs class. Used for saving data to disk.
-prefs 			-- The FungusPrefs class (documented elsewhere). Basically a wrapper around PlayerPrefs that adds a slots systems.
-factory 		-- The PODTypeFactor class (documented elsewhere)
-luaenvironment 	-- The LuaEnvironment component used to execute Lua scripts
-luautils 		-- A reference to the LuaUtils component itself
-test 			-- Unity Test Tools (if installed)
-stringtable 	-- The localisation string table (documented elsewhere)
-```
+| Binding name 		| Description |
+| ----------------- | ----------- |
+| time 				| The [Unity Time class](http://docs.unity3d.com/ScriptReference/Time.html). e.g. 'time.deltaTime' returns the delta time for this frame |
+| playerprefs		| The [Unity PlayerPrefs](http://docs.unity3d.com/ScriptReference/PlayerPrefs.html) class. Used for saving data to disk. |
+| prefs 			| The [FungusPrefs class](fungus_prefs.md#fungusprefs), our own wrapper around PlayerPrefs that adds a slots systems. |
+| factory 			| The [PODTypeFactory](lua_utils.md#podfactory) class for creating common plain-old-data types |
+| luaenvironment 	| The LuaEnvironment component used to execute Lua scripts |
+| luautils 			| A reference to the LuaUtils component itself |
+| test 				| Support for [Unity Test Tools](http://u3d.as/65h) (if installed) |
+| stringtable 		| The localisation string table (documented elsewhere) |
 
 # PODFactory
 
-Due to limitations in C# / Mono, MoonSharp has limited support for working with Plain-Old-Data (struct) types like Vector3, Color, etc. The best approach is to treat POD properties as immutable objects, and never try to modify a POD variable that has been acquired from a C# object. Instead, you should construct a new POD object and populate it with the required values. The LuaUtils PODFactory class helps do this for common types.
+Due to limitations in C# / Mono, MoonSharp has limited support for working with Plain-Old-Data (struct) types like [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html), [Color](http://docs.unity3d.com/ScriptReference/Color.html), etc. 
+
+The best approach here is to treat POD properties as immutable objects, and never try to modify a POD variable that has been acquired from a C# object. Instead, you should construct a new POD object, populate it with the required values and then pass that object in calls to C# code. The LuaUtils PODFactory class helps do this for common Unity types.
 
 ```python
 -- Returns a new Color object
@@ -100,10 +102,3 @@ local q = luautils.factory.quaternion(float x, float y, float z) -- Rotation in 
 -- Returns a new Rect object
 local r = luautils.factory.rect(float x, float y, float width, float height)
 ```
-
-
-
-
-
-
-

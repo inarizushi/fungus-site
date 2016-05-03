@@ -6,9 +6,15 @@ You can control Say and Menu dialogs in much the same way you use Say and Menu c
 
 # Narrative example
 
-This example Lua script demonstrates some of the Say and Menu dialog functions. To try it out, add a LuaScript object to the scene (Tools > Fungus > Create > LuaScript) and copy this script into the Run Script text box. You'll may need to add an EventSystem object in the scene (GameObject > UI > Event System) so that the menu buttons will respond to user input.
+This example Lua script demonstrates some of the Say and Menu dialog functions. To try it out, add a LuaScript object to the scene (Tools > Fungus > Create > LuaScript) and copy this script into the Run Script text box. You may also need to add an EventSystem object in the scene (GameObject > UI > Event System) so that the menu buttons will respond to user input.
 
 ```python
+say("Hi there")
+say "This syntax also works for say commands"
+
+-- Lua functions are the equivalent of Fungus blocks
+-- Note that in Lua functions must be defined before they are called.
+
 function goleft()
 	say("You chose left")
 end
@@ -16,9 +22,6 @@ end
 function goright()
 	say("You chose right")
 end
-
-say("Hi there")
-say "This syntax also works for say commands"
 
 menu("Go Left", goleft)
 menu("Go right", goright)

@@ -1,6 +1,6 @@
 # PlayerPrefs
 
-The Unity PlayerPrefs system stores and accesses player preferences between game sessions. The [PlayerPrefs documentation](http://docs.unity3d.com/ScriptReference/PlayerPrefs.html) describes how to use it.
+The [Unity PlayerPrefs](http://docs.unity3d.com/ScriptReference/PlayerPrefs.html) system stores and accesses player preferences between game sessions.
 
 Here's an example of using PlayerPrefs from Lua.
 
@@ -16,7 +16,9 @@ print(v) -- Will print out 1
 
 # FungusPrefs
 
-The FungusPrefs class is a wrapper around PlayerPrefs that adds support for save slots. Basically, if you just want to store values use PlayerPrefs, if you want to store values in multiple player profiles, use FungusPrefs.
+The FungusPrefs class is a wrapper around PlayerPrefs that adds support for save slots. 
+
+Basically, if you want to store simple values use PlayerPrefs. If you want to store values using multiple player profiles, use FungusPrefs.
 
 ```python
 -- Deletes all saved values for all slots.
