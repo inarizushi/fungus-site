@@ -15,8 +15,9 @@ pages:
     - Blocks: blocks/index.md
     - Telling a Story: telling_a_story/index.md
     - Playing Audio: playing_audio/index.md
-    - Lua Scripting: 
+    - FungusLua Scripting: 
         - Overview: lua/index.md
+        - Create Menu: lua/create_menu.md
         - Lua Environment: lua/lua_environment.md
         - Lua Bindings: lua/lua_bindings.md
         - Lua Script: lua/lua_script.md
