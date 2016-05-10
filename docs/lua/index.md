@@ -1,33 +1,15 @@
-+ Tutorial video for main bits
-
-+ Lua video should answer 'how to' questions first
-
-+ QuickStart Lua video
-+ In depth Lua video
-
-+ Add example scenes
-	+ Hello world (via print, say)
-	+ Using a custom component from Lua
-	+ say, menu
-	+ Flowchart variables
-	+ Flowchart blocks
-	+ Complex expressions (Execute Lua)
-	+ String table
-	+ GUI text description component
 
 # What is FungusLua?
 
-FungusLua is an easy way to embed Lua scripting (via MoonSharp) into your Unity project. Lua is easier to learn than C#, so it's a good way to empower artists, writers and designers to use more of the power of Unity.
+FungusLua is an easy way to embed Lua scripting into your Unity project. Lua is an easy to learn scripting language so it's a great way to empower artists, writers and designers to use more of the power of Unity.
 
 FungusLua provides a simple way to control Unity objects from Lua scripts, and has useful utilities for using Fungus flowcharts and dialogs, persisting variables between scene loads, localization, and working with the Unity Test Tools. 
+
+We made FungusLua in response to requests from the Fungus community for a way to script Fungus commands from a text file or spreadsheet. We figured that if people are going to be writing commands in text files, why not go all the way and add a powerful embedded scripting language?
 
 # Quickstart
 
 This [tutorial video]() covers the basics of using FungusLua. This documentation provides more in-depth information about the features avaialable.
-
-- Hello World (print & say)
-- Say & Menu example
-- LuaBindings example (Set position of a cube)
 
 # Using FungusLua Independently
 
