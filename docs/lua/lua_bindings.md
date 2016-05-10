@@ -28,6 +28,8 @@ For example, if your binding is called 'camera' and you've set Table Name to "my
 myobjects.camera
 ```
 
+If you don't want to register the bindings in all LuaEnvironments, deselect the 'All Environments' option and select the specific LuaEnvironment you want to use instead.
+
 # Finding member info
 
 The Member Info dropdown box lets you to quickly lookup properties and methods for any bound object. When you select a member, a description of the member is displayed together with the Lua script needed to access it. When binding to standard Unity objects, you can also check the API docs to find out more about the supported methods and properties.
