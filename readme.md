@@ -18,7 +18,7 @@ The Fungus website and documentation use the [MkDocs](http://www.mkdocs.org) sys
 1. Install [MkDocs](http://www.mkdocs.org)
 2. Check out or download the [fungus-site repository](https://github.com/snozbot/fungus-site) to your computer.
 3. From a terminal, cd to the docs directory.
-4. Use 'MkDocs build -- clean' to build the website files.
+4. Use 'MkDocs build --clean' to build the website files.
 5. Open site/index.html in any browser to view the website.
 
 # Contributing documentation
