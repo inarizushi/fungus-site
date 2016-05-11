@@ -2,7 +2,7 @@
 
 This command allows you to embed a Lua script to be executed as part of a command sequence in a Block. The Lua script to be executed can be specified in the inspector or in a text file, in the same way as in the [Lua Script component](lua_script.md#lua-script-and-files).
 
-You can provide an optional LuaEnvironment to use for the execution, but if none is provided then one will be created automatically. You can also choose to store the return value from the Lua script in a Flowchart variable.
+You can provide an optional LuaEnvironment to use for the execution. If none is provided then a LuaEnvironment will be selected / created automatically. You can choose to store the return value from the Lua script in a Flowchart variable.
 
 #  Evaluating expressions
 
@@ -19,7 +19,7 @@ Note: getvar() returns a reference to the Fungus variable object. To access the 
 
 # Example
 
-Here's an example Lua script which evaluates a complex expression involving 3 integer variables.
+Here's an example Lua script which evaluates a complex expression involving 3 integer variables defined on a bound Flowchart.
 
 ```lua
 local v1 = getvar(flowchart, "Var1")
@@ -29,4 +29,4 @@ local v3 = getvar(flowchart, "Var3")
 return (v1.value == v2.value or v3.value == 5) 
 ```
 
-Don't forget to use .value to access the value stored in the variable object, rather than the object itself!
+Don't forget to use .value to access the value stored in the variable object, rather than the variable object itself!

@@ -1,8 +1,8 @@
 # LuaStore
 
-A common issue when working with multiple scenes in Unity is how to persist variable values from one scene to the next. 
+A common issue when working with multiple scenes in Unity is how to persist variable values from one scene to the next. By default, all scene objects and their properties are destroyed when you load another scene.
 
-The Lua Store component provides an easy way to do this when using Lua scripting. A shared global table called ‘store’ is bound in every Lua Environment when the scene starts. This global table persists between scene loads, which means you can set a store variable in one scene, load another scene, then access the store variable and it will still retain the value you set earlier.
+The Lua Store component provides an easy way around this when using Lua scripting. A shared global table called ‘store’ is bound in every Lua Environment when the scene starts. This global table persists between scene loads, which means you can set a store variable in one scene, load another scene, then access the same store variable and it will still retain the value you set earlier.
 
 # Example
 

@@ -1,10 +1,13 @@
 # LuaUtils
 
-LuaUtils is a component that extends the Lua environment with some commonly used functionality. It can be accessed from Lua scripts via the 'luautils' global variable. This component mostly does a lot of setup work in the background, but it also provides some handy functions for instantiating, finding and destroying gameobjects in the scene.
+LuaUtils is a component that extends the Lua environment with some commonly used functionality. 
+
+It can be accessed from Lua scripts via the 'luautils' global variable. This component mostly does a lot of setup work in the background, but it also provides some handy functions for instantiating, finding and destroying gameobjects in the scene.
 
 # Example
 
 Here's an example of the kind of thing you can do:
+
 ```lua
 local go = luautils.Find("MyObject") -- Find a game object by name
 luautils.Destroy(go) -- Destroy it
@@ -74,7 +77,7 @@ LuaUtils creates bindings for several useful C# classes and components so that y
 | factory 			| The [PODTypeFactory](lua_utils.md#podfactory) class for creating common plain-old-data types |
 | luaenvironment 	| The LuaEnvironment component used to execute Lua scripts |
 | luautils 			| A reference to the LuaUtils component itself |
-| test 				| Support for [Unity Test Tools](http://u3d.as/65h) (if installed) |
+| test 				| Support for [Unity Test Tools](unity_test_tools.md) (if installed) |
 | stringtable 		| The FungusLua localisation [string table](string_table.md) |
 
 # PODFactory

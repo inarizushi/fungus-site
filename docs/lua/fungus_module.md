@@ -26,7 +26,7 @@ This is the list of available functions for waiting and working with coroutines.
 
 
 ```lua
--- Waits for a number of seconds
+-- Waits for a number of seconds, then continue execution of Lua script
 wait(duration)
 
 -- Waits until the Lua function provided returns true, or the timeout expires.
@@ -42,15 +42,20 @@ runwait(co)
 
 # Globals vs Table mode
 
-The Fungus module can be used in two modes.  In globals mode (the default), all the module functions are mapped to global functions. This allows for convenient access to the module methods, but it runs the risk that you might accidentally declare a variable with the same name.
+The Fungus module can be used in three modes, controlled by the Fungus Module option in the LuaUtils component.  
+
+1. Use Global Variables: all module functions are mapped to global functions. This allows for convenient access, but it runs the risk that you might accidentally declare a variable with the same name as a Fungus module function.
+2. Use Fungus Variable: all module functions are accessed through a global table called 'fungus'. This gives a degree of namespace safety at the cost of more typing. 
+3. No Fungus Module: the Fungus module will not be registered. Used if you don't want to use the Fungus module.
+
+Options 1 and 2 are functionaly equivalent, it's just a matter of personal preference which you want to use.
 
 ```lua
 -- sub is a function in the Fungus module, mapped to a global variable
+
+-- Use Global Variables
 sub('a string')
-```
 
-In table mode, all the Lua module functions are accessed through a global table name, which gives a degree of namespace safety at the cost of more typing. Both ways are equivalent, so it's just a matter of personal preference which you want to use.
-
-```lua
+-- Use Fungus Variable
 fungus.sub('a string')
 ```

@@ -1,8 +1,8 @@
 # LuaBindings component
 
-The LuaBindings component allows you map gameobjects and components in your scenes to Lua variables which you can then access in your Lua scripts. 
+The LuaBindings component allows you map gameobjects and components in your scenes to Lua variables which you can then access in your Lua scripts. You can bind to any component, including standard Unity components, components from the Unity Asset Store and your own custom scripts.
 
-You can bind to any component, including standard Unity components, components from the Unity Asset Store and your own custom scripts.
+As well as scene GameObjects and components, you can bind to any Unity object in your project. This includes things like Prefabs, Materials, TextAssets, Textures, ScriptableObjects, etc. 
 
 ![LuaBinding](images/lua_bindings.png)
 
@@ -15,20 +15,18 @@ To setup LuaBindings in your scene:
 3. The Key field is automatically populated based on the object name. This will be the variable name you use to access the bound object from Lua script. You can change this key to whatever string you prefer.
 4. If the bound object is a GameObject, you can optionally select a component within it to bind to.
 
-Note that as well as scene GameObjects and components, you can bind to any Unity object in your project. This includes things like Prefabs, Materials, TextAssets, Textures, etc.
-
 # Using a global table
 
 The bindings specified in a LuaBindings component are automatically registered as global variables in all LuaEnvironments in the scene at startup. 
 
-Registering as global variables is convenient when writing short scripts, but for more complex scripts it can cause problems if you accidentally define another variable with the same name as a binding. To avoid this problem, you can use the Table Name property to register bindings in a global table to add a degree of namespace safety.
+Registering as global variables is convenient when writing short scripts, but for more complex scripts it could cause problems if you accidentally define another variable with the same name as a binding. To avoid this problem, you can use the Table Name property to register bindings in a global table to add a degree of namespace safety.
 
 For example, if your binding is called 'camera' and you've set Table Name to "myobjects", you would access the camera object like this:
 ```lua
 myobjects.camera
 ```
 
-If you don't want to register the bindings in all LuaEnvironments, deselect the 'All Environments' option and select the specific LuaEnvironment you want to use instead.
+Note that by default the LuaBindings component will register its bindings with all LuaEnvironments in the scene. If you don't want this behaviour, deselect the 'All Environments' option and select the specific LuaEnvironment you want to use instead.
 
 # Finding member info
 

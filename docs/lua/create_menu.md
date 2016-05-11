@@ -8,15 +8,17 @@ You can also access these prefabs from Fungus/Thirdparty/FungusLua/Resources/Pre
 
 # Lua Prefab
 
-This prefab provides a complete Lua setup, including the [LuaEnvironment](lua_environment.md), [LuaUtils](lua_utils.md), [LuaBindings](lua_bindings.md) and [LuaScript](lua_script.md) components in a single game object. This is perfect when you want to quickly set up a single script with a few bindings. For more sophisticated scenarios it may be better to use these components in different game objects, e.g. one LuaEnvironment object, one LuaBindings object and multiple LuaScript objects that share the environment and bindings.
+This prefab provides a complete Lua setup, including the [LuaEnvironment](lua_environment.md), [LuaUtils](lua_utils.md), [LuaBindings](lua_bindings.md) and [LuaScript](lua_script.md) components in a single game object. 
 
-Note that by default the LuaBindings component will register its bindings with all LuaEnvironments in the scene. If you don't want this behaviour, deselect the 'All Environments' option.
+This is perfect when you want to quickly set up a single script with a few bindings. If you're learning FungusLua, use the Lua object until you're comfortable with how all these components work.
+
+For more sophisticated scenarios it can be better to place these components in different game objects, e.g. one LuaEnvironment object, one LuaBindings object and multiple LuaScript objects that share the environment and bindings. The other prefab types listed below make it easy to set up this kind of configuration.
 
 # Lua File
 
-This option creates a Lua file in the folder you select. In Unity, Lua files have to use the .txt extension so they will work properly as TextAssets and will open in the code editor. 
+This option creates a Lua file in the folder you select. In Unity, Lua files use the .txt extension so they work properly with TextAsset properties and can be opened in the code editor. 
 
-When you create a Lua file, add your Lua script to it in a text editor, and then select the file in the Lua File property of a LuaScript component to execute it. You can also use Lua's [module system](lua_script.md#lua-modules-and-require) and the require() function to include Lua code from other files. 
+When you create a Lua file, add your Lua script to it in a text editor, and then select the file in the Lua File property of a LuaScript component or Execute Lua command to execute it. You can also use Lua's [module system](lua_script.md#lua-modules-and-require) and the require() function to include Lua code from other files. 
 
 # Lua Environment Prefab
 

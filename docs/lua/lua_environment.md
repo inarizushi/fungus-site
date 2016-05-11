@@ -1,10 +1,8 @@
 # LuaEnvironment
 
-The LuaEnvironment component manages all the variables, functions, executing code, etc. for a single Lua context, and provides handy functions for loading and running Lua scripts.
+The LuaEnvironment component manages all the variables, functions, executing code, etc. for a single Lua context, and provides handy functions for loading and running Lua scripts. In order to run Lua code there must be at least one LuaEnvironment component present in the scene. 
 
-In order to run Lua code there must be at least one LuaEnvironment component present in the scene. 
-
-You can create one via (Tools > Fungus > Create > LuaEnvironment). You usually don't need to explicitly create a LuaEnvironment though because FungusLua will create one automatically if there isn't one in the scene at startup.
+You can create one via (Tools > Fungus > Create > LuaEnvironment). You usually don't need to explicitly create a LuaEnvironment though because FungusLua will create one automatically when there isn't one in the scene at startup.
 
 ![LuaEnvironment](images/lua_environment.png)
 

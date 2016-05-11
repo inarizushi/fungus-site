@@ -5,9 +5,20 @@ If you are using the [Unity Test Tools](http://u3d.as/65h), FungusLua is a power
 # Example
 
 1. Create a new test in the scene.
-2. Add a LuaEnvironment (Tools > Fungus > Create > LuaEnvironment) and a LuaScript as children of the test object.
-3. Set LuaScript to use the LuaEnvironment as its environment (this step is important when you have multiple tests in the scene).
-4. In the LuaScript, use the check() function to assert whatever conditions you need for the test. At the end, call pass()
+2. Add a Lua object (Tools > Fungus > Create > Lua) as a child of the test object.
+4. In the LuaScript component, use the check() function to assert whatever conditions you need for the test. At the end, call pass().
+
+Example test script:
+```lua
+-- Check a condition, and output a reason if it fails
+check( myvar < 40, "My var is too big")
+
+-- Just check a condition
+check( myvar > 20 )
+
+-- Test will exit successfully
+pass()
+```
 
 If any of the checks fail, then the test fails immediately.
 

@@ -6,7 +6,7 @@ site_favicon: images/favicon.ico
 site_dir: ../snozbot.github.io
 google_analytics: ['UA-70024522-1', 'auto']
 pages:
-- Documentation:
+- Fungus Docs:
     - Overview: index.md
     - What is Fungus?: about/index.md
     - Installation: download/index.md
@@ -15,20 +15,6 @@ pages:
     - Blocks: blocks/index.md
     - Telling a Story: telling_a_story/index.md
     - Playing Audio: playing_audio/index.md
-    - FungusLua Scripting: 
-        - Overview: lua/index.md
-        - Create Menu: lua/create_menu.md
-        - Lua Environment: lua/lua_environment.md
-        - Lua Bindings: lua/lua_bindings.md
-        - Lua Script: lua/lua_script.md
-        - Lua Utils: lua/lua_utils.md
-        - Fungus Module: lua/fungus_module.md
-        - Controlling Fungus: lua/controlling_fungus.md
-        - ExecuteLua command: lua/execute_lua.md
-        - Fungus Prefs: lua/fungus_prefs.md
-        - Lua Store: lua/lua_store.md
-        - String Table: lua/string_table.md
-        - Unity Test Tools: lua/unity_test_tools.md
     - Community Articles: articles/index.md
     - Glossary: glossary/index.md
     - FAQ: faq/index.md
@@ -46,6 +32,20 @@ pages:
         - Events (Input) Commands: commands/event_handlers/input_events.md
         - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
         - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
+- FungusLua Docs: 
+    - Overview: lua/index.md
+    - Create Menu: lua/create_menu.md
+    - Lua Environment: lua/lua_environment.md
+    - Lua Bindings: lua/lua_bindings.md
+    - Lua Script: lua/lua_script.md
+    - Lua Utils: lua/lua_utils.md
+    - Fungus Module: lua/fungus_module.md
+    - Controlling Fungus: lua/controlling_fungus.md
+    - ExecuteLua command: lua/execute_lua.md
+    - Preferences: lua/preferences.md
+    - Lua Store: lua/lua_store.md
+    - String Table: lua/string_table.md
+    - Unity Test Tools: lua/unity_test_tools.md
 - Tutorial Videos: tutorial_videos/index.md
 - Training Course: training_course/index.md
 

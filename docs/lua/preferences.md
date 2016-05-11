@@ -18,7 +18,7 @@ print(v) -- Will print out 1
 
 The FungusPrefs class is a wrapper around PlayerPrefs that adds support for save slots. 
 
-Basically, if you want to store simple values use PlayerPrefs. If you want to store values using multiple player profiles, you should use FungusPrefs.
+Basically, if you want to store simple values use PlayerPrefs. If you want to store values using multiple player profiles, you should use FungusPrefs. The slot variable is an integer [0..] and key is a string.
 
 ```lua
 -- Deletes all saved values for all slots.
