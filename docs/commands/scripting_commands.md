@@ -21,7 +21,7 @@ Writes a log message to the debug console.
 Property | Type | Description
  --- | --- | ---
 Log Type | Fungus.DebugLog+DebugLogType | Display type of debug log info
-Log Message | Fungus.StringData | Text to write to the debug log. Supports variable substitution, e.g. {$Myvar}
+Log Message | Fungus.StringDataMulti | Text to write to the debug log. Supports variable substitution, e.g. {$Myvar}
 
 ## Destroy
 Destroys a specified game object in the scene.
@@ -36,7 +36,8 @@ Executes a Lua code chunk using a Lua Environment.
 Property | Type | Description
  --- | --- | ---
 Lua Environment | Fungus.LuaEnvironment | Lua Environment to use to execute this Lua script
-Lua Script | System.String | Lua script to execute. Use {$VarName} to insert a Flowchart variable in the Lua script.
+Lua File | UnityEngine.TextAsset | A text file containing Lua script to execute.
+Lua Script | System.String | Lua script to execute. This text is appended to the contents of Lua file (if one is specified).
 Run As Coroutine | System.Boolean | Execute this Lua script as a Lua coroutine
 Wait Until Finished | System.Boolean | Pause command execution until the Lua script has finished execution
 Return Variable | Fungus.Variable | A Flowchart variable to store the returned value in.
@@ -54,7 +55,7 @@ Integer Parameter | Fungus.IntegerData | Integer parameter to pass to the invoke
 Integer Event | Fungus.InvokeEvent+IntegerEvent | List of methods to call. Supports methods with one integer parameter.
 Float Parameter | Fungus.FloatData | Float parameter to pass to the invoked methods.
 Float Event | Fungus.InvokeEvent+FloatEvent | List of methods to call. Supports methods with one float parameter.
-String Parameter | Fungus.StringData | String parameter to pass to the invoked methods.
+String Parameter | Fungus.StringDataMulti | String parameter to pass to the invoked methods.
 String Event | Fungus.InvokeEvent+StringEvent | List of methods to call. Supports methods with one string parameter.
 
 ## Invoke Method

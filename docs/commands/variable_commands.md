@@ -72,5 +72,5 @@ Set Operator | Fungus.SetVariable+SetOperator | The type of math operation to be
 Boolean Data | Fungus.BooleanData | Boolean value to set with
 Integer Data | Fungus.IntegerData | Integer value to set with
 Float Data | Fungus.FloatData | Float value to set with
-String Data | Fungus.StringData | String value to set with
+String Data | Fungus.StringDataMulti | String value to set with
 

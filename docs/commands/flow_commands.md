@@ -20,7 +20,7 @@ Variable | Fungus.Variable | Variable to use in expression
 Boolean Data | Fungus.BooleanData | Boolean value to compare against
 Integer Data | Fungus.IntegerData | Integer value to compare against
 Float Data | Fungus.FloatData | Float value to compare against
-String Data | Fungus.StringData | String value to compare against
+String Data | Fungus.StringDataMulti | String value to compare against
 Compare Operator | Fungus.CompareOperator | The type of comparison to be performed
 
 ## End
@@ -34,7 +34,7 @@ Variable | Fungus.Variable | Variable to use in expression
 Boolean Data | Fungus.BooleanData | Boolean value to compare against
 Integer Data | Fungus.IntegerData | Integer value to compare against
 Float Data | Fungus.FloatData | Float value to compare against
-String Data | Fungus.StringData | String value to compare against
+String Data | Fungus.StringDataMulti | String value to compare against
 Compare Operator | Fungus.CompareOperator | The type of comparison to be performed
 
 ## Jump
@@ -71,6 +71,14 @@ _message | Fungus.StringData | Name of the message to send
 
 ## Stop
 Stop executing the Block that contains this command.
+## Stop Block
+Stops executing the named Block
+
+Property | Type | Description
+ --- | --- | ---
+Flowchart | Fungus.Flowchart | Flowchart containing the Block. If none is specified, the parent Flowchart is used.
+Block Name | Fungus.StringData | Name of the Block to stop
+
 ## Stop Flowchart
 Stops execution of all Blocks in a Flowchart
 
@@ -102,6 +110,6 @@ Variable | Fungus.Variable | Variable to use in expression
 Boolean Data | Fungus.BooleanData | Boolean value to compare against
 Integer Data | Fungus.IntegerData | Integer value to compare against
 Float Data | Fungus.FloatData | Float value to compare against
-String Data | Fungus.StringData | String value to compare against
+String Data | Fungus.StringDataMulti | String value to compare against
 Compare Operator | Fungus.CompareOperator | The type of comparison to be performed
 

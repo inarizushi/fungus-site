@@ -35,7 +35,7 @@ Plays a usfxr synth sound. Use the usfxr editor [Tools > Fungus > Utilities > Ge
 Property | Type | Description
  --- | --- | ---
 Parent Transform | UnityEngine.Transform | Transform to use for positional audio
-_ Settings String | Fungus.StringData | Settings string which describes the audio
+_ Settings String | Fungus.StringDataMulti | Settings string which describes the audio
 Wait Duration | System.Single | Time to wait before executing the next command
 
 ## Set Audio Pitch

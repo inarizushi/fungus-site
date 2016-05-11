@@ -38,7 +38,7 @@ Sets the text property on a UI Text object and/or an Input Field object.
 Property | Type | Description
  --- | --- | ---
 Target Text Object | UnityEngine.GameObject | Text object to set text on. Can be a UI Text, Text Field or Text Mesh object.
-Text | Fungus.StringData | String value to assign to the text object
+Text | Fungus.StringDataMulti | String value to assign to the text object
 Description | System.String | Notes about this story text for other authors, localization, etc.
 
 ## Write
@@ -47,7 +47,7 @@ Writes content to a UI Text or Text Mesh object.
 Property | Type | Description
  --- | --- | ---
 Text Object | UnityEngine.GameObject | Text object to set text on. Text, Input Field and Text Mesh objects are supported.
-Text | Fungus.StringData | String value to assign to the text object
+Text | Fungus.StringDataMulti | String value to assign to the text object
 Description | System.String | Notes about this story text for other authors, localization, etc.
 Clear Text | System.Boolean | Clear existing text before writing new text
 Wait Until Finished | System.Boolean | Wait until this command finishes before executing the next command
