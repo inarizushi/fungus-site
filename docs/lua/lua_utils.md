@@ -72,8 +72,8 @@ LuaUtils creates bindings for several useful C# classes and components so that y
 | Binding name 		| Description |
 | ----------------- | ----------- |
 | time 				| The [Unity Time class](http://docs.unity3d.com/ScriptReference/Time.html). e.g. 'time.deltaTime' returns the delta time for this frame |
-| playerprefs		| The [Unity PlayerPrefs](http://docs.unity3d.com/ScriptReference/PlayerPrefs.html) class. Used for saving data to disk. |
-| prefs 			| The [FungusPrefs class](fungus_prefs.md#fungusprefs), our own wrapper around PlayerPrefs that adds a slots systems. |
+| playerprefs		| The [Unity PlayerPrefs](preferences.md#playerprefs) class. Used for saving data to disk. |
+| prefs 			| The [FungusPrefs class](preferences.md#fungusprefs), our own wrapper around PlayerPrefs that adds a slots systems. |
 | factory 			| The [PODTypeFactory](lua_utils.md#podfactory) class for creating common plain-old-data types |
 | luaenvironment 	| The LuaEnvironment component used to execute Lua scripts |
 | luautils 			| A reference to the LuaUtils component itself |
