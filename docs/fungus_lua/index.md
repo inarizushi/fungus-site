@@ -7,7 +7,7 @@ FungusLua provides a simple way to control Unity objects from Lua scripts. It ha
 
 We made FungusLua in response to requests from the Fungus community for a way to script Fungus commands from a text file or spreadsheet. We figured that if people are going to be writing commands in text files, why not go all the way and add a powerful embedded scripting language?
 
-# Using FungusLua Independently
+# Using FungusLua On Its Own
 
 FungusLua can easily be used on its own if you don't need the rest of the functionality in Fungus.
 
