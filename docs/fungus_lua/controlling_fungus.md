@@ -140,6 +140,7 @@ getvar(flowchart, varname)
 -- Runs the specified Block in a Flowchart
 -- flowchart: The Fungus Flowchart containing the Block to run.
 -- blockname: The name of the Block to run.
--- nowait: If false, will yield until the Block finishes execution. If true, continue immediately.
-runblock(flowchart, blockname, nowait)
+-- commandindex: Index of the command to start execution at
+-- nowait: If false, will yield until the Block finishes execution. If true will continue immediately.
+runblock(flowchart, blockname, commandindex, nowait)
 ```
