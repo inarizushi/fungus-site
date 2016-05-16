@@ -1,11 +1,16 @@
-
 # What is FungusLua?
 
-FungusLua is an easy way to embed Lua scripting into your Unity project. Lua is an easy to learn scripting language so it's a great way to empower artists, writers and designers to use more of the power of Unity.
+FungusLua is a simple way to embed Lua scripting into your Unity project. Lua is an easy to learn scripting language so it's a great way to empower artists, writers and designers to use more of the power of Unity.
 
-FungusLua provides a simple way to control Unity objects from Lua scripts. It has useful utilities for using Fungus flowcharts and dialogs, persisting variables between scene loads, localization, and working with the Unity Test Tools. 
+At its core, FungusLua allows you to control any Unity object from Lua script. It has useful utilities for using Fungus flowcharts and dialogs, persisting variables between scene loads, localization, and working with the Unity Test Tools. 
 
 We made FungusLua in response to requests from the Fungus community for a way to script Fungus commands from a text file or spreadsheet. We figured that if people are going to be writing commands in text files, why not go all the way and add a powerful embedded scripting language?
+
+# Download the Beta
+
+FungusLua is currently available as part of the [Fungus 3 Beta](http://fungusgames.com/download) package.
+
+We'd would love to hear your feedback on [the forum](http://fungusgames.com/forum/#!/fungus-3-beta) about the design of FungusLua during the beta. Be aware that new versions of the beta may introduce breaking changes to your project. Once the design is stable we'll make an official release and maintain backwards compatibility from that point on.
 
 # Using FungusLua On Its Own
 

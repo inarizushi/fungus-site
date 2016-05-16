@@ -32,7 +32,7 @@ pages:
         - Events (Input) Commands: commands/event_handlers/input_events.md
         - Events (Sprite) Commands: commands/event_handlers/sprite_events.md
         - Narrative Parser Tokens: advanced/narrative_parser_tokens.md
-- FungusLua Docs: 
+- FungusLua Docs (Beta): 
     - Overview: fungus_lua/index.md
     - Create Menu: fungus_lua/create_menu.md
     - Lua Environment: fungus_lua/lua_environment.md
