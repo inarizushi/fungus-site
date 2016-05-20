@@ -12,6 +12,12 @@ FungusLua is currently available as part of the [Fungus 3 Beta](http://fungusgam
 
 We'd would love to hear your feedback on [the forum](http://fungusgames.com/forum/#!/fungus-3-beta) about the design of FungusLua during the beta. Be aware that new versions of the beta may introduce breaking changes to your project. Once the design is stable we'll make an official release and maintain backwards compatibility from that point on.
 
+# Tutorial Video
+
+This video shows how to use many of the features available in FungusLua. It's more of a demonstration than a step-by-step tutorial, but hopefully between this video, the docs and the forums you'll have enough to figure it all out :)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_Oo9FpVTos" frameborder="0" allowfullscreen></iframe>
+
 # Using FungusLua On Its Own
 
 FungusLua can easily be used on its own if you don't need the rest of the functionality in Fungus.
