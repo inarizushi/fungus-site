@@ -35,6 +35,11 @@ This is an example of the JSON format for the string table. To use this localise
 		"en" : "Hello world!",
 		"fr" : "Bonjour le monde!",
 		"de" : "Hallo Welt!"
+	},
+	"goodbye_world" : {
+		"en" : "Goodbye world!",
+		"fr" : "Au revoir monde!",
+		"de" : "Auf Wiedersehen Welt!"
 	}
 }
 ```
