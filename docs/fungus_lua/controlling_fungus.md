@@ -2,7 +2,7 @@
 
 The Fungus module provides several functions for working with the standard Fungus narrative features and flowcharts.
 
-You can control Say and Menu dialogs in much the same way you use Say and Menu commands in a normal Fungus flowchart. 
+You can control Say and Menu dialogs in much the same way you use Say and Menu commands in a normal Fungus flowchart.
 
 When you use the menu() function, you supply another Lua function to call when that menu option is selected. Make sure to define the function higher up in the file before referencing it in a menu() call. If you don't explicitly set a SayDialog or MenuDialog object to use default ones are created automatically.
 
@@ -45,7 +45,7 @@ sayoptions.waitforinput = false
 
 You can bind Character objects in a similar fashion, and set the speaking character using the setcharacter() function.
 
-This is the list of available functions for controlling SayDialogs. 
+This is the list of available functions for controlling SayDialogs.
 
 ```lua
 -- Options for configuring Say Dialog behaviour
@@ -72,6 +72,39 @@ setcharacter(character, portrait)
 say(text, voiceclip)
 ```
 
+# Portrait functions
+
+Stage portraits can be controlled by using the stage.
+Add your characters and stage to the LuaBindings. That way we can call the stage and add characters to the stage.
+
+![Lua Stage Binding](images/lua_stageBinding.png)
+
+```lua
+-- Show a character at this stage position
+stage.show(character, "left")
+
+-- show a character with a specific portrait and move it
+-- from one stage position to another.
+stage.show(character, "happy", "offscreen right", "right")
+
+-- show a specific portrait
+stage.showPortrait(character, "amused")
+
+-- hide a character
+stage.hide(character)
+
+-- Hide a character fading out to a position
+stage.hide(character, "offscreen left")
+```
+You can also specify any Portrait option available by using named arguments.
+
+```lua
+stage.show{character=character, fromPosition="left", toPosition="right"}
+
+stage.show{character=character, portrait="angry"}
+
+stage.hide{character=character}
+```
 # Menu Dialog functions
 
 You setup custom MenuDialogs in the same manner as SayDialogs. This is the list of available MenuDialog functions.
@@ -118,7 +151,7 @@ You can also access any Flowchart variable from Lua via the getvar() function.
 -- Assume the 'flowchart' variable is bound to a Flowchart component in LuaBindings
 -- MyVar is a string variable defined on the Flowchart
 
-local myvar = getvar(flowchart, "MyVar") 
+local myvar = getvar(flowchart, "MyVar")
 
 print(myvar.value)
 
@@ -130,7 +163,7 @@ This is the list of available functions for controlling Flowcharts.
 ```lua
 -- Returns the specified Variable in a Flowchart.
 -- To access the value of the variable, use its .value property. e.g.
---  v = getvar(flowchart, "FloatVar") 
+--  v = getvar(flowchart, "FloatVar")
 --  v.value = 10    -- Sets the value of the variable to 10
 --  f = v.value     -- f now contains 10
 -- flowchart: The Fungus Flowchart containing the Block to run.
