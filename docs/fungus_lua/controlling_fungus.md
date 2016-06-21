@@ -75,9 +75,12 @@ say(text, voiceclip)
 # Portrait functions
 
 Stage portraits can be controlled by using the stage.
-Add your characters and stage to the LuaBindings. That way we can call the stage and add characters to the stage.
+
+First, add your characters and stage to the LuaBindings list.
 
 ![Lua Stage Binding](images/lua_stageBinding.png)
+
+Then, in a lua script, use the stage commands show, showPortrait and hide to control the portraits on stage.
 
 ```lua
 -- Show a character at this stage position
@@ -105,6 +108,7 @@ stage.show{character=character, portrait="angry"}
 
 stage.hide{character=character}
 ```
+
 # Menu Dialog functions
 
 You setup custom MenuDialogs in the same manner as SayDialogs. This is the list of available MenuDialog functions.
